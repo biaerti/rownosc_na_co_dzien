@@ -103,14 +103,18 @@ Każda linia wchodzi z przerwą 0,5s. Ostatnia zostaje dłużej (2s).
 
 ---
 
-### S4 – DEFINICJA (Kling Multi-Shot Custom + plansze, 18s)
+### S4 – DEFINICJA (Kling 5 × Single + plansze, 18s)
 
-**Realizacja:** patrz `bohaterowie_referencje.md` – szef + biuro jako assety, postacie jako osobne shoty.
+**Koncepcja:** abstrakcyjna anonimowa ręka wyklucza – każda postać w swojej sytuacji.
+Twarzy wykluczającego nigdy nie widać – tylko ramię wchodzi z krawędzi kadru.
+Ten sam motyw wizualny = jeden mechanizm, różne ofiary.
 
-Szef widoczny z profilu / 3/4, siedzi przy biurku lub stoi przy drzwiach gabinetu.
-W serii 5 osobnych shotów (Multi-Shot Custom) każda postać podchodzi do drzwi –
-szef zamknięciem drzwi lub gestem ręki odmawia wejścia.
-Kolejność postaci: gej (tęczowy brelok), mężczyzna z krzyżem, kobieta, ciemnoskóry mężczyzna, starsza kobieta (siwe włosy).
+Kolejność (każdy shot ~2s, szybkie cięcia w Resolve):
+1. Gej – bar/spotkanie towarzyskie, tęczowy element, ręka blokuje
+2. Wierzący – miejsce publiczne, krzyżyk, ręka odpędza
+3. Kobieta – sala konferencyjna, ręka wymachuje żeby odeszła
+4. Ciemnoskóry mężczyzna – restauracja/sklep, ręka blokuje wejście
+5. Starsza kobieta – poczekalnia lekarza/urząd, ręka pomija i wskazuje kogoś dalej
 
 **Plansze po shocie (12s):**
 - „Dyskryminacja to nie jeden epizod złości."

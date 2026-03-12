@@ -1,58 +1,101 @@
-# Bohaterowie i assety – Film 4 | Scena 4 (szef w biurze)
+# Bohaterowie i assety – Film 4
 
-## Uwaga
-
-Postacie odrzucane (gej, wierzący, kobieta, ciemnoskóry, starsza kobieta) opisane są
-bezpośrednio w każdym promcie w `prompty_sceny_kling.md` – nie potrzebują osobnych
-character reference, bo wystąpują tylko raz.
-
-Poniżej tylko **Szef** i **Biuro** – używane w każdym z 6 shotów S4.
+## Uwaga ogólna
+Wszystkie postaci: **white Caucasian, Polish/European appearance**.
+Podkreślaj to w każdym prompcie – Kling domyślnie generuje azjatyckie lub ciemnoskóre twarze.
 
 ---
 
-## ASSET: SZEF
+## POSTACIE S2 (split screen)
 
-Character reference wgrywany do każdego shotu S4 (Shot 4-A przez 4-F).
+### S2a – BLOKERS
+Biały Polak z osiedla. Agresywna postawa, hoodie/dres.
 
-**Prompt do wygenerowania zdjęcia referencyjnego (IMAGE, Kling):**
-```
-Professional portrait photo of a middle-aged man in his 50s, wearing a dark
-charcoal suit with white shirt and no tie, serious authoritative expression,
-slightly heavy build, short grey-streaked dark hair, clean shaven,
-neutral office background, 3/4 front angle, medium close-up, sharp focus,
-photorealistic, professional headshot lighting
--- no text, no watermark, not animated
-```
-
-Zapisz jako: `ref_szef.jpg`
+**Kluczowe cechy do wklejenia w prompt:**
+`white Polish man in his 30s, light skin, shaved head or short hair, stocky build, dark hoodie or tracksuit, aggressive confrontational posture`
 
 ---
 
-## ASSET: BIURO (environment reference)
+### S2b – GEJ POGARDLIWY
+Biały stylowy mężczyzna. Wyższość klasowa, nie rasowa.
 
-Style/background reference wgrywany do każdego shotu S4.
-
-**Prompt do wygenerowania zdjęcia referencyjnego (IMAGE, Kling):**
-```
-Executive office interior, large wooden desk with leather chair, laptop
-and neat papers on desk, large window behind desk with soft natural daylight,
-glass-panel door visible to the right leading to a corridor, warm neutral
-tones, modern but traditional corporate style, no people, medium wide shot,
-photorealistic, sharp focus
--- no readable text anywhere, no watermark
-```
-
-Zapisz jako: `ref_biuro.jpg`
+**Kluczowe cechy:**
+`white Caucasian man in his late 20s, light skin, styled brown or dark hair, European features, fashionable smart-casual clothing, upright posture, chin slightly raised`
 
 ---
 
-## Kolejność wgrywania w Kling Multi-Shot Custom
+### S2c – WIERZĄCY KONSERWATYWNY
+Biały Polak w średnim wieku. Przy drzwiach biura, blokuje kobietę.
 
-| Shot | character_reference | env/style reference |
-|---|---|---|
-| 4-A (establishing) | ref_szef.jpg | ref_biuro.jpg |
-| 4-B (gej) | ref_szef.jpg | ref_biuro.jpg |
-| 4-C (wierzący) | ref_szef.jpg | ref_biuro.jpg |
-| 4-D (kobieta) | ref_szef.jpg | ref_biuro.jpg |
-| 4-E (ciemnoskóry) | ref_szef.jpg | ref_biuro.jpg |
-| 4-F (starsza kobieta) | ref_szef.jpg | ref_biuro.jpg |
+**Kluczowe cechy:**
+`white Polish man in his 40s to 50s, light skin, dark or grey hair, formal attire or collared shirt, small silver cross pendant visible at collar`
+
+---
+
+### S2d – KOBIETA NA RANDCE
+Biała kobieta po 30tce. Wstaje z pogardą od stolika w kawiarni.
+
+**Kluczowe cechy:**
+`white Caucasian woman in her 30s, light skin, dark or brown hair, smart casual clothing, standing up from cafe chair, contemptuous expression`
+
+---
+
+## POSTACIE S4 (abstrakcyjna ręka + indywidualne sytuacje)
+
+Każda postać w swojej własnej sytuacji życiowej.
+Ręka wykluczająca: **anonimowa, tylko ramię/dłoń wchodzi z krawędzi kadru**.
+Brak twarzy wykluczającego – twarz zawsze poza kadrem lub odwrócona.
+
+### S4-1 – GEJ
+Biały mężczyzna, tęczowy brelok/lanyard. Sytuacja: spotkanie towarzyskie lub bar.
+
+**Kluczowe cechy:**
+`white Caucasian man in his late 20s, light skin, styled hair, smart casual, small rainbow lanyard or pin visible`
+
+### S4-2 – WIERZĄCY
+Biały mężczyzna, krzyżyk. Sytuacja: miejsce publiczne, rozmowa/spotkanie.
+
+**Kluczowe cechy:**
+`white Polish man in his 40s, light skin, collared shirt, small silver cross pendant visible`
+
+### S4-3 – KOBIETA
+Biała kobieta, profesjonalny strój. Sytuacja: sala konferencyjna/biuro.
+
+**Kluczowe cechy:**
+`white Caucasian woman in her 30s to 40s, light skin, professional blazer or blouse, confident posture`
+
+### S4-4 – CIEMNOSKÓRY MĘŻCZYZNA
+Ciemnoskóry mężczyzna, elegancki. Sytuacja: restauracja lub sklep.
+
+**Kluczowe cechy:**
+`dark-skinned man in his 30s to 40s, well-dressed smart casual or business attire, composed dignified expression`
+
+### S4-5 – STARSZA KOBIETA
+Biała kobieta po 60tce. Sytuacja: gabinet lekarski lub urząd.
+
+**Kluczowe cechy:**
+`white older woman in her 60s to 70s, grey or white hair, neat everyday clothing, calm dignified expression`
+
+---
+
+## ASSET: Pokój konsultacyjny – Centrum Wsparcia
+
+Wgraj zdjęcie pokoju (drugie zdjęcie, bez plakatów na drzwiach) jako **style_reference**.
+Opis do generowania IMAGE reference jeśli potrzeba:
+
+```
+Small minimalist consultation room, white walls, dark grey carpet floor,
+compact white rectangular desk with a grey padded office chair behind it,
+two simple white plastic visitor chairs in front of the desk,
+glass-panel door with grey metal frame on the left side, partially open,
+fluorescent LED ceiling strip light, clean empty modern atmosphere,
+wide angle shot from the doorway looking in, photorealistic, sharp focus
+-- no text, no posters, no watermark, no people
+```
+Zapisz jako: `ref_pokoj_centrum.jpg`
+
+### Interwentka kryzysowa (S7)
+Biała kobieta, ~35 lat, profesjonalna ale ciepła.
+
+**Kluczowe cechy:**
+`white Caucasian woman in her mid 30s, light skin, brown or dark hair tied back or loose, warm professional appearance, simple blouse or sweater, attentive empathetic expression`

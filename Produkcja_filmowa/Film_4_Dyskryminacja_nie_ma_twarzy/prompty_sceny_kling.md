@@ -14,8 +14,9 @@
 | Scena | Format Kling | Dlaczego |
 |---|---|---|
 | S2a, S2b, S2c, S2d | **1:1 (square, 1080×1080)** | Dwa panele obok siebie w 16:9 – każdy panel ~960×1080, generujemy 1:1 i przycinamy w Resolve |
-| S4 (szef) | **16:9** | Pełnoekranowa scena |
+| S4 (5 × ręka wyklucza) | **16:9** | Pełnoekranowe, każdy shot osobno |
 | S5a, S5b | **16:9** | Pełnoekranowe |
+| S7 (3 × konsultacja) | **16:9** | Pełnoekranowe, wgraj ref_pokoj_centrum.jpg jako style_reference |
 
 ### Jak złożyć split screen w Resolve (S2)
 1. Wgraj oba 1:1 clipy (np. S2a + S2b) jako dwie ścieżki wideo
@@ -33,14 +34,15 @@
 Lewa połowa Para 1. Blokers z osiedla, atakuje werbalnie.
 
 ```
-Square format 1:1. Gritty urban housing estate stairwell or courtyard,
-aggressive male silhouette in a dark hoodie and tracksuit, stocky build,
-stands with confrontational posture leaning forward, one arm pointing
-accusingly toward someone off-screen to the right, mouth open as if shouting,
-face not clearly visible or heavily backlit by dim overhead light,
-dark moody atmosphere, harsh concrete walls, shallow depth of field,
-photorealistic, cinematic
--- no readable text, no posters, no watermark, not animated, no clean modern interior
+Square format 1:1. Gritty urban housing estate stairwell or concrete courtyard,
+aggressive white Polish man in his 30s, light skin, shaved head or very short hair,
+stocky build, wearing a dark hoodie and tracksuit, stands with confrontational
+posture leaning forward, one arm pointing accusingly toward someone off-screen
+to the right, mouth open as if shouting, face partially visible showing anger,
+dark moody atmosphere, harsh concrete walls, dim overhead light,
+shallow depth of field, photorealistic, cinematic
+-- white Caucasian man, light skin, no dark skin, no readable text, no posters,
+no watermark, not animated
 ```
 
 ---
@@ -68,14 +70,17 @@ not animated, no Asian features
 Lewa połowa Para 2. Konserwatywny mężczyzna blokuje wejście do biura.
 
 ```
-Square format 1:1. Office corridor with a glass-panel door to an executive
-office, a formal male silhouette in a dark blazer with a small cross pendant
-visible on his lapel or around his neck stands in the doorway blocking
-the entrance, a female silhouette in professional office attire stands
-in front of him facing the door with her hand slightly raised as if about
-to enter, the man's arm and body block the way, firm dismissive gesture,
-faces not clearly visible, office corridor lighting, medium shot, photorealistic
--- no readable text on walls or doors, no watermark, not animated
+Square format 1:1. Office corridor with a glass-panel door to an office,
+a white Polish man in his 40s to 50s, light skin, dark or greying hair,
+wearing a formal collared shirt with a small silver cross pendant visible
+at his collar, stands in the doorway blocking the entrance with his arm
+and body, a white woman in professional office attire stands in front of
+him facing the door with her hand slightly raised as if about to enter,
+the man's firm dismissive gesture blocks her way, office corridor lighting,
+medium shot, photorealistic
+-- white Caucasian man, light skin, Polish appearance, no Asian features,
+no dark skin on the man, no readable text on walls or doors, no watermark,
+not animated
 ```
 
 ---
@@ -111,75 +116,101 @@ expression, medium shot capturing both at the table, photorealistic, candid feel
 
 ---
 
-## SCENA 4 – Szef odpycha postacie | Multi-Shot Custom | 16:9
+## SCENA 4 – Abstrakcyjna ręka wyklucza | 5 × Single | 16:9
 
-Patrz `bohaterowie_referencje.md` po assety: Szef, Biuro oraz 5 postaci.
-Wszystkie shoty wgrywać z character_reference: **Szef** + **Biuro** (environment reference).
+**Koncepcja:** każda postać w swojej własnej sytuacji życiowej.
+Anonimowa ręka/ramię wchodzi z krawędzi kadru i wykonuje gest wykluczenia.
+Twarzy wykluczającego **nigdy nie widać** – tylko ramię i dłoń.
+Motyw ręki jest ten sam w każdym ujęciu → ten sam mechanizm, różne ofiary.
 
-**STRUKTURA Multi-Shot Custom (5 shotów × ~1.5s = ~7.5s łącznie):**
+Każdy shot: **Single, 16:9, 2s**.
+Montaż: 5 shotów ciętych szybko w Resolve (~0.3s przejście między nimi).
 
-### Shot 4-A – Szef przy biurku (establishing, 3s)
+---
+
+### Shot 4-1 – Gej wykluczony | Single | 16:9 | 2s
+
+Sytuacja: spotkanie towarzyskie, bar lub impreza. Mężczyzna z tęczowym elementem.
+
 ```
-16:9. Executive office interior, a middle-aged man in his 50s in a dark charcoal
-suit with white shirt, slightly heavy build, short grey-streaked dark hair,
-sits at a large desk at 3/4 angle toward camera, serious authoritative expression,
-desk with papers and laptop, large window behind him with soft natural light,
-establishing shot, medium shot, photorealistic
--- no readable text on papers or screen, no watermark, not animated
+16:9. Social gathering or bar interior, warm ambient light, a white Caucasian
+man in his late 20s with light skin, styled hair, smart casual clothing and
+a small rainbow pin or lanyard visible, stands slightly apart from a group,
+from the right edge of frame an anonymous arm in a sleeve extends and
+makes a firm palm-out STOP gesture directly at him, blocking him from
+the group, he pauses mid-step and looks down, the arm belongs to someone
+off-screen whose face is never visible, medium shot, photorealistic
+-- no readable text, no watermark, not animated, white man light skin
 ```
-*[Use: Szef character reference + Biuro environment reference]*
 
-### Shot 4-B – Gej odrzucony (1.5s)
+---
+
+### Shot 4-2 – Wierzący wykluczony | Single | 16:9 | 2s
+
+Sytuacja: miejsce publiczne lub spotkanie. Mężczyzna z krzyżykiem.
+
 ```
-16:9. Same executive office doorway, the middle-aged suited man stands at the
-open door, arm raised in a firm stop gesture, blocking a young man in his late
-20s in neat modern clothing with a small rainbow-colored lanyard visible around
-his neck, the young man pauses at the threshold and looks down, door begins to
-close, same office lighting, medium shot, photorealistic
+16:9. Public space or community meeting room, neutral lighting, a white Polish
+man in his 40s with light skin, dark or greying hair, collared shirt and a
+small silver cross pendant visible at his collar, stands facing a group or
+a desk, from the left edge of frame an anonymous arm in a sleeve enters
+and points dismissively away from the group, gesturing him to leave,
+he turns slightly with a quiet dignified expression, the face of the
+person pointing is never visible, medium shot, photorealistic
+-- white Caucasian man, light skin, no Asian features, no readable text,
+no watermark, not animated
+```
+
+---
+
+### Shot 4-3 – Kobieta wykluczona | Single | 16:9 | 2s
+
+Sytuacja: sala konferencyjna. Kobieta zostaje pominięta przy stole.
+
+```
+16:9. Corporate conference room, several suited figures seated at a table
+seen from behind or as silhouettes, a white Caucasian woman in her 30s
+to 40s with light skin in a professional blazer stands holding papers
+ready to present, from the top edge of frame an anonymous hand enters
+and waves her away dismissively, she freezes mid-gesture and her
+expression falls, medium shot, photorealistic
+-- no readable text on papers, no watermark, not animated
+```
+
+---
+
+### Shot 4-4 – Ciemnoskóry mężczyzna wykluczony | Single | 16:9 | 2s
+
+Sytuacja: restauracja lub sklep. Elegancki mężczyzna przy wejściu.
+
+```
+16:9. Restaurant entrance or upscale store, warm interior lighting visible
+through a door, a dark-skinned man in his 30s to 40s in well-fitted smart
+casual clothing stands at the entrance looking in with a composed expression,
+from the right edge of frame an anonymous arm in a dark sleeve extends
+with a flat palm gesture blocking his entry, he stops and looks at the
+hand with quiet resignation, the face of the blocking person is off-screen,
+medium shot, photorealistic
 -- no readable text, no watermark, not animated
 ```
-*[Use: Szef character reference + Biuro environment reference]*
 
-### Shot 4-C – Wierzący odrzucony (1.5s)
-```
-16:9. Same executive office doorway, same suited man at the door, arm raised in
-the same stop gesture, a man in his 40s in a collared shirt and trousers with a
-small silver cross pendant visible approaches and is turned away, door closing,
-same lighting and angle, photorealistic
--- no readable text, no watermark, not animated
-```
-*[Use: Szef character reference + Biuro environment reference]*
+---
 
-### Shot 4-D – Kobieta odrzucona (1.5s)
-```
-16:9. Same executive office doorway, same suited man repeats the dismissive
-stop gesture, a woman in her 30s to 40s in professional office attire and blazer
-approaches and is turned away, she briefly looks up before the door closes,
-same office lighting and angle, photorealistic
--- no readable text, no watermark, not animated
-```
-*[Use: Szef character reference + Biuro environment reference]*
+### Shot 4-5 – Starsza kobieta wykluczona | Single | 16:9 | 2s
 
-### Shot 4-E – Ciemnoskóry odrzucony (1.5s)
+Sytuacja: gabinet lekarski lub urząd. Kobieta czeka i zostaje pominięta.
+
 ```
-16:9. Same executive office doorway, same suited man at the door with the same
-firm stop gesture, a dark-skinned man in his 30s to 40s in well-fitted professional
-business attire approaches and is turned away, door closes, same lighting and angle,
+16:9. Medical waiting room or government office corridor, fluorescent lighting,
+a white older woman in her 60s to 70s with grey or white hair in neat everyday
+clothing sits in a waiting chair with a number ticket or folder in her hands,
+she looks up expectantly, from the right edge of frame an anonymous arm
+enters and points past her to someone further away, skipping over her,
+she looks down at her hands with a resigned expression, medium shot,
 photorealistic
--- no readable text, no watermark, not animated
+-- white older woman, light skin, no readable text on ticket or folder,
+no watermark, not animated
 ```
-*[Use: Szef character reference + Biuro environment reference]*
-
-### Shot 4-F – Starsza kobieta odrzucona (1.5s)
-```
-16:9. Same executive office doorway, same suited man at the door with the same
-firm dismissive stop gesture, an older woman in her 60s to 70s in neat everyday
-clothing or a simple jacket with grey or white hair approaches the doorway and
-is turned away, she pauses with a calm dignified expression before the door
-closes firmly, same office lighting and angle, photorealistic
--- no readable text, no watermark, not animated
-```
-*[Use: Szef character reference + Biuro environment reference]*
 
 ---
 
@@ -210,52 +241,70 @@ heavy silent atmosphere, no other elements, photorealistic, emotional
 
 ---
 
-## SCENA 7 – Centrum Wsparcia (konsultacja) | Single | 16:9 | 8s
+## SCENA 7 – Centrum Wsparcia (konsultacje) | Multi-Shot Custom | 16:9 | ~10s
 
-### ASSET: Pomieszczenie (IMAGE reference – wgraj jako style_reference)
+### ASSET: Pokój (style_reference)
 
-Zdjęcie z ul. Bierutowskiej wgraj bezpośrednio jako **style_reference** do promptu wideo.
-Jeśli Kling pozwala na image reference dla środowiska – wgraj je. Jeśli nie – użyj poniższego prompt do wygenerowania podobnego pomieszczenia jako osobny IMAGE asset.
+**Wgraj drugie zdjęcie pokoju (bez plakatów, czyste białe ściany)** jako style_reference do każdego shotu S7.
 
-**Prompt IMAGE do wygenerowania assetu pokoju (jeśli potrzebujesz):**
+Jeśli potrzebujesz wygenerować IMAGE asset zamiast wgrywać zdjęcie:
 ```
-Small minimalist consultation room, white walls, grey carpet floor,
-compact white desk with a laptop and a small notebook, grey office chair
-behind the desk, two simple white visitor chairs in front of the desk,
-glass-panel door on the left side partially open showing a corridor,
-fluorescent ceiling light, clean and calm atmosphere, no people,
-wide angle shot from the doorway, photorealistic, sharp focus
--- no readable text on walls, no watermark
+Small minimalist consultation room, white walls, dark grey carpet floor,
+compact white rectangular desk, grey padded office chair behind the desk,
+two simple white plastic visitor chairs in front, glass-panel door with
+dark grey metal frame on the left side partially open showing a white
+corridor wall, fluorescent LED ceiling strip light, clean empty modern
+atmosphere, wide angle shot from the doorway looking in, photorealistic
+-- no text, no posters, no people, no watermark
 ```
 Zapisz jako: `ref_pokoj_centrum.jpg`
 
 ---
 
-### Prompt wideo S7 (wgraj ref_pokoj_centrum.jpg jako style_reference)
+### Shot 7-A – Interwentka z kobietą (establishing, 3s)
 
 ```
-16:9. Small consultation room with white walls and grey carpet, glass door
-visible on the left, compact white desk with a laptop and papers,
-a woman in her early 30s with professional appearance sits behind the desk
-as a counselor, she leans slightly forward with an attentive and warm expression,
-across from her at the desk sits a second white Caucasian person partially
-visible from behind or side, they have just finished filling out a form,
-the counselor nods and speaks gently, soft fluorescent ceiling light,
-intimate calm atmosphere, medium two-shot or slight over-the-shoulder angle,
-photorealistic, documentary feel
--- no readable text on papers or laptop screen, no watermark, not animated
+16:9. Small consultation room with white walls, dark grey carpet, white desk,
+glass door on left, fluorescent ceiling light, a white Caucasian woman
+in her mid 30s with brown hair and warm professional appearance sits behind
+the desk as a counselor leaning slightly forward, across from her sits a
+white Caucasian woman in her 40s partially visible from the side or behind,
+the counselor listens attentively with a gentle empathetic expression,
+papers on the desk between them, medium two-shot, photorealistic,
+documentary handheld feel
+-- no readable text on papers, no watermark, not animated
 ```
+*[Use: ref_pokoj_centrum.jpg jako style_reference]*
 
-**Alternatywa Shot B (szersze ujęcie, widać drzwi):**
+---
+
+### Shot 7-B – Interwentka z mężczyzną (2s)
+
 ```
-16:9. View from just inside a small consultation room looking toward the desk,
-glass door frame visible on the left edge of frame, white walls, grey carpet,
-a woman counselor in her 30s sits at a white desk with a laptop, a client
-sits across from her, both Caucasian, the counselor holds a pen and reviews
-a completed form with the client, warm attentive atmosphere, fluorescent
-ceiling light, documentary handheld feel, photorealistic
+16:9. Same small consultation room, white walls, grey carpet, white desk,
+glass door on left, same white Caucasian woman counselor in her 30s sits
+behind the desk, now across from her sits a white Caucasian man in his
+40s to 50s seen from behind or profile, the counselor nods with an
+understanding expression as he speaks, the man's posture is tense then
+slowly relaxing, medium two-shot, photorealistic
 -- no readable text, no watermark, not animated
 ```
+*[Use: ref_pokoj_centrum.jpg jako style_reference]*
+
+---
+
+### Shot 7-C – Szeroki pokój, po zakończeniu (2s)
+
+```
+16:9. Same small consultation room from the doorway, white walls, dark grey
+carpet, glass door frame visible on left, white desk with papers on it,
+the white Caucasian counselor woman in her 30s sits at the desk and hands
+a leaflet or paper to a client whose back is to the camera, calm resolved
+atmosphere, slightly warmer than the beginning of the session, natural
+end-of-meeting moment, wide medium shot from near the doorway, photorealistic
+-- no readable text on papers or leaflet, no watermark, not animated
+```
+*[Use: ref_pokoj_centrum.jpg jako style_reference]*
 
 ---
 
