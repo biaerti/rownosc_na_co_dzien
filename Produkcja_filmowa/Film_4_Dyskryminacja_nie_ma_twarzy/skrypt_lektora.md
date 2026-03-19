@@ -1,119 +1,73 @@
-# Skrypt lektora – Film 4: „Dyskryminacja nie ma twarzy"
+# Skrypt lektora – Film 4: „Dyskryminacja nie ma jednej twarzy"
+
+## Gotowe audio (wgrane)
+
+Poniżej oryginalny tekst wysłany do TTS – używaj jako referencji do synchronizacji wideo.
+
+---
+
+[calm] Dyskryminacja nie ma jednej twarzy.
+
+[serious] Gdzieś na świecie blokers krzyczy do geja:
+„To zaburzenie. To trzeba leczyć."
+
+[neutral] Gdzieś indziej gej spojrzy na blokersa z biedniejszego środowiska i pomyśli:
+„Prymityw. Nie chcę nawet wiedzieć, skąd pochodzi."
+
+[serious] W innym miejscu wierzący szef odmawia kobiecie stanowiska kierowniczego. Bo to wbrew tradycji.
+
+[neutral] W tym czasie kobieta odrzuci wierzącego człowieka mówiąc mu, że jego wiara to nieadaptacyjne schematy do przepracowania na terapii.
+
+[pause]
+
+[calm] Dyskryminacja nie zaczyna się od poglądów.
+Zaczyna się od pogardy.
+
+[explaining] Dyskryminacja to nie jeden epizod złości.
+
+[serious] To długotrwałe wykluczanie, odsuwanie albo nękanie kogoś
+ze względu na jego cechę.
+
+[neutral] Orientację.
+Wiarę.
+Płeć.
+Pochodzenie.
+Wiek.
+
+[calm] Bez względu na poglądy — czyjeś albo twoje.
+
+[calm] W mediach o niektórych historiach słyszymy głośniej.
+
+[serious] Ale cierpienia nie mierzy się decybelami.
+
+[gentle] Ile jest ludzi — tyle historii.
+I żadna z nich nie jest mniej ważna tylko dlatego, że słyszysz ją rzadziej.
+
+[explaining] Badania pokazują, że większość osób doświadczających dyskryminacji nie mówi o tym nikomu.
+
+[serious] A długotrwałe wykluczenie realnie pogarsza zdrowie psychiczne.
+
+[firm] Milczenie nie chroni.
+Pogłębia problem.
+
+[reassuring] W ramach projektu „Równość na co dzień", finansowanego ze środków unijnych,
+Fundacja Pretium prowadzi Centrum Wsparcia
+dla osób doświadczających dyskryminacji i przemocy.
+
+[clear] Prowadzimy bezpłatne konsultacje psychologiczne, warsztaty, grupę wsparcia.
+
+[hopeful] Możesz zapisać się przez nasz kalendarz online
+albo zadzwonić pod podany numer.
+
+[calm] Mniej polityki.
+Więcej człowieka.
+
+---
 
 ## Uwagi do nagrania
 
-- Ton: spokojny, rzeczowy, bez dramatyzowania. Nie kaznodziejski.
-- Tempo: wolniejsze niż przeciętna mowa. Pauzy zaznaczone jako *[pauza]*.
-- Lektor: preferowany kobiecy lub naprzemiennie K/M w parach kontrastów (opcja).
-- Długość nagrania: ok. 110–120 sekund samej mowy (bez pauz).
-
----
-
-## Pełny tekst
-
----
-
-**[S1 – Hook]**
-
-Dyskryminacja to problem tych złych ludzi.
-
-*[pauza 1s]*
-
-Naprawdę?
-
-Sprawdźmy to razem.
-
-Przyjrzyjmy się skrajnym zachowaniom – tym, które zdarzają się po każdej stronie.
-
----
-
-**[S2 – Para 1]**
-
-Blokers krzyczy, że gej jest zaburzony. Gorszy. Niższy.
-
-*[pauza 0,5s]*
-
-Gej patrzy na blokersa i myśli: zwierzę. Prymityw. Nawet nie chcę wiedzieć, skąd pochodzi.
-
----
-
-**[S2 – Para 2]**
-
-Wierzący odmawia kobiecie stanowiska kierowniczego. Tak po prostu.
-
-*[pauza 0,5s]*
-
-Kobieta patrzy na wierzącego i myśli: nieadaptacyjne schematy. Trzeba to przepracować na terapii.
-
----
-
-**[S3 – Pętla – lektor milczy, tekst na ekranie]**
-
-*[cisza – animacja na ekranie]*
-
----
-
-**[S4 – Definicja]**
-
-Dyskryminacja to nie jeden epizod złości.
-
-To długotrwałe wykluczanie, odsuwanie, nękanie kogoś – ze względu na jego cechę.
-
-Orientację. Wiarę. Płeć. Pochodzenie. Wiek.
-
----
-
-**[S5 – Media]**
-
-W mediach słyszymy o niektórych głośniej.
-
-*[pauza]*
-
-Ale cierpienie nie mierzy się decybelami.
-
-Ile jest ludzi – tyle historii. Żadna z nich nie jest mniej ważna dlatego, że słyszysz ją rzadziej.
-
----
-
-**[S6 – Dane]**
-
-Badania pokazują: większość osób doświadczających dyskryminacji nie mówi o tym nikomu.
-
-*[tu lektor wymienia konkretną liczbę/procent z badania]*
-
-Długotrwałe doświadczanie wykluczenia realnie pogarsza zdrowie psychiczne.
-
-*[pauza]*
-
-Milczenie nie chroni. Pogłębia.
-
----
-
-**[S7 – CTA]**
-
-W ramach projektu finansowanego ze środków unijnych Fundacja Pretium prowadzi
-Centrum Wsparcia dla osób doświadczających dyskryminacji i przemocy.
-
-Bezpłatne konsultacje psychologiczne. Warsztaty. Grupa wsparcia.
-
-Możesz zapisać się przez nasz kalendarz online lub zadzwonić:
-
-sześćset dziewięćdziesiąt, dwieście pięćdziesiąt dziewięć, trzysta dziewięćdziesiąt dwa.
-
-*[pauza – numer na ekranie]*
-
----
-
-**[S8 – Zamknięcie – lektor milczy, tekst na ekranie]**
-
-*[cisza]*
-
----
-
-## Wskazówki ElevenLabs
-
-- Model: Multilingual v2 lub Polish v1
-- Głos: neutralny, dojrzały, zaufany (np. „Liam" lub własny klon)
-- Stability: 0.55–0.65
-- Similarity: 0.75
-- Numer telefonu nagrać jako „sześćset dziewięćdziesiąt, dwieście pięćdziesiąt dziewięć, trzysta dziewięćdziesiąt dwa" – łatwiej do słuchania
+- Lektor: spokojny, nienachalny, bez patosu
+- Tempo: wolniejsze niż Film 1 – więcej pauz, więcej oddechu
+- Ton zmienia się między sekcjami (oznaczenia w nawiasach)
+- [pause] = ~2 sekundy ciszy
+- Nagranie w studiu lub w wyciszonym pomieszczeniu, mono/stereo 44.1kHz

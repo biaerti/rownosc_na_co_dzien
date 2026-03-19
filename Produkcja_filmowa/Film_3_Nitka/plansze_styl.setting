@@ -1,0 +1,196 @@
+{
+	Tools = ordered() {
+
+		-- ============================================================
+		-- PLANSZA NITKA – szablon DaVinci Resolve Fusion
+		-- Styl: ciemne indygo-fiolet / tekst lawenda-biel / Montserrat
+		-- Import: File > Import > Fusion Composition (.setting)
+		-- ============================================================
+
+		Wynik = Merge {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Background = Input {
+					SourceOp = "Fade",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "MergeTekst",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 605, 82.5 } },
+		},
+
+		-- -----------------------------------------------------------
+		-- FADE IN / FADE OUT – podepnij Dissolve do Wynik.Blend
+		-- lub dodaj keyframes ręcznie na węźle Fade (Blend: 0→1→1→0)
+		-- -----------------------------------------------------------
+		Fade = Dissolve {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Background = Input {
+					SourceOp = "CzarneTlo",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "MergeTekst",
+					Source = "Output",
+				},
+				Mix = Input {
+					Value = 1,
+				},
+			},
+			ViewInfo = OperatorInfo { Pos = { 440, 82.5 } },
+		},
+
+		-- Czarne tło do fade – nie modyfikuj
+		CzarneTlo = Background {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Width = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				UseFrameFormatSettings = Input { Value = 0, },
+				TopLeftRed   = Input { Value = 0.0, },
+				TopLeftGreen = Input { Value = 0.0, },
+				TopLeftBlue  = Input { Value = 0.0, },
+				TopLeftAlpha = Input { Value = 1.0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 220, 215 } },
+		},
+
+		-- -----------------------------------------------------------
+		-- MERGE: tło + oba teksty
+		-- -----------------------------------------------------------
+		MergeTekst = Merge {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Background = Input {
+					SourceOp = "MergeTloPodtekst",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "TekstGlowny",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 275, 82.5 } },
+		},
+
+		MergeTloPodtekst = Merge {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Background = Input {
+					SourceOp = "TloCiemne",
+					Source = "Output",
+				},
+				Foreground = Input {
+					SourceOp = "TekstPodtytul",
+					Source = "Output",
+				},
+				PerformDepthMerge = Input { Value = 0, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 160, 148.5 } },
+		},
+
+		-- -----------------------------------------------------------
+		-- TŁO: ciemny indygo-fiolet  (#0C0A14 ≈ 0.047 / 0.039 / 0.078)
+		-- Zmień TopLeft* żeby dostosować kolor tła
+		-- -----------------------------------------------------------
+		TloCiemne = Background {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Width  = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				UseFrameFormatSettings = Input { Value = 0, },
+				TopLeftRed   = Input { Value = 0.047, },
+				TopLeftGreen = Input { Value = 0.039, },
+				TopLeftBlue  = Input { Value = 0.078, },
+				TopLeftAlpha = Input { Value = 1.0,   },
+			},
+			ViewInfo = OperatorInfo { Pos = { 55, 215 } },
+		},
+
+		-- -----------------------------------------------------------
+		-- TEKST GŁÓWNY
+		-- Kolor: lawenda-biel (#EDE9F8 ≈ 0.929 / 0.914 / 0.973)
+		-- Zmień StyledText na swój cytat
+		-- Zmień Size (0.07 = mniejszy, 0.11 = większy)
+		-- Zmień YOffset żeby przesunąć w pionie (-0.1 = wyżej)
+		-- -----------------------------------------------------------
+		TekstGlowny = TextPlus {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Width  = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				UseFrameFormatSettings = Input { Value = 0, },
+
+				StyledText = Input { Value = "W toksycznym środowisku\nliczy się jakość relacji,\nnie ich liczba.", },
+				Font  = Input { Value = "Montserrat", },
+				Style = Input { Value = "Light", },
+				Size  = Input { Value = 0.088, },
+
+				HorizontalJustificationNew = Input { Value = 2, },
+				VerticalJustification      = Input { Value = 2, },
+
+				Red1   = Input { Value = 0.929, },
+				Green1 = Input { Value = 0.914, },
+				Blue1  = Input { Value = 0.973, },
+				Alpha1 = Input { Value = 1.0,   },
+
+				LineSpacing = Input { Value = 1.35, },
+				XOffset     = Input { Value = 0.0,  },
+				YOffset     = Input { Value = 0.06, },
+
+				-- Tracking (odstępy liter): 0 = domyślny
+				Tracking = Input { Value = 0.02, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 55, 16.5 } },
+		},
+
+		-- -----------------------------------------------------------
+		-- TEKST PODTYTUŁU / DRUGI WIERSZ (mniejszy, przyciemniony)
+		-- Usuń StyledText żeby ukryć (zostaw pusty string "")
+		-- Zmień YOffset żeby ustawić pod głównym tekstem
+		-- -----------------------------------------------------------
+		TekstPodtytul = TextPlus {
+			CtrlWZoom = false,
+			NameSet = true,
+			Inputs = {
+				Width  = Input { Value = 1920, },
+				Height = Input { Value = 1080, },
+				UseFrameFormatSettings = Input { Value = 0, },
+
+				StyledText = Input { Value = "", },
+				Font  = Input { Value = "Montserrat", },
+				Style = Input { Value = "Light", },
+				Size  = Input { Value = 0.055, },
+
+				HorizontalJustificationNew = Input { Value = 2, },
+				VerticalJustification      = Input { Value = 2, },
+
+				Red1   = Input { Value = 0.72,  },
+				Green1 = Input { Value = 0.69,  },
+				Blue1  = Input { Value = 0.82,  },
+				Alpha1 = Input { Value = 1.0,   },
+
+				LineSpacing = Input { Value = 1.3,  },
+				XOffset     = Input { Value = 0.0,  },
+				YOffset     = Input { Value = -0.1, },
+
+				Tracking = Input { Value = 0.03, },
+			},
+			ViewInfo = OperatorInfo { Pos = { 55, 82.5 } },
+		},
+
+	}
+}

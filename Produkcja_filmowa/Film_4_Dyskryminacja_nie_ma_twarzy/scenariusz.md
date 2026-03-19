@@ -1,197 +1,219 @@
-# Film 4: „Dyskryminacja nie ma twarzy"
+# Film 4: „Dyskryminacja nie ma jednej twarzy"
 
 ## Koncepcja
 
-Film edukacyjny bez nazwanych bohaterów – sylwetki i animacje tekstu.
-Przekaz: dyskryminacja nie jest polityczna. Mechanizm jest jeden, niezależnie od tego,
-kto go stosuje i wobec kogo. Wezwanie do skorzystania z Centrum Wsparcia.
+Film photorealistyczny z prawdziwymi twarzami (jak Film 1 i 2).
+Cztery postacie — każda pojawia się DWUKROTNIE: raz jako ofiara, raz jako sprawca.
+To jest serce edukacyjnego przekazu: mechanizm pogardy nie należy do żadnej grupy.
+
+**Efekt lustra:**
+- GEJ: w S1 przestraszony (ofiara), w S2 pogardliwy (sprawca)
+- BLOKERS: w S1 agresywny (sprawca), w S2 upokorzony (ofiara)
+- WIERZĄCY: w S3 odmawiający (sprawca), w S4 odrzucony (ofiara)
+- KOBIETA: w S3 zdeterminowana (ofiara), w S4 zamykająca drzwi (sprawca)
 
 ## Przekaz kluczowy
 
-1. Dyskryminacja nie należy do żadnej strony politycznej ani społecznej.
-2. Skrajne zachowania zdarzają się po każdej stronie.
-3. Wzorzec jest zawsze taki sam: etykieta odbierająca człowieczeństwo.
-4. Dyskryminacja to długotrwałe wykluczanie – nie jednorazowa złość.
-5. Osoby jej doświadczające milczą, a milczenie pogłębia problem.
-6. Jest pomoc – bezpłatna, bez etykiet.
+1. Dyskryminacja nie zaczyna się od poglądów — zaczyna się od pogardy.
+2. Mechanizm jest ten sam po każdej stronie.
+3. Długotrwałe wykluczenie realnie niszczy.
+4. Jest pomoc — bezpłatna, bez etykiet.
+
+## Styl wizualny
+
+- **Photorealistyczny** – twarze widoczne, emocje czytelne (jak Film 1 i 2)
+- **Format scen 1:1** (square 1080×1080) – S1, S2, S3, S4
+- **Format 16:9** – scena S5 (samotna postać), plansze, CTA
+- Postprodukcja: DaVinci Resolve
+- Napisy obowiązkowe (dostępność)
+
+**Zasada scen S1–S4:** Każda scena pokazuje WYŁĄCZNIE sprawcę — solo, sam w kadrze.
+Ofiara jest niewidoczna (off-screen). Widz sam dopełnia obraz.
+To wzmacnia przekaz: każdy może być po obu stronach.
 
 ---
 
-## Timeline – ok. 150 sekund
+## Timeline – ok. 2:10
 
-| Czas | Scena | Forma | Co się dzieje |
-|---|---|---|---|
-| 0:00–0:18 | S1 – Hook | Plansze tekstowe | „Dyskryminacja to problem tych złych ludzi." → pauza → „Naprawdę?" → zdanie ramujące |
-| 0:18–1:00 | S2 – Odwrócone lustro | Sylwetki Kling + plansze | 2 pary kontrastów – blokers/gej, konserwatysta/lewaczka |
-| 1:00–1:12 | S3 – Pętla | Animacja tekstu (Resolve) | Dwa zdania → jeden mechanizm |
-| 1:12–1:30 | S4 – Definicja | Kling single shot + plansze | Szef odpycha kolejno 5 osób + lista cech |
-| 1:30–1:50 | S5 – Media + cierpienie | Kling / stock | Media hałasują / cisza osoby w cieniu |
-| 1:50–2:10 | S6 – Dane | Plansza tekstowa | Badanie + „Milczenie nie chroni." |
-| 2:10–2:35 | S7 – CTA | Nagranie z Centrum Wsparcia | Opis pomocy + kontakt |
-| 2:35–2:45 | S8 – Zamknięcie | Plansza | „Nie dla polityki. Dla człowieka." + loga |
+### CZĘŚĆ 1 — SPRAWCY (kwadraty, 2 pary wizualne)
+
+| Czas | Nr | Forma | Co się dzieje | Audio |
+|---|---|---|---|---|
+| 0:00–0:03 | Tytuł | Plansza | „Dyskryminacja nie ma jednej twarzy." | [calm] lektor |
+| 0:03–0:08 | S1a | Kling 1:1, 5s | BLOKERS solo — osiedle, krzyczy w PRAWO | blokers krzyczy... |
+| 0:08–0:14 | S1b | Kling 1:1, 6s | GEJ solo — kolejka w sklepie, patrzy pogardliwie w LEWO | gej patrzy... |
+| 0:14–0:20 | S2a | Kling 1:1, 6s | WIERZĄCY solo — biuro, za biurkiem, odmawia w PRAWO | wierzący szef... |
+| 0:20–0:28 | S2b | Kling 1:1, 8s | KOBIETA solo — restauracja (strój randkowy), obrzydzenie, wstaje | kobieta odrzuci... |
+| 0:28–0:31 | Pauza | Czarny ekran | Cisza | [pause] |
+
+### CZĘŚĆ 2 — DEFINICJA
+
+| Czas | Nr | Forma | Co się dzieje | Audio |
+|---|---|---|---|---|
+| 0:31–0:46 | S_mid | Plansze (Resolve) | „Dyskryminacja nie zaczyna się od poglądów." + definicja | [calm]...[explaining] |
+
+### CZĘŚĆ 3 — OFIARY (szesnastki, 2 shoty na osobę)
+
+| Czas | Nr | Forma | Co się dzieje | Audio |
+|---|---|---|---|---|
+| 0:46–0:55 | O1a/O1b | Kling 16:9, 5s+4s | GEJ ofiara: blokers krzyczy z tyłu → gej sam na ławce, załamany | cierpienia nie mierzy... |
+| 0:55–1:04 | O2a/O2b | Kling 16:9, 5s+4s | BLOKERS ofiara: gej odwraca się pogardliwie w kolejce → blokers sam, wstyd | ile jest ludzi... |
+| 1:04–1:13 | O3a/O3b | Kling 16:9, 5s+4s | KOBIETA ofiara: wierzący z tyłu wyprasza → kobieta sama w korytarzu | badania pokazują... |
+| 1:13–1:22 | O4a/O4b | Kling 16:9, 5s+4s | WIERZĄCY ofiara: kobieta odchodzi → wierzący sam, patrzy na krzyżyk | milczenie nie chroni... |
+
+### CZĘŚĆ 4 — KONKLUZJA + CTA
+
+| Czas | Nr | Forma | Co się dzieje | Audio |
+|---|---|---|---|---|
+| 1:22–1:30 | S5 | Kling 16:9, 8s | Samotna sylwetka w ciemnym pokoju — figura anonimowa | [gentle] lektor |
+| 1:30–1:41 | S_dane | Plansza | Dane + „Milczenie nie chroni. Pogłębia." | [explaining] + [firm] |
+| 1:41–2:05 | CTA | Plansza + zdjęcie Centrum | Centrum Wsparcia — opis + numer 690 259 392 | [reassuring]...[hopeful] |
+| 2:05–2:13 | Zamknięcie | Plansza | „Mniej polityki. Więcej człowieka." + loga | [calm] |
 
 ---
 
 ## Sceny szczegółowo
 
-### S1 – HOOK (plansze tekstowe, 18s)
+### S1 – Blokers krzyczy na Geja (1:1, 5s)
 
-Białe napisy na czarnym tle, kolejno:
+**Główny bohater: GEJ** (camera focus na jego twarzy)
+Blokers w tle/poza kadrem lub częściowo widoczny — krzyczy, wskazuje, agresywny.
+Gej w centrum kadru — stoi lub cofa się, wyraz twarzy: strach, dezorientacja, ból.
 
-1. „Dyskryminacja to problem tych złych ludzi." (3s)
-2. *[pauza – ekran czarny]* (1s)
-3. „Naprawdę?" (2s)
-4. *[Lektor: „Sprawdźmy to razem."]* (2s)
-5. „Przyjrzyjmy się skrajnym zachowaniom – tym, które zdarzają się po każdej stronie." (4s, lektor równolegle)
+Ratio: 1:1 | Czas: 5s | Realizacja: Kling Single Shot z ref_gej
 
 ---
 
-### S2 – ODWRÓCONE LUSTRO (split screen + freeze frame, 42s)
+### S2 – Gej patrzy z pogardą na Blokersa (1:1, 8s)
 
-**Technika montażu:**
-Ekran podzielony na dwa panele (każdy 960×1080 – wygenerowany jako 1:1 w Kling).
-Lewa strona gra → zatrzymuje się na ostatniej klatce (freeze frame) → prawa strona odpala.
-Obie klatki są chwilę widoczne jednocześnie, potem obie znikają i zaczyna się Para 2.
+**Główny bohater: BLOKERS** (camera focus na jego twarzy/sylwetce)
+Gej stoi lub siedzi wyżej, patrzy w dół z pogardą, szczegółowo czytelna twarz.
+Blokers w centrum kadru — stoi niżej, wyraz twarzy: upokorzenie, niepewność, smutek.
 
-**WAŻNE:** Obie strony to ZUPEŁNIE RÓŻNE postaci, różne środowiska, różne zdarzenia.
-NIE jest to ta sama osoba, która po skrzywdzeniu idzie skrzywdzić kogoś innego.
-To dwa niezależne światy robiące dokładnie to samo.
+Scena może być np.: wejście do baru/kawiarni, Blokers stoi przy drzwiach, Gej przechodzi obok
+i rzuca na niego spojrzenie z góry.
 
----
-
-**Para 1 – LEWA strona (osobny shot 1:1):**
-Blokers z osiedla blokowego, agresywna postawa, wskazuje na geja.
-*Lektor: „Blokers krzyczy: Homoseksualizm to zaburzenie. To się leczy."*
-→ obraz zatrzymuje się (freeze)
-
-**Para 1 – PRAWA strona (osobny shot 1:1, inne postaci):**
-Inny gej, stylowy, patrzy z góry na innego, niżej ustawionego społecznie mężczyznę z bloków.
-*Lektor: „Inny człowiek patrzy na kogoś z bloków i myśli: zwierzę. Nawet nie chcę wiedzieć, skąd pochodzi."*
-
-*[Obie klatki widoczne chwilę razem → fade out]*
+Ratio: 1:1 | Czas: 8s | Realizacja: Kling Single Shot z ref_blokers
 
 ---
 
-**Para 2 – LEWA strona (osobny shot 1:1):**
-Konserwatywny mężczyzna z krzyżem odmawia kobiecie wejścia do biura / daje gest odmowy.
-*Lektor: „Wierzący odmawia kobiecie stanowiska kierowniczego. Tak po prostu."*
-→ obraz zatrzymuje się (freeze)
+### S3 – Wierzący odmawia Kobiecie stanowiska (1:1, 8s)
 
-**Para 2 – PRAWA strona (osobny shot 1:1, inne postaci):**
-Kawiarnia, randka. Mężczyzna przy stoliku – widoczny krzyżyk na szyi. Kobieta wstaje z pogardliwym wyrazem twarzy, odwraca się i odchodzi. On zostaje przy stoliku z pytającą miną.
-*Lektor: „Inna kobieta patrzy na wierzącego i myśli: nieadaptacyjne schematy. Trzeba to przepracować na terapii."*
+**Główna bohaterka: KOBIETA** (camera focus na jej twarzy)
+Biuro/drzwi gabinetu. Wierzący mężczyzna (krzyżyk widoczny) stoi przy drzwiach
+z gestem odmowy — drzwi zamknięte lub gest ręki „stop".
+Kobieta w centrum kadru — profesjonalny strój, trzyma teczkę lub CV, wyraz twarzy:
+godność + wyraźny ból odrzucenia.
 
-*[Fade out – ekran ciemnieje]*
-
----
-
-### S3 – PĘTLA / ANIMACJA TEKSTU (Resolve, 12s)
-
-Wykonanie w DaVinci Resolve Fusion / Text+:
-
-- Lewa strona ekranu pojawia się powoli: **„Homoseksualizm to zaburzenie."**
-- Prawa strona ekranu pojawia się powoli: **„Wiara to nieadaptacyjny schemat."**
-- Obydwa teksty stoją przez 2s naprzeciwko siebie
-- Słowo **„zaburzenie"** i **„schemat"** podkreślają się / zmieniają kolor (ten sam kolor)
-- Całość znika, pojawia się wyśrodkowany napis:
-
-> **„Dwa różne środowiska."**
-> **„Dwie identyczne techniki."**
-> **„Jeden mechanizm."**
-
-Każda linia wchodzi z przerwą 0,5s. Ostatnia zostaje dłużej (2s).
+Ratio: 1:1 | Czas: 8s | Realizacja: Kling Single Shot z ref_kobieta
 
 ---
 
-### S4 – DEFINICJA (Kling 5 × Single + plansze, 18s)
+### S4 – Kobieta zamyka drzwi Wierzącemu (1:1, 10s)
 
-**Koncepcja:** abstrakcyjna anonimowa ręka wyklucza – każda postać w swojej sytuacji.
-Twarzy wykluczającego nigdy nie widać – tylko ramię wchodzi z krawędzi kadru.
-Ten sam motyw wizualny = jeden mechanizm, różne ofiary.
+**Główny bohater: WIERZĄCY** (camera focus na jego twarzy)
+Drzwi mieszkania/pokoju. Kobieta przy drzwiach — zamknięte/przymykające się.
+Wierzący stoi przy drzwiach, widoczny krzyżyk na szyi, wyraz twarzy:
+zdezorientowanie → ból → milczenie.
 
-Kolejność (każdy shot ~2s, szybkie cięcia w Resolve):
-1. Gej – bar/spotkanie towarzyskie, tęczowy element, ręka blokuje
-2. Wierzący – miejsce publiczne, krzyżyk, ręka odpędza
-3. Kobieta – sala konferencyjna, ręka wymachuje żeby odeszła
-4. Ciemnoskóry mężczyzna – restauracja/sklep, ręka blokuje wejście
-5. Starsza kobieta – poczekalnia lekarza/urząd, ręka pomija i wskazuje kogoś dalej
+Możliwość: kamera na twarzy Wierzącego przez ostatnie 4s — powolne zbliżenie na oczy.
 
-**Plansze po shocie (12s):**
-- „Dyskryminacja to nie jeden epizod złości."
-- „To długotrwałe wykluczanie, odsuwanie, nękanie."
-- „Ze względu na orientację. Wiarę. Płeć. Pochodzenie. Wiek."
+Ratio: 1:1 | Czas: 10s | Realizacja: Kling Single Shot z ref_wierzacy
 
 ---
 
-### S5 – MEDIA I CIERPIENIE (Kling / stock, 20s)
+### S_mid – Plansze „pogardy/definicji" (Resolve, ~15s)
 
-**Shot A (Kling lub stock, 5s):** Ekrany telewizorów / telefonów ze scrollowanymi tytułami.
-Głośno, migotanie ekranów.
-*Lektor: „W mediach słyszymy o niektórych głośniej."*
+Wykonanie w DaVinci Resolve. Czarne tło, białe litery (Montserrat/Inter).
 
-**Shot B (Kling, 8s):** Sylwetka osoby siedzącej samotnie w rogu ciemnego pokoju. Cisza.
-Powolne zbliżenie.
-*Lektor: „Ale cierpienie nie mierzy się decybelami."*
+**Plansza 1** (3s):
+> „Dyskryminacja nie zaczyna się od poglądów."
+> „Zaczyna się od pogardy."
 
-**Plansza (7s):** *[wyłącznie tekst]*
-> „Ile jest ludzi – tyle historii."
-> „Żadna z nich nie jest mniej ważna dlatego, że słyszysz ją rzadziej."
+**Plansza 2** (4s):
+> „Dyskryminacja to nie jeden epizod złości."
 
----
+**Plansza 3** (5s):
+> „To długotrwałe wykluczanie, odsuwanie, nękanie"
+> „ze względu na jego cechę:"
 
-### S6 – DANE (plansza, 20s)
+**Plansza 4** (3s – lista wchodzi kolejno):
+> Orientację. Wiarę. Płeć. Pochodzenie. Wiek.
 
-*[Lektor + tekst na ekranie równolegle]*
-
-- „Badania pokazują: większość osób doświadczających dyskryminacji nie mówi o tym nikomu."
-  *[tu wstawić konkretne badanie – liczba/procent]*
-- „Długotrwałe doświadczanie wykluczenia realnie pogarsza zdrowie psychiczne."
-- *[pauza]*
-
-**Plansza:**
-> **„Milczenie nie chroni."**
-> **„Pogłębia."**
+**Plansza 5** (3s):
+> „Bez względu na poglądy — czyjeś albo twoje."
 
 ---
 
-### S7 – CTA (nagranie z Centrum Wsparcia, 25s)
+### S5 – Samotna postać + plansza (16:9, 8s + plansza 7s)
 
-**[Nagranie własne: przestrzeń Centrum Wsparcia, ul. Bierutowska 57-59, Wrocław]**
-Ciepłe, spokojne ujęcie gabinetu – fotel, rośliny, naturalne światło.
-Bez osób w kadrze lub z pedagogiem/psychologiem tyłem/profilem.
+**Shot A (Kling, 8s):** Sylwetka osoby siedzącej samotnie w rogu ciemnego pokoju.
+Powolne zbliżenie. Twarz niewidoczna lub w cieniu.
 
-*Lektor:*
-„W ramach projektu finansowanego ze środków unijnych Fundacja Pretium prowadzi
-Centrum Wsparcia dla osób doświadczających dyskryminacji i przemocy.
+**Plansza (7s):**
+> „Ile jest ludzi — tyle historii."
+> „Żadna z nich nie jest mniej ważna tylko dlatego,"
+> „że słyszysz ją rzadziej."
 
-Bezpłatne konsultacje psychologiczne. Warsztaty. Grupa wsparcia.
+---
 
-Możesz zapisać się przez nasz kalendarz online lub zadzwonić:"
+### S_dane – Dane + cisza (Resolve, ~11s)
 
-**[Numer duży na ekranie – zostaje przez 5s]:**
-> 📞 **690 259 392**
+**Plansza 1** (5s):
+> „Większość osób doświadczających dyskryminacji"
+> „nie mówi o tym nikomu."
+
+**Plansza 2** (3s):
+> „Długotrwałe wykluczenie realnie pogarsza zdrowie psychiczne."
+
+**Plansza 3** (3s – większy font, inny kolor):
+> „Milczenie nie chroni."
+> „Pogłębia problem."
+
+---
+
+### CTA – Centrum Wsparcia (plansza + zdjęcie, ~24s)
+
+Zdjęcie/film z ul. Bierutowskiej (Centrum Wsparcia) jako tło lub insert.
+
+**Tekst na ekranie + lektor równolegle:**
+- Logo Fundacja Pretium
+- „Centrum Wsparcia – bezpłatne konsultacje psychologiczne, warsztaty, grupa wsparcia"
+- „Zapisz się przez nasz kalendarz online lub zadzwoń:"
+
+**Numer duży na ekranie (6s):**
+> 📞 690 259 392
 > pn–pt, godz. 7:00–15:30
 
 ---
 
-### S8 – ZAMKNIĘCIE (plansza, 10s)
+### Zamknięcie – Plansza (8s)
 
-Czarne tło. Powoli pojawia się:
-
-> **„Nie dla polityki."**
-> **„Dla człowieka."**
+**Plansza** (czarne tło, powoli pojawiający się tekst):
+> „Mniej polityki."
+> „Więcej człowieka."
 
 *[3s ciszy]*
 
-Logo Fundacja Pretium + flagi: Fundusze Europejskie dla Dolnego Śląska / UE.
+Logo Fundacja Pretium + flagi unijne.
 
 ---
 
+## Postaci – lista assetów
+
+| Asset | Skąd | Użycie |
+|---|---|---|
+| `ref_gej.jpg` | Zdjęcie referencyjne (dostarczone) | character_ref w S1 |
+| `ref_blokers.jpg` | Zdjęcie referencyjne (dostarczone) | character_ref w S2 |
+| `ref_kobieta.jpg` | Wygenerować (prompt w bohaterowie_referencje.md) | character_ref w S3 |
+| `ref_wierzacy.jpg` | Wygenerować (prompt w bohaterowie_referencje.md) | character_ref w S4 |
+
+Postacie "złe" (agresywni) w każdej scenie: opisane tekstowo w promptach — bez osobnych assetów.
+
 ## Uwagi produkcyjne
 
-- **Brak nazwanych bohaterów** – tylko sylwetki. Nie potrzeba bohaterowie_referencje.md.
-- Sylwetki generować z ciemnymi/neutralnymi konturami, bez twarzy widocznych wyraźnie.
-- S3 (pętla tekstowa) – wyłącznie Resolve, nie Kling.
-- S7 – nagranie własne z Centrum Wsparcia, przed nagraniem zadbać o dobre oświetlenie.
-- Napisy obowiązkowe przez cały film (dostępność).
-- Styl plansz: białe litery na czarnym tle, Montserrat lub Inter, bez ozdobników.
+- Napisy obowiązkowe przez cały film (dostępność)
+- Plansza tytułowa wchodzi z fade-in ok. 1s
+- Pauza [czarny ekran] po S4: ważna dramaturgicznie, nie przycinaj
+- Styl plansz: białe na czarnym, Montserrat, bez ozdobników
+- S_mid (definicja): opcja dodania małej animacji — słowo "pogardy" pojawia się osobno, podkreślone

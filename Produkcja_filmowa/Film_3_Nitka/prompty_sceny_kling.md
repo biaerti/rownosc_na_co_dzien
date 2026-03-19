@@ -1,4 +1,4 @@
-# Prompty scen – Kling AI VIDEO | Film 3: "Mieczyk"
+# Prompty scen – Kling AI VIDEO | Film 3: „Nitka"
 
 ## Specyfikacja
 
@@ -10,450 +10,748 @@
 | Format | 16:9 poziomy |
 | Lektor | BRAK – native audio only |
 
+## Zasada globalna – emocje i komunikacja
+
+**WAŻNE: Żadna postać NIE otwiera ust i NIE mówi.** Całość komunikacji przez:
+- ruchy głowy (potakiwanie, potrząsanie, odwracanie)
+- mimikę oczu (duże okrągłe oczy jako jedyne "twarzowe" elementy)
+- gestykulację ramionami i całym ciałem
+
+Dodawaj do każdego promptu: `no open mouths, no speaking, all emotion expressed through eyes and body gestures only`
+
+---
+
 ## Ściągawka – postacie
 
-| Postać | Kolor ciała | Rola | Kluczowa akcja |
-|---|---|---|---|
-| **Wykluczony** | `soft pale icy blue` | Zostaje w tyle, płacze, dostaje nowy mieczyk | – |
-| **Pomagier** | `warm golden yellow` | Zatrzymuje się, pomaga, tworzy nowy mieczyk | S9: urywa szatę, tworzy zielony |
-| **Sprawca1** | `dark burgundy red` | Lider grupy | S7: klika → mieczyk Pomagiera czerwony |
-| **Sprawca2** | `hot pink fuchsia` | Drwiący | S3: klika → mieczyk Wykluczonego czerwony |
-| **Sprawca3** | `deep dark violet` | Zimny, pasywny | bierny obserwator akcji |
+| Asset w Kling | Opis w promptach |
+|---|---|
+| `WYKLUCZONY- blue` | `the small pale grey-blue ghost figure (Wykluczony)` |
+| `Pomagier - yellow` | `the warm golden yellow ghost figure (Pomagier)` |
+| `Sprawca - burgun red` | `the dark burgundy-red ghost figure` |
+| `Sprawca2 - pink` | `the hot pink fuchsia ghost figure` |
 
 ## Ściągawka – miecze
 
-| Kolor miecza | Znaczenie | Opis w prompcie |
-|---|---|---|
-| Zielony | Należy do grupy | `short glowing vivid green lightsaber held in one arm, green neon blade with soft halo` |
-| Żółty | Ostrzeżenie / słabnie | `short glowing amber-yellow lightsaber held in one arm, warm yellow neon blade with soft halo` |
-| Czerwony | Wyrzucony z grupy | `short glowing deep red lightsaber held in one arm, cold red neon blade with soft halo` |
+| Asset | Opis w promptach |
+|---|---|
+| `MieczZielony` | `a short glowing vivid green lightsaber, bright green neon blade with soft halo` |
+| `MieczZolty` | `a short glowing amber-yellow lightsaber, warm yellow neon blade with soft halo` |
+| `MieczCzerwony` | `a short glowing deep red lightsaber, cold red neon blade with soft halo` |
+| `MieczPodwojny` | `a double-bladed green lightsaber staff with vivid green glowing blades on both ends` |
+| `RaczkaWylaczona` | `a short dark lightsaber handle with NO blade — completely inert, no glow, handle only` |
 
-## Ściągawka – świat
+## Ściągawka – krainy
 
-| Stan | Kiedy | Opis w prompcie |
-|---|---|---|
-| Jasny | S1–S4 | `stylized surreal 3D CGI barren landscape, smooth flowing terrain, glowing light waves in the ground, pastel purple and lavender sky, soft dreamy atmosphere` |
-| Ciemny | S5–S8 | `same surreal barren landscape but dark and rainy, heavy rain, storm clouds, ground light waves dim and cold, cold grey-violet palette` |
-| Odrodzony | S9–S10 | `same surreal barren landscape, storm clearing, single golden sunray from background, one small flower blooming in foreground, ground light waves warming to amber-green` |
-
-## Plan ujęć
-
-| Scena | Tryb | Czas | Elementy do wgrania |
-|---|---|---|---|
-| S1 | Single | 7s | Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatJasny + MieczZielony |
-| S2 | Multi-Shot 2x | 4s+4s | Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatJasny + MieczZolty |
-| S3 | Multi-Shot 2x | 3s+4s | Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatJasny + MieczZolty + MieczCzerwony |
-| S4 | Multi-Shot 2x | 3s+3s | Wykluczony + MieczCzerwony |
-| S5 | Multi-Shot 2x | 4s+4s | Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatCiemny + MieczCzerwony + MieczZielony |
-| S6 | Multi-Shot 2x | 4s+4s | Pomagier + Wykluczony + Sprawca1 + Sprawca2 + Sprawca3 + SwiatCiemny + MieczZielony + MieczCzerwony |
-| S7 | Multi-Shot 2x | 4s+4s | Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + Wykluczony + SwiatCiemny + MieczCzerwony + MieczZielony |
-| S8 | Single | 5s | Pomagier + Wykluczony + SwiatCiemny + MieczCzerwony |
-| S9 Shot1 | Single | 5s | Pomagier + MieczZolty + SwiatCiemny |
-| S9 Shot2 | Single | 5s | Pomagier + Wykluczony + MieczZielony + SwiatOdrodzenie |
-| S10 | Single | 6s | Pomagier + Wykluczony + SwiatOdrodzenie + MieczZielony |
+| Asset | Opis w promptach |
+|---|---|
+| `SwiatJasny` | `stylized surreal 3D CGI barren landscape, glowing energy streams in the ground, pastel purple-lavender sky, dreamy calm atmosphere` |
+| `SwiatCiemny` | `same barren landscape but dark and rainy, heavy rain, storm clouds, dim cold ground streams, cold grey-violet palette` |
+| `SwiatOdrodzenie` | `same barren landscape clearing after storm, single golden sunray, one small flower blooming, ground streams warming amber-green` |
 
 ---
 
-## SCENA 1 – Wszyscy razem, zielone miecze | Single 7s | 1080p
+## SCENA 1 – Czwórka idzie razem, wszyscy weseli | Single 7s
 
-Elementy: **Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatJasny + MieczZielony**
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `Sprawca - burgun red` + `Sprawca2 - pink` + `SwiatJasny` + `MieczZielony`
 
 ```
-3D CGI Pixar-style animation, stylized surreal barren landscape with smooth flowing
-terrain, glowing light waves in the ground, pastel purple and lavender sky, minimal
-organic hills, five ghost-like rounded humanoid figures walk together in a loose happy
-group from left to right:
-- soft pale icy blue figure: gentle neutral expression, short glowing green lightsaber
-  held in one arm
-- warm golden yellow figure: warm gentle smile, short glowing green lightsaber in one arm
-- dark burgundy red figure: smug confident expression, short glowing green lightsaber
-  in one arm
-- hot pink fuchsia figure: self-satisfied look, short glowing green lightsaber in one arm
-- deep dark violet figure: cold indifferent expression, short glowing green lightsaber
-  in one arm
-all five walk with a gentle swaying motion, all green sabers pulse softly with neon light,
-calm happy atmosphere, wide establishing shot, Pixar short film 3D CGI aesthetic,
-no text, no watermark
--- NOT photorealistic, 3D CGI animated style
+3D CGI Pixar-style animation. Wide shot. Stylized surreal barren landscape,
+pastel purple-lavender sky, glowing energy streams in the ground.
+
+Four ghost figures walk happily together left to right, each holding a short
+glowing vivid green lightsaber:
+- dark burgundy-red ghost figure: confident, upbeat posture, green saber
+- hot pink fuchsia ghost figure: lively bouncy steps, green saber
+- warm golden yellow ghost figure (Pomagier): gentle happy expression, green saber
+- small pale grey-blue ghost figure (Wykluczony): cheerful, walking with the group,
+  green saber glowing — part of the group, content
+
+All four sabers pulse with warm green light. Happy calm atmosphere.
+No open mouths. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only.
 ```
 
 ---
 
-## SCENA 2 – Niebieski zostaje w tyle, mieczyk żółknie | Multi-Shot 2x | 1080p
+## SCENA 2 – Miecz niebieskiego gaśnie, grupa się oddala | Multi-Shot 3x
 
-Elementy: **Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatJasny + MieczZolty**
+**Elementy Shot 1:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `Sprawca - burgun red` + `Sprawca2 - pink` + `SwiatJasny` + `MieczZielony`
+**Elementy Shot 2–3:** `WYKLUCZONY- blue` + `RaczkaWylaczona` + `Pomagier - yellow` + `Sprawca - burgun red` + `Sprawca2 - pink` + `SwiatJasny` + `MieczZielony`
 
-**Shot 1 (4s):**
+**Shot 1 (5s) – Miecz gaśnie, wszyscy patrzą zszokowani:**
 ```
-3D CGI Pixar-style animation, surreal barren landscape with glowing ground and pastel
-purple sky, wide shot, four figures walk forward together at the front of the frame:
-- warm golden yellow figure: chatting, green lightsaber, relaxed
-- dark burgundy red figure: laughing, green lightsaber, dominant posture
-- hot pink fuchsia figure: leaning toward others gossiping, green lightsaber
-- deep dark violet figure: silent cold walk, green lightsaber
-one soft pale icy blue figure trails noticeably behind the group, looking tired and slow,
-its short lightsaber is visibly shifting from green to amber-yellow, the four ahead do
-not look back, calm Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style
-```
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium shot. Four ghost figures standing together:
+- the dark burgundy-red ghost figure — green lightsaber glowing
+- the hot pink fuchsia ghost figure — green lightsaber glowing
+- the warm golden yellow ghost figure (Pomagier) — green lightsaber glowing
+- the small pale grey-blue ghost figure (Wykluczony) — holding a short dark handle,
+  blade completely gone, handle dark and inert
 
-**Shot 2 (4s):**
-```
-3D CGI Pixar-style animation, surreal barren landscape with pastel purple tones, medium
-wide shot, the four figures ahead lean together as if sharing a joke and laughing, the
-single soft pale icy blue figure trails even further behind, its large round eyes look
-worried and sad, the blue figure holds a short amber-yellow glowing lightsaber – the
-color shift clearly visible, the figure looks down at its yellowed saber with a
-concerned and confused expression, gentle swaying movement, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style
+All four figures are looking at the dead handle in the blue figure's hands.
+The burgundy-red and pink figures lean forward slightly, eyes narrowed —
+a mix of shock and disdain, as if looking at something broken and unworthy.
+The yellow figure's eyes are wide and uneasy, body neutral, not sure how to react.
+The blue figure looks down at its own dead handle, eyes huge and lost.
+
+One figure of each color. Pixar 3D CGI style. No text, no watermark.
 ```
 
----
-
-## SCENA 3 – Reakcja grupy, wyrzucenie | Multi-Shot 2x | 1080p
-
-Elementy: **Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatJasny + MieczZolty + MieczCzerwony**
-
-**Shot 1 (3s) – Reakcja:**
+**Shot 2 (5s) – Bordowy i różowy odwracają się i odchodzą, żółty waha się:**
 ```
-3D CGI Pixar-style animation, surreal barren landscape, medium shot on four figures
-grouped together, they have all turned around and look back at the lone blue figure
-in the distance holding a yellow saber:
-- dark burgundy red figure: pointing toward blue figure with disdain, narrowed eyes,
-  green lightsaber raised
-- hot pink fuchsia figure: eyebrow arched, smug contemptuous expression, green
-  lightsaber, hand on hip
-- deep dark violet figure: cold dismissive stare toward the blue figure, green lightsaber
-- warm golden yellow figure: standing among them with a more uncertain, troubled
-  expression – less enthusiastic than the others, green lightsaber held low
-in the distance the soft pale icy blue figure stands alone holding an amber-yellow saber,
-Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium shot. Four ghost figures:
+- the dark burgundy-red ghost figure — turning its back, already walking away,
+  green lightsaber glowing at its side
+- the hot pink fuchsia ghost figure — turning its back, stepping away confidently,
+  green lightsaber at its side
+- the warm golden yellow ghost figure (Pomagier) — standing still, looking back
+  over its shoulder at the blue figure, eyes conflicted and uncertain
+- the small pale grey-blue ghost figure (Wykluczony) — standing alone, holding
+  dead dark handle, eyes following the figures that are leaving
+
+The blue figure watches the burgundy-red and pink figures walk away.
+The yellow figure hesitates — body half-turned, caught between going and staying.
+
+One figure of each color. Pixar 3D CGI style. No text, no watermark.
 ```
 
-**Shot 2 (4s) – Kliknięcie:**
+**Shot 3 (5s) – Trójka już dalej, niebieski mały i sam z tyłu:**
 ```
-3D CGI Pixar-style animation, surreal barren landscape, medium close shot:
-- hot pink fuchsia figure steps forward from the group, points its glowing green
-  lightsaber toward the distant soft pale icy blue figure, presses the saber handle
-  with a smug satisfied expression
-- in the background: the blue figure's amber-yellow lightsaber instantly SNAPS and
-  flares to deep vivid red with a burst of red light sparks
-- dark burgundy red figure behind: satisfied nod, smirk
-- deep dark violet figure behind: cold slow nod, indifferent satisfaction
-- warm golden yellow figure behind: visibly troubled uncertain look, eyes showing
-  discomfort, does not nod
-dramatic moment, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, the saber color snap is the key action
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Wide shot. The landscape stretches open.
+
+FOREGROUND, small and alone: the pale grey-blue ghost figure (Wykluczony) stands
+still, holding the dark dead handle at its side, eyes fixed on the distance.
+
+BACKGROUND, noticeably further away: the dark burgundy-red figure, the hot pink
+fuchsia figure, and the warm golden yellow figure walk together — their backs
+to the blue figure, green lightsabers glowing at their sides. The yellow figure
+glances back once over its shoulder, then turns forward and keeps walking.
+
+The distance between the blue figure and the group is large and growing.
+The blue figure does not move. It just watches them go.
+
+One figure of each color. Pixar 3D CGI style. No text, no watermark.
 ```
 
 ---
 
-## SCENA 4 – Niebieski upada, płacze | Multi-Shot 2x | 1080p
+## SCENA 3 – Różowy podchodzi i wyrzuca rączkę na ziemię | Single 5s
 
-Elementy: **Wykluczony + MieczCzerwony**
+**Elementy:** `WYKLUCZONY- blue` + `Sprawca2 - pink` + `RaczkaWylaczona` + `SwiatJasny` + `MieczZielony`
 
-**Shot 1 (3s) – Upadek:**
 ```
-3D CGI Pixar-style animation, surreal barren landscape beginning to darken, medium shot,
-a soft pale icy blue ghost figure:
-- looks down at its short lightsaber which now glows deep vivid red
-- large round eyes go from worried to utterly crushed – heavy drooping eyelids,
-  pupils tiny and low
-- figure slowly crumples downward and sits on the ground
-- holds the red lightsaber limply in one small arm, its cold red light casting
-  shadows upward on the figure's face
-world dims slightly to cold grey-blue tones, emotional weight in composition,
-Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, emotional collapse moment
-```
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium shot. Two figures facing each other.
 
-**Shot 2 (3s) – Płacz:**
-```
-3D CGI Pixar-style animation, close-up on a soft pale icy blue ghost figure sitting
-alone on the barren ground:
-- large round eyes: tiny glistening tears forming at the lower edge, pupils very small
-  and positioned low in the iris, eyebrow-arch shapes angled deep downward in a
-  devastated broken expression
-- the short red lightsaber rests completely limp in one small arm, cold red glow
-  illuminating the figure from below
-- body slightly hunched, still
-background cold and dim, faint grey-violet tones, slow gentle push in toward the face,
-deeply emotional close-up, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style
-```
+The hot pink fuchsia ghost figure steps aggressively TOWARD the small pale grey-blue
+ghost figure (Wykluczony), holding its glowing vivid green lightsaber prominently
+— bright green blade clearly visible, a deliberate contrast.
+Its large eyes are cold and contemptuous, posture dominant and confrontational.
 
----
+The pale grey-blue figure stands still, holding a short dark lightsaber handle
+with NO blade — completely inert, no glow, handle only. Its large round eyes are
+full of tears, body hunched, making itself small.
 
-## SCENA 5 – Sprawcy odchodzą ze śmiechem, deszcz | Multi-Shot 2x | 1080p
+The hot pink figure SWIPES the dark handle forcefully from the blue figure's arm
+— the handle FLIES through the air and LANDS FAR AWAY, off to the side and well
+out of reach, far from both figures. It does not land between them — it is thrown
+far away across the ground.
 
-Elementy: **Wykluczony + Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + SwiatCiemny + MieczCzerwony + MieczZielony**
+The pink figure glances coldly in the direction the handle landed, then back at
+the blue figure with dismissal. It turns and walks away.
 
-**Shot 1 (4s) – Odejście grupy:**
-```
-3D CGI Pixar-style animation, dark rainy surreal barren landscape, heavy rain falling,
-storm clouds overhead, medium shot, four figures walk away together to the left:
-- dark burgundy red figure: laughing, nudging others, green lightsaber held up, dominant
-- hot pink fuchsia figure: laughing and gesturing back toward where the blue figure was,
-  green lightsaber, mocking energy
-- deep dark violet figure: walking silently with cold satisfied expression, green lightsaber
-- warm golden yellow figure: walking with the group but looking slightly down, not laughing
-  as much, green lightsaber held lower, less enthusiastic
-their backs turned to the right side of the frame, rain splashes on dim glowing ground,
-in the far right background: tiny soft pale icy blue figure sits alone on the wet ground
-holding a faintly glowing red lightsaber, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style
-```
+The pale grey-blue figure stands frozen, eyes overflowing with tears, staring
+in the direction the handle was thrown — far away from it.
 
-**Shot 2 (4s) – Samotność:**
-```
-3D CGI Pixar-style animation, dark rainy atmosphere, cold grey-violet palette, wide shot,
-lone soft pale icy blue ghost figure sits on the barren wet ground far right of the frame:
-- completely alone, hunched, small in the heavy rain
-- holds a short glowing red lightsaber in one arm – its cold red light reflects on
-  the rain puddles around it
-- large round eyes staring at the ground, still crying, tiny pupils
-left side of frame empty and desolate where the group was, rain falls continuously,
-heavy silence, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, isolation and emptiness required
+No open mouths. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only. The handle thrown FAR AWAY
+across the ground is the key action — not dropped nearby, thrown far off.
 ```
 
 ---
 
-## SCENA 6 – Pomagier zatrzymuje się i podaje rękę | Multi-Shot 2x | 1080p
+## SCENA 4 – Rączka leży na ziemi, niebieski biegnie zapłakany i podnosi | Single 5s
 
-Elementy: **Pomagier + Wykluczony + Sprawca1 + Sprawca2 + Sprawca3 + SwiatCiemny + MieczZielony + MieczCzerwony**
+**Elementy:** `WYKLUCZONY- blue` + `RaczkaWylaczona` + `SwiatJasny`
 
-**Shot 1 (4s) – Zatrzymanie:**
 ```
-3D CGI Pixar-style animation, dark rainy surreal landscape, medium shot showing the
-scene in two zones:
-LEFT: dark burgundy red, hot pink fuchsia, and deep dark violet figures continue walking
-away, green lightsabers, not looking back, receding into the rain
-CENTER: warm golden yellow figure has stopped completely mid-step, turned its head
-sharply to look back to the right, large round eyes show genuine concern and
-quiet determination, green lightsaber held firmly in one arm, rain falling on it
-RIGHT (background): small soft pale icy blue figure sits alone on the wet ground,
-faint red lightsaber glow visible from a distance
-the yellow figure pauses while the others keep going without noticing it stopped,
-rain falling, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style
-```
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium shot. Camera at ground level.
 
-**Shot 2 (4s) – Podanie ręki:**
-```
-3D CGI Pixar-style animation, dark rainy atmosphere, medium close shot:
-- warm golden yellow figure crouches down and extends one small arm toward the blue
-  figure below, eyes warm and steady and determined, green lightsaber held in the
-  other arm, rain dripping off its golden drape
-- soft pale icy blue figure sits on the wet ground looking up at the yellow figure
-  with exhausted tearful eyes, pupils small, red lightsaber held limp in one arm
-small rain drops fall between them, quiet and tender moment, warm yellow light from
-the yellow saber reflects gently on the blue figure's face, Pixar 3D CGI animated
-style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, tender gesture required
+CENTER FRAME: a short dark lightsaber handle (no blade, no glow) lies still
+on the glowing terrain — small and alone on the ground.
+
+The small pale grey-blue ghost figure (Wykluczony) RUNS toward it from the edge
+of frame — desperate steps, arms reaching forward, large round eyes streaming
+tears. It scoops up the dark handle and clutches it tightly to its chest.
+
+Then — slowly — it TURNS ITS BACK to where the others were. Stands still,
+back to camera, arms wrapped around the dead handle, shoulders trembling.
+
+No open mouths. No other figures. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only.
 ```
 
 ---
 
-## SCENA 7 – Sprawcy karzą Pomagiera | Multi-Shot 2x | 1080p
+## SCENA 4a – Niebieski podnosi rączkę i wyciąga rękę do kamery | Single 4s
 
-Elementy: **Pomagier + Sprawca1 + Sprawca2 + Sprawca3 + Wykluczony + SwiatCiemny + MieczCzerwony + MieczZielony**
+**Elementy:** `WYKLUCZONY- blue` + `RaczkaWylaczona` + `SwiatJasny`
 
-**Shot 1 (4s) – Wezwanie z oddali:**
 ```
-3D CGI Pixar-style animation, dark rainy surreal landscape, wide shot showing clear
-spatial separation:
-FAR LEFT: three figures stopped and facing right, waving aggressively:
-  - dark burgundy red figure: dominant, one arm raised waving the yellow figure back,
-    angry demanding expression, green lightsaber
-  - hot pink fuchsia figure: hand on hip, other arm waving, impatient contemptuous look,
-    green lightsaber
-  - deep dark violet figure: cold raised arm beckoning, expressionless authority,
-    green lightsaber
-CENTER-RIGHT: warm golden yellow figure stands next to the sitting blue figure, looks
-back toward the three with a torn conflicted expression, green lightsaber, rain falling
-on both of them
-FAR RIGHT (ground): soft pale icy blue figure sitting, red lightsaber faintly glowing
-Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, clear distance between the two groups required
-```
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium shot. Camera faces the small pale grey-blue ghost figure (Wykluczony)
+directly — full front-facing, eye-level.
 
-**Shot 2 (4s) – Kliknięcie na Pomagiera:**
-```
-3D CGI Pixar-style animation, dark rainy atmosphere, medium shot:
-- dark burgundy red figure steps forward from the group, points its glowing green
-  lightsaber directly toward the warm golden yellow figure in the distance, presses
-  the saber handle with a cold satisfied expression and narrowed eyes
-- the golden yellow figure's green lightsaber instantly SNAPS and flares to deep red
-  with a burst of red light sparks – visible in the middle distance
-- hot pink fuchsia figure behind: satisfied smirk, arms crossed
-- deep dark violet figure behind: cold nod, indifferent satisfaction
-- warm golden yellow figure in the distance: looks down at its now-red lightsaber
-  with a shocked and saddened expression, large eyes going wide then drooping
-heavy rain falling throughout, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, the saber color snap is the key action
+The short dark lightsaber handle (no blade, no glow) lies on the ground
+in front of the blue figure's feet.
+
+The blue figure bends down and picks up the handle — slowly, gently,
+with both hands. Then it straightens up and looks directly into camera.
+Its large round eyes are wet with tears, filled with desperate sadness.
+
+Then — it raises one arm and extends it TOWARD the camera, hand open,
+palm up, reaching out — a pleading, begging gesture. Pure desperation.
+The other hand clutches the dark handle tightly against its chest.
+
+CRITICAL EXPRESSION: the figure is NOT smiling. Its large round eyes are
+downturned and wet with tears — sad, abandoned, heartbroken. Eyebrows
+angled upward in the center — the universal expression of begging and
+sorrow. The face communicates: "please don't leave me", "I'm scared",
+"come back". No happiness whatsoever. Only grief and desperation.
+
+The figure does not move its feet. It just stands and reaches, trembling slightly.
+
+No open mouths. NO SMILING. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only. Sad downturned eyes
+and the pleading outstretched arm are the single emotional action.
 ```
 
 ---
 
-## SCENA 8 – Pomagier wpada na pomysł | Single 5s | 1080p
+## SCENA 4b – Niebieski próbuje odpalić rączkę, zauważa że jest sam, biega za nimi | Single 7s
 
-Elementy: **Pomagier + Wykluczony + SwiatCiemny + MieczCzerwony**
+**Elementy:** `WYKLUCZONY- blue` + `RaczkaWylaczona` + `SwiatJasny`
 
 ```
-3D CGI Pixar-style animation, dark rainy surreal landscape, medium close shot:
-- warm golden yellow figure and soft pale icy blue figure sit side by side on the
-  wet ground in the rain, both holding short glowing red lightsabers, cold red
-  light illuminating them from below
-- yellow figure: looks at its red saber with sadness, then slowly turns to look at
-  the blue figure beside it, then looks down at its own glowing yellow body drape,
-  a moment of complete stillness
-- then: yellow figure's large round eyes widen suddenly with a spark of excitement,
-  eyebrow-arch shapes lifting in surprised realization, a small warm amber glow
-  begins to emanate from the yellow figure's body
-- blue figure: still sitting sadly, red saber limp, looking at yellow figure with
-  confused tired eyes
-rain still falling, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, the moment of idea realization is the key expression
-```
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium shot. The small pale grey-blue ghost figure (Wykluczony) stands alone,
+holding the dead dark lightsaber handle — NO blade, no glow.
 
----
+It looks DOWN at the handle. Its large round eyes are focused and hopeful.
+It presses the handle — tries to activate it. Nothing happens. It tries again.
+Still nothing. The handle stays dark and dead in its hands.
 
-## SCENA 8b – Wymiana mieczyków | Multi-Shot 2x | 1080p
+Then — it slowly raises its head and looks UP, directly at camera. Its eyes widen.
+A beat of realization. The group is gone. It is completely alone.
 
-Elementy: **Pomagier + Wykluczony + SwiatCiemny + MieczZolty + MieczCzerwony**
+Suddenly it SPINS around, looking behind it — the landscape is empty.
+Then it TURNS BACK toward camera, eyes filled with panic and sadness — and RUNS,
+sprinting diagonally TOWARD camera, arms pumping, handle clutched in one fist,
+mouth opening slightly as if calling out "wait for me!"
 
-**Shot 1 (4s) – Propozycja wymiany:**
-```
-3D CGI Pixar-style animation, dark rainy surreal landscape, medium close shot:
-- warm golden yellow figure sits beside the soft pale icy blue figure on the wet ground,
-  the yellow figure holds a short glowing amber-yellow lightsaber in one arm, the blue
-  figure holds a short glowing deep red lightsaber in one arm
-- yellow figure turns toward the blue figure and gently extends its amber-yellow
-  lightsaber outward, offering it with a calm warm open expression, large round eyes
-  steady and kind, simultaneously gesturing with the other small arm toward the blue
-  figure's red saber as if to say "let's swap"
-- blue figure looks at the offered yellow saber with wide surprised eyes, then looks
-  down at its own red saber, then back up at the yellow figure, a flicker of
-  disbelief and cautious hope in its large tearful eyes
-rain still falling, cold red and warm yellow light from the two sabers creating a
-visible contrast between them, Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, the gesture of offering is the key action
-```
-
-**Shot 2 (4s) – Po wymianie:**
-```
-3D CGI Pixar-style animation, dark rainy surreal landscape, medium close shot, directly
-after the swap:
-- soft pale icy blue figure now holds the short glowing amber-yellow lightsaber in
-  one arm – warm yellow light falling gently on its face, large round eyes wide and
-  full of surprised wonder, pupils bigger and brighter than before, tilting its head
-  slightly as if the warmth is unfamiliar
-- warm golden yellow figure now holds the short glowing deep red lightsaber in one
-  arm – cold red light on its face, but its expression is calm and determined, eyes
-  steady with quiet sacrifice, it chose to take the worse saber
-both figures sit together in the rain, the contrast of warm yellow light on blue and
-cold red light on yellow is visually striking, a small quiet moment of connection,
-Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, the contrast of saber lights on faces is key
+No other figures visible anywhere. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only. The failed activation,
+the moment of realization, and the desperate sprint are the three key beats.
 ```
 
 ---
 
-## SCENA 8c – Widok z góry, zielony mieczyk | Single 3s | 1080p
+## SCENA 5 – Trójka odchodzi, żółty się waha | Multi-Shot 2x
 
-Elementy: **Pomagier + Wykluczony + SwiatCiemny + MieczZielony**
+**Elementy:** `Pomagier - yellow` + `Sprawca - burgun red` + `Sprawca2 - pink` + `SwiatJasny` + `MieczZielony`
 
+**Shot 1 (5s) – Trójka idzie, plecy do kamery:**
 ```
-3D CGI Pixar-style animation, dark rainy surreal barren landscape, BIRD'S EYE VIEW
-shot looking straight down from directly above:
-- warm golden yellow figure stands upright in the center of the frame, holding a
-  short glowing vivid green lightsaber raised slightly in one arm, the green blade
-  casts a soft warm green light circle downward onto the wet glowing ground
-- soft pale icy blue figure sits on the ground directly below and slightly in front
-  of the yellow figure, small and hunched, bathed in the green glow from above
-- the contrast between the dark rainy surroundings and the single green light source
-  is dramatic – the green saber is the only warm light in the cold scene
-- rain visible from above as streaks falling through the green light
-camera holds still, no movement, 3 seconds, Pixar 3D CGI animated style, no text,
-no watermark
--- NOT photorealistic, 3D CGI Pixar style, strict top-down overhead perspective required
-```
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Wide shot. Camera behind the group — all three backs to camera, walking away.
 
----
+- dark burgundy-red ghost figure: confident stride, green lightsaber
+- hot pink fuchsia ghost figure: lively walk, green lightsaber
+- warm golden yellow ghost figure (Pomagier): slightly slower steps, green
+  lightsaber held low, head tilted — uncertain, trailing just behind the other two
 
-## SCENA 9 – Stworzenie nowego miecza | 2 × Single | 1080p
-
-Zmontuj z crossdissolve w Resolve między Shot 1 a Shot 2.
-
-**Shot 1 (5s) – Żółty z urwanej szaty:**
-
-Elementy: **Pomagier + MieczZolty + SwiatCiemny**
-```
-3D CGI Pixar-style animation, dark rainy atmosphere beginning to soften very slightly,
-medium close shot on warm golden yellow ghost figure:
-- figure reaches to the hem of its own flowing golden drape and pulls off a small
-  glowing piece of warm yellow fabric with one small arm
-- carefully wraps this yellow fabric around its short glowing red lightsaber
-- as the yellow fabric covers the blade, the red glow transforms into warm amber-yellow:
-  the saber is now glowing yellow
-- figure holds up the newly yellow lightsaber and looks at it with quiet determined eyes,
-  warm yellow glow casting soft light on its face and on the rain around it
-- expression: focused, purposeful, a small hopeful curve at the corners of the eyes
-Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, the fabric wrapping and color change is the key action
+All three walk away from camera into the open landscape. No other figures visible.
+No open mouths. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only.
 ```
 
-**Shot 2 (5s) – Zielony z połączenia obu szat:**
-
-Elementy: **Pomagier + Wykluczony + MieczZielony + SwiatOdrodzenie**
+**Shot 2 (4s) – Żółty się waha, ale ulega i idzie — ogląda się za siebie:**
 ```
-3D CGI Pixar-style animation, the dark landscape very slightly brightening, rain
-beginning to slow, medium close shot:
-- warm golden yellow figure gently reaches toward the edge of the soft pale icy blue
-  figure's drape and carefully pulls off a small piece of pale blue glowing fabric
-- soft pale icy blue figure watches with wide curious surprised eyes, tilting its head
-- yellow figure wraps the blue fabric around the already-yellow lightsaber: as the
-  pale blue material combines with the yellow, the blade transforms with a pulse of
-  light into vivid bright green
-- the newly green saber glows brilliantly, warm green light radiating outward in the
-  rain, casting green glow on both figures' faces
-- yellow figure looks at the green saber with warm satisfied eyes
-- blue figure looks at it with wide curious wondering eyes
-Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, yellow drape + blue drape = green saber transformation is key
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium shot. The warm golden yellow ghost figure (Pomagier) visible from the side
+or slightly from behind.
+
+The yellow figure SLOWS and STOPS for a moment — body hesitating, large round
+eyes glancing back over its shoulder toward where the blue figure was left.
+Its eyes show conflict: troubled, pulled in two directions.
+
+Then its shoulders drop slightly — it gives in. It turns forward again and
+WALKS ON after the other two, rejoining the group. But as it walks, it turns
+its head ONE MORE TIME to look back — a last lingering glance behind it.
+
+The dark burgundy-red and hot pink figures are visible ahead, not looking back.
+No open mouths. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only. The hesitation and the
+final backward glance are the two key emotional moments.
 ```
 
 ---
 
-## SCENA 10 – Dar, kwiatek, słońce | Single 6s | 1080p
+## SCENA 5b – Zbliżenie na twarz żółtego: skonsternowany, idzie dalej | Single 5s
 
-Elementy: **Pomagier + Wykluczony + SwiatOdrodzenie + MieczZielony**
+**Elementy:** `Pomagier - yellow` + `SwiatJasny` + `MieczZielony`
 
 ```
-3D CGI Pixar-style animation, the barren surreal landscape clearing after rain, a single
-golden ray of sunlight breaks through the storm clouds in the background, medium close shot:
-- warm golden yellow figure gently holds out the glowing bright green lightsaber toward
-  the soft pale icy blue figure standing beside it, eyes warm and open
-- soft pale icy blue figure reaches out and takes the green saber in its small arm:
-  the MOMENT the blue figure's hand closes around it, its large round eyes transform –
-  from heavy drooping sad pupils to wide sparkling bright pupils, tiny star-like
-  highlight dots appear in each eye, eyebrow arches lifting with surprised joy
-- both figures stand together in the clearing rain, the green saber casting soft
-  warm green light on both of them
-- in the foreground, one small colorful flower pushes up slowly through the glowing
-  ground as if blooming in response to the moment
-camera gently pulls back slightly to show the two figures and the flower together,
-Pixar 3D CGI animated style, no text, no watermark
--- NOT photorealistic, 3D CGI Pixar style, the eye transformation and the blooming flower are the key moments
+3D CGI Pixar-style animation. Surreal barren landscape, pastel purple sky.
+Medium close shot. Only the warm golden yellow ghost figure (Pomagier) — walking
+forward, green lightsaber held in one arm.
+
+Camera follows close on the yellow figure's face and upper body as it walks.
+Its large round eyes show clear conflict and distress — troubled, heavy, pulled
+somewhere behind it. It TURNS ITS HEAD back over its shoulder — a slow, reluctant
+look toward where it came from — as if seriously considering going back.
+
+Then it turns its head forward again and keeps walking. Shoulders slightly heavy.
+It does not stop. It does not smile. It just walks, conflicted.
+
+No other figures in shot. No open mouths. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only. The head turning back and
+the conflicted troubled eyes are the single key emotional action.
 ```
 
 ---
 
-## PLANSZE TEKSTOWE (Resolve, S11)
+## SCENA 6 – Rączka zapala się na czerwono, panika i płacz | Multi-Shot 2x
 
-Nie generowane w Kling – wykonywane w DaVinci Resolve.
+**Elementy:** `WYKLUCZONY- blue` + `MieczCzerwony` + `SwiatJasny`
+
+**Shot 1 (4s) – Rączka zapala się czerwono, panika:**
+```
+3D CGI Pixar-style animation. Surreal barren landscape, atmosphere beginning to
+darken. Medium shot.
+
+The small pale grey-blue ghost figure (Wykluczony) stands alone, holding the
+DARK DEAD LIGHTSABER HANDLE — no blade, no glow. It stares at it hopelessly.
+Then: the handle SUDDENLY IGNITES with a burst of cold red light sparks and a
+SHORT DEEP VIVID RED BLADE erupts from the handle — abrupt and harsh.
+The figure's large round eyes go wide with shock and panic – pupils tiny, eyebrow
+arches raised high in alarm, body tensing up. It holds the now-glowing red
+lightsaber in front of it, staring at it in horror. The cold red glow illuminates
+its face from below.
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The dead handle suddenly igniting RED
+is the key action.
+```
+
+**Shot 2 (4s) – Płacze:**
+```
+3D CGI Pixar-style animation. Surreal barren landscape, dimming atmosphere.
+Medium close shot on the small pale grey-blue ghost figure (Wykluczony):
+
+The figure sits on the ground, shoulders slumped, body hunched. It holds a short
+glowing deep red lightsaber in one arm, the cold red light casting shadows upward
+on its face. Large round eyes: tiny glistening tears forming at the lower edge,
+pupils small and low, eyebrow-arch shapes angled deep downward in a devastated
+broken expression. The figure is crying quietly. The landscape around it begins
+to darken and grey.
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The crying expression and red saber
+glow on the face are the key visual elements.
+```
+
+---
+
+## SCENA 7 – Kraina ciemnieje, deszcz | Multi-Shot 2x
+
+**Elementy:** `WYKLUCZONY- blue` + `MieczCzerwony` + `SwiatJasny` + `SwiatCiemny`
+
+**Shot 1 (4s) – Przemiana krainy:**
+```
+3D CGI Pixar-style animation. The landscape transforms before our eyes: starting
+from the pastel surreal barren terrain, dark storm clouds roll in rapidly from
+above, the sky shifts from purple-lavender to heavy dark grey-purple, and heavy
+rain begins to fall. The ground light waves dim from warm to cold blue.
+Wide atmospheric shot showing the landscape transformation.
+
+In the middle of the frame: the small pale grey-blue ghost figure (Wykluczony)
+sits alone on the ground, holding a short glowing deep red lightsaber, crying.
+It does not move as the storm arrives around it, rain beginning to fall on it.
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The landscape transformation from
+light to dark with rain arriving is the key visual moment.
+```
+
+**Shot 2 (5s) – Samotność w deszczu:**
+```
+3D CGI Pixar-style animation. Dark rainy surreal barren landscape, heavy rain
+falling, storm clouds overhead, cold grey-violet palette. Wide shot.
+
+The small pale grey-blue ghost figure (Wykluczony) sits completely alone on the
+wet barren ground, small and isolated. It holds a short glowing deep red lightsaber
+in one arm – the cold red light reflects in the rain puddles around it. Large round
+eyes staring downward, still crying, tiny pupils. Body hunched and still.
+The rest of the landscape is empty and desolate. Heavy silence broken only by rain.
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. Maximum isolation and emptiness.
+```
+
+---
+
+## SCENA 7b – Żółty idzie za grupą, odwraca się i podejmuje decyzję | Single 6s
+
+**Elementy:** `Pomagier - yellow` + `Sprawca - burgun red` + `Sprawca2 - pink` + `SwiatCiemny`
+
+```
+3D CGI Pixar-style animation. Dark rainy surreal landscape, heavy rain, cold
+grey-violet palette. Medium shot, camera slightly behind and close on yellow.
+
+FOREGROUND, backs to camera: the warm golden yellow ghost figure (Pomagier)
+walks forward — NO lightsaber in its arms, arms empty at its sides.
+
+FAR BACKGROUND: the dark burgundy-red ghost figure and the hot pink fuchsia
+ghost figure walk away together in the distance, backs to camera — no lightsabers,
+just walking calmly, unconcerned, getting smaller in the frame.
+
+The yellow figure walks forward a few steps — then SLOWS and STOPS completely.
+A long beat of stillness in the rain. Then it TURNS AROUND — a full, deliberate
+180-degree turn — facing back the way it came. Its large round eyes are STEADY
+and DETERMINED. No hesitation this time. No conflict. Just a clear resolved
+decision. It looks straight ahead in the direction it came from, rain falling
+on it, and begins walking back with purpose.
+
+The burgundy-red and pink figures in the background continue walking away,
+oblivious. They do not turn around.
+
+No open mouths. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only. The full turn and the
+determined eyes are the single key moment — this is a decision, not a hesitation.
+```
+
+---
+
+## SCENA 8 – Pomagier BEZ miecza podchodzi, komunikacja gestami | Multi-Shot 3x
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatCiemny` + `MieczCzerwony`
+
+**Shot 1 (5s) – Pomagier podchodzi bez miecza:**
+```
+3D CGI Pixar-style animation. Dark rainy surreal landscape, heavy rain. Medium shot.
+
+The warm golden yellow ghost figure (Pomagier) walks through the rain toward
+the small pale grey-blue ghost figure (Wykluczony) who sits alone on the wet
+ground. IMPORTANT: the golden yellow figure carries NO lightsaber – both its arms
+are empty. It walks with calm determined steps through the rain.
+The pale grey-blue figure (Wykluczony) looks up and sees the approaching yellow
+figure. Its large round eyes go wide with surprise – it looks confused, searching
+for a lightsaber in the yellow figure's arms and finding none.
+No open mouths, no speaking. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The yellow figure having NO saber is
+the most important visual detail of this shot.
+```
+
+**Shot 2 (5s) – Niebieski wskazuje gdzieś w dal, Pomagier odmawia:**
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere. Medium close shot on two
+ghost figures facing each other:
+
+The small pale grey-blue ghost figure (Wykluczony) sits on the wet ground. It
+raises one small arm and points its finger vaguely into the distance – a puzzled
+questioning gesture, as if asking "where is your saber? why are you here?",
+large round eyes wide with confusion and puzzlement.
+
+The warm golden yellow ghost figure (Pomagier) stands before it, sees the pointing
+gesture, then SLOWLY AND FIRMLY shakes its head from side to side: NO. Its large
+round eyes are steady and calm – clear and decisive, "I chose to stay here with you."
+
+No open mouths, no speaking. All emotion through eyes and head movements only.
+Rain falls between them. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The head-shake NO from the yellow
+figure is the key emotional action.
+```
+
+**Shot 3 (5s) – Niebieski pokazuje czerwony miecz, Pomagier wpada na pomysł:**
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere. Medium close shot.
+
+The small pale grey-blue ghost figure (Wykluczony) lifts its short glowing deep
+red lightsaber with a sad distressed expression – showing it to the yellow figure
+as if to say "look, my saber is red, everything is wrong." Large round eyes
+drooping with sadness, cold red glow illuminating its face from below.
+
+The warm golden yellow ghost figure (Pomagier) looks at the red saber with
+understanding. Then its eyes drift downward to its OWN flowing golden yellow drape.
+A moment of stillness – then its large round eyes WIDEN and BRIGHTEN with sudden
+realization, eyebrow-arches lifting: an IDEA. It looks at its yellow drape, then
+at the red saber, then back at its drape – the connection is clear in its eyes.
+
+No open mouths, no speaking. Rain still falling. Pixar 3D CGI style. No text,
+no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The yellow figure's moment of
+realization – eyes lighting up while looking at its own drape – is the key action.
+```
+
+---
+
+## SCENA 9 – Żółty wyciera miecz szatą, wręcza go i pokazuje co robić | Multi-Shot 2x
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatCiemny` + `MieczCzerwony` + `MieczZolty`
+
+**Shot 1 (5s) – Urywa skrawek, wyciera miecz, miecz żółknie:**
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere. Medium close shot.
+
+The warm golden yellow ghost figure (Pomagier) reaches to the hem of its own
+flowing golden yellow drape and TEARS OFF a small glowing piece of yellow fabric.
+It then reaches forward and WIPES and RUBS this yellow fabric piece along the blade
+of the short glowing deep red lightsaber held by the pale grey-blue figure
+(Wykluczony). As the yellow fabric rubs the red blade, the saber color GRADUALLY
+TRANSFORMS from deep red to warm amber-yellow – the red glow replaced by warm
+yellow light. The yellow figure holds the now-yellow saber up slightly, both
+figures looking at it.
+
+No open mouths, no speaking. Rain still falling. Pixar 3D CGI style. No text,
+no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The wiping motion and the red-to-yellow
+color transformation of the saber are the key actions of this shot.
+```
+
+**Shot 2 (5s) – Wręcza miecz, pokazuje żeby pocierał o niebieską szatę:**
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere. Medium close shot.
+
+The warm golden yellow ghost figure (Pomagier) holds out the short glowing
+amber-yellow lightsaber toward the pale grey-blue ghost figure (Wykluczony),
+offering it. The blue figure takes it. The yellow figure then points at the pale
+blue figure's OWN drape and mimes a rubbing motion with its arm – clearly
+gesturing "now rub it on YOUR fabric."
+
+The pale grey-blue figure looks at the yellow saber in its arm, then down at its
+own pale blue drape, then back up at the yellow figure – large eyes cautiously
+hopeful and questioning.
+
+No open mouths, no speaking. All emotion through eyes and gestures only.
+Rain still falling. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The offering gesture and the mime
+toward the blue drape are the key actions.
+```
+
+---
+
+## SCENA 10 – Niebieski pociera miecz szatą, miecz staje się zielony | Single 5s
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatCiemny` + `MieczZolty` + `MieczZielony`
+
+**WAŻNE: JEDEN miecz w scenie — bez duplikowania.**
+
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere. Medium close shot.
+LEFT: pale grey-blue ghost figure (Wykluczony). RIGHT: golden yellow ghost figure (Pomagier).
+
+The grey-blue figure holds ONE amber-yellow lightsaber — the only saber in the scene.
+It grabs a fold of its own pale blue drape and SLOWLY RUBS the fabric along the
+full length of the saber blade — deliberate, repeated wiping motion.
+
+As the blue fabric rubs the blade: a soft blue shimmer spreads from the contact point.
+The blade GRADUALLY TRANSFORMS: amber-yellow → yellow-green → VIVID BRIGHT GREEN.
+The transformation happens during the rubbing, not instantly. Green glow intensifies,
+casting warm light on the grey-blue figure. ONE saber only — no splitting, no duplicates.
+
+The grey-blue figure stops, lifts the green saber: eyes wide with joy and disbelief.
+The yellow figure watches with a warm proud smile. Both look at the green saber together.
+
+No open mouths. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI animated style only. ONE saber only.
+```
+
+---
+
+## SCENA 11 – Wykluczony chce oddać miecz, podwójny miecz | Multi-Shot 2x
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatCiemny` + `MieczZielony` + `MieczPodwojny`
+
+**Shot 1 (5s) – Niebieski chce oddać miecz:**
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere. Medium close shot.
+
+The small pale grey-blue ghost figure (Wykluczony) holds the glowing vivid green
+lightsaber and looks at it with joy for a moment – then its expression shifts to
+concern. It turns to look at the warm golden yellow ghost figure (Pomagier) who
+stands nearby with no saber. The blue figure looks back at the green saber, then
+extends it outward toward the yellow figure, offering to GIVE it the green saber –
+its expression saying "you should have this, you have no saber."
+
+The warm golden yellow figure (Pomagier) looks at the offered saber with warm eyes,
+then gently takes it from the blue figure's arm, holding the single green saber.
+
+Rain still falling. Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style.
+```
+
+**Shot 2 (5s) – Podwójny miecz:**
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere. Medium close shot.
+
+The warm golden yellow ghost figure (Pomagier) holds the single short green
+lightsaber. It looks at it with a knowing expression, then reaches to the HANDLE
+of the saber and PRESSES or CLICKS something on it with its small fingers.
+
+Immediately: a SECOND GREEN BLADE extends and ignites from the BOTTOM of the handle,
+so the saber now has vivid green blades glowing on BOTH ENDS of the central handle –
+a double-bladed green lightsaber staff. The golden yellow figure holds it upright,
+both blades glowing brilliantly, casting bright green light on its golden face.
+
+The pale grey-blue figure (Wykluczony) watches with wide surprised eyes, mouth
+dropping open slightly in amazement.
+
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The second blade igniting from the
+bottom of the handle is the key action – double-bladed staff result is crucial.
+```
+
+---
+
+## SCENA 12 – Podział miecza, oboje mają zielone | Single 6s
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatCiemny` + `MieczZielony` + `MieczPodwojny`
+
+```
+3D CGI Pixar-style animation. Dark rainy atmosphere beginning to soften. Medium
+close shot.
+
+The warm golden yellow ghost figure (Pomagier) holds the double-bladed green
+lightsaber staff with both green blades glowing. It grips the center of the staff
+and with a smooth deliberate motion SEPARATES it into two individual shorter green
+lightsabers – one in each arm, one saber per hand.
+
+It then EXTENDS one of the green sabers outward toward the small pale grey-blue
+ghost figure (Wykluczony), offering it. The blue figure reaches out and takes the
+green saber. Now:
+- the warm golden yellow figure holds one vivid green lightsaber
+- the small pale grey-blue figure holds one vivid green lightsaber
+
+Both figures stand side by side holding their glowing green sabers. The pale
+grey-blue figure looks at its new green saber with wide joyful eyes, then up at
+the yellow figure with deep gratitude. The yellow figure looks back with warm steady
+eyes. Quiet moment of connection.
+
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. Both figures holding green sabers at
+the end is the essential outcome of this shot.
+```
+
+---
+
+## SCENA 13 – Miecze razem, kraina ożywa | Multi-Shot 2x
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatCiemny` + `SwiatOdrodzenie` + `MieczZielony`
+
+**Shot 1 (5s) – Złożenie mieczy:**
+```
+3D CGI Pixar-style animation. Dark rainy landscape. Medium close shot.
+
+The small pale grey-blue ghost figure (Wykluczony) and the warm golden yellow ghost
+figure (Pomagier) stand facing each other, each holding a short vivid green
+lightsaber. The pale grey-blue figure raises its saber toward the yellow figure's
+saber and both figures PRESS their green blades TOGETHER, touching tip to tip.
+
+The moment the two green sabers touch: an INTENSE BURST of vivid green light
+explodes outward from the contact point, radiating in all directions like a
+shockwave of warm green energy. The light is brilliant and fills the frame.
+
+Both figures look at each other with wide bright eyes as the light radiates outward.
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The light burst from the touching
+sabers is the crucial visual event.
+```
+
+**Shot 2 (6s) – Kraina ożywa:**
+```
+3D CGI Pixar-style animation. Wide panoramic shot of the barren landscape.
+
+The green energy shockwave from the two touching sabers SPREADS OUTWARD across
+the entire dark rainy landscape. As the wave of green light sweeps across the
+terrain: the heavy rain slows and stops, the dark storm clouds begin to part,
+a warm golden ray of sunlight breaks through from the horizon, the cold dim
+ground energy streams WARM and BRIGHTEN from cold grey to vivid amber-green and
+gold, the air clears. The landscape transforms from dark and stormy to alive and
+hopeful.
+
+In the center of the frame: the pale grey-blue figure and golden yellow figure
+stand small, sabers still touching, surrounded by the spreading light of the
+awakening world.
+
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The landscape transformation spreading
+outward from the figures is the key visual moment – show the whole world changing.
+```
+
+---
+
+## SCENA 14 – Radość, kwiatek wyrasta | Single 6s
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatOdrodzenie` + `MieczZielony`
+
+```
+3D CGI Pixar-style animation. The barren surreal landscape after the storm:
+clearing sky, warm golden sunray from the background, amber-green ground streams
+glowing warmly. Medium shot.
+
+The pale grey-blue ghost figure (Wykluczony) and the warm golden yellow ghost
+figure (Pomagier) stand side by side, each holding a short vivid green lightsaber,
+both sabers glowing gently. Both figures look around at the transformed landscape
+with wide bright joyful eyes. They gently sway together, a quiet shared moment
+of happiness and relief.
+
+Directly in front of them in the foreground, a single small vivid flower PUSHES
+UP through the glowing ground and slowly BLOOMS open, its petals catching the
+golden light. Both figures notice the flower and look down at it with wonder.
+
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. The blooming flower in the foreground
+and the two figures' joy are the key visual elements.
+```
+
+---
+
+## SCENA 15 – Niebieski wącha kwiatek, kamera szybuje w górę | Single 7s
+
+**Elementy:** `WYKLUCZONY- blue` + `Pomagier - yellow` + `SwiatOdrodzenie` + `MieczZielony`
+
+```
+3D CGI Pixar-style animation. The alive surreal landscape, warm golden light,
+clearing sky. Wide shot beginning and then pulling back upward.
+
+In the foreground, the small pale grey-blue ghost figure (Wykluczony) walks the
+few steps to the small blooming flower growing from the glowing ground. It leans
+forward and SNIFFS the flower, eyes closing gently and a soft warm SMILE
+appearing – the first genuine smile on its face in the entire film. It holds its
+short vivid green lightsaber softly in one arm.
+
+In the background slightly behind and to the side, the warm golden yellow ghost
+figure (Pomagier) watches quietly with a gentle SMILE on its face – warm, happy,
+proud. It holds its own green lightsaber softly. It does not move, just stands
+and smiles.
+
+Then the camera SLOWLY PULLS BACK and RISES UPWARD, both figures becoming
+smaller as the landscape opens up below: the cleared golden-lit surreal terrain
+visible, the energy streams glowing warm, the sky open and luminous. The camera
+continues rising until the landscape fills the frame and the small figures are
+tiny below.
+
+Fade to sky.
+
+Pixar 3D CGI style. No text, no watermark.
+-- NOT photorealistic, 3D CGI Pixar style. Blue figure close to camera sniffing
+the flower, yellow figure smiling in the background. The camera rising to reveal
+the full landscape is the key cinematic moment.
+```
+
+---
+
+## PLANSZE TEKSTOWE (Scena 16) – Resolve, nie w Kling
 
 **Plansza 1** (4s):
 > W toksycznym środowisku liczy się jakość relacji, nie ich liczba.
@@ -468,41 +766,81 @@ Styl: białe lub jasno-fioletowe litery na ciemnym tle, Montserrat, bez ozdobnik
 
 ---
 
-## Jeśli scena nie wychodzi po 2 próbach
+## Plan ujęć – kolejność generowania
 
-**Wygląda zbyt realistycznie:**
-Dodaj: `stylized 3D CGI character, NOT realistic human, smooth rounded cartoon body, Pixar style --`
-
-**Kling robi 2D zamiast 3D:**
-Dodaj: `three-dimensional volumetric render, soft shadows, subsurface scattering, depth of field, NOT flat`
-
-**Kolor postaci niepoprawny:**
-`the [color] figure must have a solid [color] body and drape throughout, consistent color fill`
-
-**Mieczyk niewidoczny lub zbyt mały:**
-`a short glowing [color] lightsaber PROMINENTLY VISIBLE held in one arm, bright neon [color]
-blade as a main light source casting colored light on the figure, inner light emission clearly visible`
-
-**Kling nie rozumie "kliknięcia" na mieczu:**
-`the figure points its own lightsaber at the distant figure and presses the handle,
-the distant figure's saber instantly flares and changes color with a burst of [color] light sparks`
-
-**Transformacja koloru miecza nie zachodzi:**
-Wgraj jako dwa osobne Single + crossdissolve w Resolve (jak S9)
-
-**Emocje postaci nieczytelne:**
-`the [color] figure's large round eyes are [emotion]: [detailed eye description] –
-this emotional expression is the most important visual element of this shot`
-
-**Postacie mają usta/detale twarzy:**
-`no mouth, no nose, no ears, no clothes, only large round 3D eyes on a smooth colored
-volumetric body with a flowing drape, completely featureless except for eyes`
+| Scena | Shot | Tryb | Czas | Elementy w Kling |
+|---|---|---|---|---|
+| S1 | – | Single | 7s | Wykluczony + Pomagier + Sprawca + Sprawca2 + SwiatJasny + MieczZielony |
+| S2 | Shot 1 | Multi | 5s | Wykluczony + Pomagier + Sprawca + Sprawca2 + SwiatJasny + MieczZielony |
+| S2 | Shot 2 | Multi | 5s | Wykluczony + **RaczkaWylaczona** + Pomagier + Sprawca + Sprawca2 + SwiatJasny + MieczZielony |
+| S2 | Shot 3 | Multi | 5s | Wykluczony + **RaczkaWylaczona** + Pomagier + Sprawca + Sprawca2 + SwiatJasny + MieczZielony |
+| S3 | – | Single | 5s | Wykluczony + Sprawca2 + RaczkaWylaczona + SwiatJasny + MieczZielony |
+| S4 | – | Single | 5s | Wykluczony + RaczkaWylaczona + SwiatJasny |
+| S4a | – | Single | 4s | Wykluczony + RaczkaWylaczona + SwiatJasny |
+| S4b | – | Single | 7s | Wykluczony + RaczkaWylaczona + SwiatJasny |
+| S5 | Shot 1 | Multi | 5s | Pomagier + Sprawca + Sprawca2 + SwiatJasny + MieczZielony |
+| S5 | Shot 2 | Multi | 4s | Pomagier + Sprawca + Sprawca2 + SwiatJasny + MieczZielony |
+| S5b | – | Single | 5s | Pomagier + SwiatJasny + MieczZielony |
+| S6 | Shot 1 | Single | 4s | Wykluczony + SwiatJasny + MieczCzerwony |
+| S6 | Shot 2 | Single | 4s | Wykluczony + SwiatJasny + MieczCzerwony |
+| S7 | Shot 1 | Single | 4s | Wykluczony + SwiatJasny + SwiatCiemny + MieczCzerwony |
+| S7 | Shot 2 | Single | 5s | Wykluczony + SwiatCiemny + MieczCzerwony |
+| S7b | – | Single | 6s | Pomagier + Sprawca + Sprawca2 + SwiatCiemny |
+| S8 | Shot 1 | Single | 5s | Pomagier + Wykluczony + SwiatCiemny + MieczCzerwony |
+| S8 | Shot 2 | Single | 5s | Pomagier + Wykluczony + SwiatCiemny + MieczCzerwony |
+| S8 | Shot 3 | Single | 5s | Pomagier + Wykluczony + SwiatCiemny + MieczCzerwony |
+| S9 | Shot 1 | Single | 5s | Pomagier + Wykluczony + SwiatCiemny + MieczCzerwony + MieczZolty |
+| S9 | Shot 2 | Single | 5s | Pomagier + Wykluczony + SwiatCiemny + MieczZolty |
+| S10 | – | Single | 5s | Wykluczony + Pomagier + SwiatCiemny + MieczZolty + MieczZielony |
+| S11 | Shot 1 | Single | 5s | Wykluczony + Pomagier + SwiatCiemny + MieczZielony |
+| S11 | Shot 2 | Single | 5s | Pomagier + Wykluczony + SwiatCiemny + MieczZielony + MieczPodwojny |
+| S12 | – | Single | 6s | Wykluczony + Pomagier + SwiatCiemny + MieczZielony + MieczPodwojny |
+| S13 | Shot 1 | Single | 5s | Wykluczony + Pomagier + SwiatCiemny + MieczZielony |
+| S13 | Shot 2 | Single | 6s | Wykluczony + Pomagier + SwiatCiemny + SwiatOdrodzenie + MieczZielony |
+| S14 | – | Single | 6s | Wykluczony + Pomagier + SwiatOdrodzenie + MieczZielony |
+| S15 | – | Single | 7s | Wykluczony + SwiatOdrodzenie + MieczZielony |
 
 ---
 
-## Uwagi dotyczące kredytów
+## Jeśli scena nie wychodzi po 2 próbach
 
-Film 3 = pełna animacja 3D CGI, więcej iteracji niż filmy 1–2.
-Szacowany budżet: ~300–400 kredytów.
-Zanim zaczniesz wideo – wygeneruj w Image mode każdą postać pojedynczo i każdy mieczyk.
-Najbardziej krytyczne sceny do przetestowania najpierw: **S3 Shot 2** (kliknięcie) i **S9** (transformacja koloru).
+**Za realistycznie:**
+```
+stylized 3D CGI character, NOT realistic human, smooth rounded cartoon body,
+Pixar animated style, no photorealism
+```
+
+**Kling robi 2D zamiast 3D:**
+```
+three-dimensional volumetric render, soft subsurface scattering, depth of field,
+soft shadows, NOT flat illustration, NOT 2D
+```
+
+**Kolor postaci niepoprawny:**
+```
+the [color] ghost figure must maintain solid [color] body and flowing drape
+throughout the entire shot, consistent color fill, no color variation
+```
+
+**Mieczyk niewidoczny lub zbyt mały:**
+```
+the short glowing [color] lightsaber is PROMINENTLY VISIBLE and LARGE in the
+figure's arm, bright neon [color] blade is a main light source casting colored
+light on the figure and surrounding environment, inner light emission clearly visible
+```
+
+**Transformacja koloru miecza nie zachodzi:**
+Wgraj jako dwa osobne Single + crossdissolve w DaVinci Resolve między nimi.
+
+**Emocje nieczytelne:**
+```
+the [color] figure's large round eyes show [emotion]: [detailed eye description] –
+this emotional expression is the single most important visual element of this shot
+```
+
+**Podwójny miecz nie wychodzi:**
+```
+DOUBLE-BLADED lightsaber staff with green glowing blades extending from BOTH ENDS
+of the handle, like Darth Maul's lightsaber – one blade pointing up, one blade
+pointing down, both glowing vivid green, handle in the center
+```

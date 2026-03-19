@@ -1,221 +1,250 @@
-# Bohaterowie i assety – Film 3: "Nitka"
+# Bohaterowie i assety – Film 3: „Nitka"
 
-Masz już wygenerowane bazy. Wszystkie warianty robisz przez Image mode z attached reference.
+## Logika assetów
 
----
-
-## POSTACIE – warianty z DuszekBaza jako reference
-
-Wgraj bazowego ludka jako Element → tag: `Characters`, name: `DuszekBaza`.
-Następnie w Image mode: attach DuszekBaza + wklej poniższy prompt.
-Każdy wynik wgraj jako osobny Element.
+Film opiera się na 5 gotowych duszkach + 3 miecze + 1 miecz podwójny + 3 krainy.
+Duszki są już wgrane w Kling. Miecze i krainy generuj według instrukcji poniżej.
 
 ---
 
-### WYKLUCZONY – bladobłękitny, smutny (sceny S1–S8)
+## POSTACIE – gotowe assety w Kling
 
-Ten charakter to DuszekBaza z inną ekspresją – kolor NIE zmienia się (baza już jest bladoniebieska).
+### WYKLUCZONY – `WYKLUCZONY- blue`
 
-```
-Same character style as reference. Keep the same soft pale icy blue body and drape color
-exactly as in the reference. Change only the expression: eyes drooping downward with small
-pupils, heavy eyelids, eyebrow-like shapes angled down toward the center creating a
-sad defeated look. Body posture slightly hunched, shoulders drooping. Keep the same ghost
-drape shape, same hand and foot style, same eye size and structure. Same Pixar 3D render quality.
-```
+**Nazwa w Kling:** `WYKLUCZONY- blue`
+**Tag:** Characters
 
-**Element:** Name `Wykluczony` | Tag `Characters`
-**Description:** `soft pale icy blue ghost drape, sad drooping eyes hunched posture, Pixar 3D`
+**Wygląd (do opisu w promptach):**
+`small soft pale grey-blue ghost figure, large round warm brown eyes, sad drooping posture, small rounded body with flowing pale blue drape`
 
----
+**Description assetu (ustaw w Kling):**
+`small pale grey-blue ghost figure with large round brown eyes, sad drooping expression, small rounded Pixar 3D body with flowing drape`
 
-### POMAGIER – złocisty żółty, spokojny (wszystkie sceny)
-
-```
-Same character style as reference. Change the body and drape color to warm golden
-yellow, rich and saturated. Keep the gentle smile from the reference. Eyes: steady
-and calm, pupils centered and confident, eyebrow-like shapes level – expression of
-quiet warmth and determination. Upright relaxed posture. Same ghost drape shape,
-same hand and foot style, same Pixar 3D render quality.
-```
-
-**Element:** Name `Pomagier` | Tag `Characters`
-**Description:** `golden yellow ghost drape, calm warm smile upright posture, Pixar 3D`
+**Rola w filmie:** Zostaje w tyle, jest wykluczony, dostaje pomoc od Żółtego. Główny bohater.
 
 ---
 
-### SPRAWCA1 – bordowy, zarozumiały (klika wyrzucenie POMAGIERA w S7)
+### POMAGIER – `Pomagier - yellow`
 
-```
-Same character style as reference. Change the body and drape color to deep dark
-burgundy red. Expression: eyes slightly narrowed, small sharp pupils, eyebrow-like
-arches angled inward creating a smug dismissive look. One arm slightly raised as if
-pointing or gesturing. Same ghost drape shape, same Pixar 3D render quality.
-```
+**Nazwa w Kling:** `Pomagier - yellow`
+**Tag:** Characters
 
-**Element:** Name `Sprawca1` | Tag `Characters`
-**Description:** `dark burgundy red ghost drape, smug narrowed eyes arm raised, Pixar 3D`
+**Wygląd (do opisu w promptach):**
+`warm golden yellow ghost figure, large round blue eyes, gentle kind expression, round plump body with flowing golden yellow drape`
 
----
+**Description assetu (ustaw w Kling):**
+`warm golden yellow ghost figure with large round blue eyes, gentle kind warm smile, plump rounded Pixar 3D body with flowing golden drape`
 
-### SPRAWCA2 – fuksja/różowy, drwiący (klika wyrzucenie WYKLUCZONEGO w S3)
-
-```
-Same character style as reference. Change the body and drape color to hot pink
-fuchsia, vivid and saturated. Expression: eyes slightly narrowed with a mocking
-raised eyebrow arch, small sharp pupils, superior look. One arm positioned as if
-hand on hip. Same ghost drape shape, same Pixar 3D render quality.
-```
-
-**Element:** Name `Sprawca2` | Tag `Characters`
-**Description:** `hot pink fuchsia ghost drape, mocking raised brow hand on hip, Pixar 3D`
+**Rola w filmie:** Na początku w grupie, potem zostawia grupę i pomaga Wykwluconemu. Kluczowy bohater.
 
 ---
 
-### SPRAWCA3 – głęboki fiolet, zimny
+### SPRAWCA1 – `Sprawca - burgun red`
 
-```
-Same character style as reference. Change the body and drape color to deep dark violet,
-rich and saturated. Expression: eyes narrowed with a cold superior gaze, very small pupils,
-eyebrow arches in a slow dismissive arch, expressionless and indifferent. Arms hanging
-slightly forward, still posture. Same ghost drape shape, same Pixar 3D render quality.
-```
+**Nazwa w Kling:** `Sprawca - burgun red`
+**Tag:** Characters
 
-**Element:** Name `Sprawca3` | Tag `Characters`
-**Description:** `deep dark violet ghost drape, cold narrowed eyes still posture, Pixar 3D`
+**Wygląd (do opisu w promptach):**
+`dark burgundy-red ghost figure, narrowed sharp eyes, one arm extended or raised, smug dominant posture, flowing dark red drape`
+
+**Description assetu (ustaw w Kling):**
+`dark burgundy-red ghost figure with narrowed sharp eyes, one arm raised gesturing, smug dominant posture, Pixar 3D flowing drape`
+
+**Rola w filmie:** Jeden z wykluczających sprawców, dominujący lider grupy.
 
 ---
 
-## MIECZE ŚWIETLNE – warianty (tag: Items)
+### SPRAWCA2 – `Sprawca2 - pink`
 
-Każdy mieczyk generujesz w Image mode. MieczZielony jako baza – żółty i czerwony generujesz z MieczZielony attached.
-Mieczyk powinien być prosty, zaokrąglony, Pixar-style – nie realistyczny Star Wars, ale sympatyczny kijek świetlny.
+**Nazwa w Kling:** `Sprawca2 - pink`
+**Tag:** Characters
+
+**Wygląd (do opisu w promptach):**
+`hot pink fuchsia ghost figure, angry furrowed brow, confrontational posture, vivid pink flowing drape`
+
+**Description assetu (ustaw w Kling):**
+`hot pink fuchsia ghost figure with angry furrowed brow, confrontational aggressive posture, Pixar 3D flowing drape`
+
+**Rola w filmie:** Jeden z wykluczających sprawców.
+
+---
+
+## MIECZE ŚWIETLNE – do wygenerowania (tag: Items)
+
+Generuj w Image mode. MieczZielony jako baza – pozostałe generuj z nim jako reference.
 Czarne tło żeby asset był czysty.
 
 ---
 
-### MIECZYK ZIELONY – baza
+### RaczkaWylaczona – wyłączona rączka (brak ostrza)
 
-Generuj bez referencji.
+Generuj z **MieczZielony attached jako reference**.
 
 ```
-A single glowing lightsaber-style energy stick, floating vertically on a pure black
-background. Simple cylindrical shape with a rounded top, short chunky handle at the
-bottom. The blade glows vivid green with a soft volumetric halo around it, like neon
-light. Pixar-style 3D render, clean and simple, no text, no watermark.
-No realistic details – cute and rounded, like a toy from an animated film.
+Same handle shape and style as reference. REMOVE the blade entirely — no blade,
+no glow, no light emission. Only the short chunky cylindrical handle remains,
+dark and inert. The handle is slightly darker than the reference, matte finish.
+Floating vertically on pure black background. Pixar 3D toy-like style.
+No text, no watermark.
+```
+
+**Element:** Name `RaczkaWylaczona` | Tag `Items`
+**Description:** `short dark lightsaber handle only, no blade, no glow, inert matte finish, chunky Pixar 3D toy-like, black background`
+
+*(Opis do wklejenia w Kling — 92 znaki, mieści się w limicie 100)*
+
+---
+
+### MieczZielony – baza
+
+Generuj **bez referencji**.
+
+```
+A single short glowing lightsaber-style energy stick, floating vertically on a pure
+black background. Simple chunky cylindrical blade with a rounded tip, short rounded
+handle at the bottom. The blade glows vivid bright green with a soft volumetric
+neon halo around it. Pixar-style 3D render, clean cute rounded design like a toy
+from an animated film. No text, no watermark, no realistic details.
 ```
 
 **Element:** Name `MieczZielony` | Tag `Items`
-**Description:** `glowing green lightsaber stick rounded Pixar 3D, black background`
+**Description:** `short glowing vivid green lightsaber stick, rounded blade with soft neon green halo, chunky handle, Pixar 3D toy-like, black background`
 
 ---
 
-### MIECZYK ŻÓŁTY
+### MieczZolty
 
 Generuj z **MieczZielony attached jako reference**.
 
 ```
-Same lightsaber stick style as reference. Change the blade and glow color to warm
-amber yellow-orange. Keep the same shape, same rounded top, same handle, same
-soft volumetric halo. Only the color changes – from green to amber yellow.
+Same lightsaber stick shape and style as reference. Change only the blade and glow
+color to warm amber-yellow. Keep the same chunky rounded shape, same handle, same
+soft volumetric halo. Only the color changes from green to warm amber-yellow.
 ```
 
 **Element:** Name `MieczZolty` | Tag `Items`
-**Description:** `glowing amber yellow lightsaber stick rounded Pixar 3D, black background`
+**Description:** `short glowing amber-yellow lightsaber stick, same shape as MieczZielony, warm yellow neon halo, Pixar 3D, black background`
 
 ---
 
-### MIECZYK CZERWONY
+### MieczCzerwony
 
 Generuj z **MieczZielony attached jako reference**.
 
 ```
-Same lightsaber stick style as reference. Change the blade and glow color to deep
-vivid red. Keep the same shape, same rounded top, same handle, same soft volumetric
-halo. Only the color changes – from green to deep red.
+Same lightsaber stick shape and style as reference. Change only the blade and glow
+color to deep vivid red. Keep the same chunky rounded shape, same handle, same
+soft volumetric halo. Only the color changes from green to deep cold red.
 ```
 
 **Element:** Name `MieczCzerwony` | Tag `Items`
-**Description:** `glowing deep red lightsaber stick rounded Pixar 3D, black background`
+**Description:** `short glowing deep red lightsaber stick, same shape as MieczZielony, cold red neon halo, Pixar 3D, black background`
 
 ---
 
-## SCENY – elementy lokacji (tag: Scenes)
+### MieczPodwojny – podwójne ostrze (jak Darth Maul)
 
-Światy są trzema stanami tego SAMEGO pustkowia. Każdy kolejny world generujesz z referencją do poprzedniego żeby teren był identyczny.
-
-**Kolejność generowania:** SwiatJasny → SwiatCiemny (ref: SwiatJasny) → SwiatOdrodzenie (ref: SwiatCiemny)
-
----
-
-### SwiatJasny – baza (sceny S1–S6)
-
-Generuj bez referencji – to jest baza.
+Generuj z **MieczZielony attached jako reference**.
 
 ```
-stylized surreal 3D CGI landscape made of smooth flowing terrain with glowing
-light waves embedded in the ground, minimal organic hills, wide empty space,
-subtle luminous lines flowing through the ground like energy streams,
-soft ambient lighting, dreamy atmosphere, pastel purple and blue palette,
-very clean environment with almost no objects, cinematic depth,
-Pixar-style soft 3D rendering, no characters, no text, no watermark
+Same lightsaber style as reference. This is a DOUBLE-BLADED lightsaber staff:
+glowing vivid green blades extend from BOTH ends of a central cylindrical handle.
+The staff floats horizontally on a pure black background. Both blades glow with the
+same vivid green neon halo. Same Pixar 3D toy-like style, chunky rounded design.
+No text, no watermark.
+```
 
-no flowers, no trees, minimal environment
+**Element:** Name `MieczPodwojny` | Tag `Items`
+**Description:** `double-bladed green lightsaber staff, glowing vivid green blades extending from both ends of central handle, horizontal floating, Pixar 3D, black background`
+
+---
+
+## KRAINY – do wygenerowania (tag: Scenes)
+
+Trzy stany tego SAMEGO pustkowia. Generuj po kolei – każdy z referencją poprzedniego.
+
+**Kolejność:** SwiatJasny → SwiatCiemny (ref: SwiatJasny) → SwiatOdrodzenie (ref: SwiatCiemny)
+
+---
+
+### SwiatJasny – baza
+
+Generuj **bez referencji**.
+
+```
+Stylized surreal 3D CGI landscape, smooth flowing barren terrain with luminous
+energy streams glowing softly in the ground surface, minimal organic hills in the
+background, wide empty open space, pastel purple and soft lavender sky, dreamy
+calm atmosphere, subtle ambient glow from the ground lines, cinematic depth,
+Pixar-style soft 3D rendering. No characters, no flowers, no trees. No text,
+no watermark.
 ```
 
 **Element:** Name `SwiatJasny` | Tag `Scenes`
-**Description:** `surreal 3D pastel purple-blue barren terrain, glowing ground lines, minimal Pixar style`
+**Description:** `surreal 3D barren terrain, glowing energy streams on ground, pastel purple-lavender sky, dreamy atmosphere, Pixar style, no characters`
 
 ---
 
-### SwiatCiemny (sceny S7–S8 – deszcz, wykluczenie, cięcie nitki)
+### SwiatCiemny
 
 Generuj z **SwiatJasny attached jako reference**.
 
 ```
-Same terrain and landscape style as reference. Make the atmosphere dark and rainy –
-heavy rain falling, puddles forming on the glowing ground lines, sky overcast with
-dark grey-purple storm clouds, the soft light waves on the ground now dim and cold,
-overall palette shifted to cold grey-blue with hints of deep violet, oppressive heavy
-atmosphere, no characters, no text
+Same terrain, same barren landscape, same ground energy streams as reference.
+Transform the atmosphere: dark stormy sky with heavy grey-purple storm clouds,
+heavy rain falling across the entire scene, puddles forming on the glowing ground,
+the ground energy streams now cold and dim, overall palette shifted to cold grey-blue
+with deep violet shadows, heavy oppressive atmosphere. No characters, no text.
 ```
 
 **Element:** Name `SwiatCiemny` | Tag `Scenes`
-**Description:** `same barren terrain as SwiatJasny but dark rainy stormy, cold grey-violet, dim ground lines`
+**Description:** `same barren terrain as SwiatJasny but dark rainy stormy, heavy rain, cold grey-violet palette, dim ground streams, no characters`
 
 ---
 
-### SwiatOdrodzenie (sceny S9–S10 – żółta nitka, kwiatek, słońce)
+### SwiatOdrodzenie
 
 Generuj z **SwiatCiemny attached jako reference**.
 
 ```
-Same terrain and landscape style as reference. The storm is clearing – a single golden
-ray of sunlight breaks through the clouds in the background. On the barren glowing ground
-in the foreground, one small flower is blooming upward, its petals catching the light.
-The ground light waves are warming from cold grey to soft amber-green. Atmosphere shifts
-from oppressive to quietly hopeful. No characters, no text.
+Same terrain and barren landscape as reference. The storm is clearing: a single
+warm golden ray of sunlight breaks through the parting clouds in the background.
+In the foreground, one small vivid flower blooms upward from the glowing ground.
+The ground energy streams warm from cold grey to soft amber-green. The sky shifts
+from dark to soft blue-purple with golden edges. Quietly hopeful atmosphere.
+No characters, no text.
 ```
 
 **Element:** Name `SwiatOdrodzenie` | Tag `Scenes`
-**Description:** `same barren terrain, one flower blooming, golden sun ray breaking through clouds, hopeful`
+**Description:** `same barren terrain, storm clearing, single golden sunray, one small flower blooming, ground streams warming amber-green, hopeful atmosphere, no characters`
 
 ---
 
-## Pełna lista elementów do stworzenia
+## Pełna lista assetów
 
-| Element | Tag | Jak wygenerować |
+| Element | Tag | Status |
 |---|---|---|
-| `DuszekBaza` | Characters | Wgraj gotowego bazowego ludka |
-| `Wykluczony` | Characters | Image mode + DuszekBaza reference |
-| `Pomagier` | Characters | Image mode + DuszekBaza reference |
-| `Sprawca1` | Characters | Image mode + DuszekBaza reference (bordowy – klika S7) |
-| `Sprawca2` | Characters | Image mode + DuszekBaza reference (fuksja – klika S3) |
-| `Sprawca3` | Characters | Image mode + DuszekBaza reference (fiolet – pasywny) |
-| `MieczZielony` | Items | Image mode, bez reference – baza |
-| `MieczZolty` | Items | Image mode + **MieczZielony** reference |
-| `MieczCzerwony` | Items | Image mode + **MieczZielony** reference |
-| `SwiatJasny` | Scenes | Image mode, bez reference – baza |
-| `SwiatCiemny` | Scenes | Image mode + **SwiatJasny** reference |
-| `SwiatOdrodzenie` | Scenes | Image mode + **SwiatCiemny** reference |
+| `WYKLUCZONY- blue` | Characters | **GOTOWY w Kling** |
+| `Pomagier - yellow` | Characters | **GOTOWY w Kling** |
+| `Sprawca - burgun red` | Characters | **GOTOWY w Kling** |
+| `Sprawca2 - pink` | Characters | **GOTOWY w Kling** |
+| `MieczZielony` | Items | Do wygenerowania – baza |
+| `MieczZolty` | Items | Do wygenerowania + MieczZielony ref |
+| `MieczCzerwony` | Items | Do wygenerowania + MieczZielony ref |
+| `MieczPodwojny` | Items | Do wygenerowania + MieczZielony ref |
+| `SwiatJasny` | Scenes | Do wygenerowania – baza |
+| `SwiatCiemny` | Scenes | Do wygenerowania + SwiatJasny ref |
+| `SwiatOdrodzenie` | Scenes | Do wygenerowania + SwiatCiemny ref |
+
+---
+
+## Opis postaci w promptach – ściągawka
+
+Używaj tych opisów w promptach żeby Kling wiedział o którą postać chodzi:
+
+| Asset | Opis w promptach |
+|---|---|
+| `WYKLUCZONY- blue` | `the small pale grey-blue ghost figure (Wykluczony)` |
+| `Pomagier - yellow` | `the warm golden yellow ghost figure (Pomagier)` |
+| `Sprawca - burgun red` | `the dark burgundy-red ghost figure` |
+| `Sprawca2 - pink` | `the hot pink fuchsia ghost figure` |
