@@ -575,4 +575,17 @@
   </div>
 
 </div>
+<script>
+/* Ukryj tytuł strony WordPress tylko gdy nasza strona jest załadowana.
+   Działa tylko na tej stronie – nie psuje innych stron. */
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector('.kp')) {
+    var t = document.querySelector('.entry-title, .page-title, h1.post-title');
+    if (t) t.style.display = 'none';
+    /* Usuń też ewentualny górny margin po tytule */
+    var h = document.querySelector('.entry-header, .page-header');
+    if (h) h.style.display = 'none';
+  }
+});
+</script>
 <!-- ============================================================ KONIEC KODU ============================================================ -->
