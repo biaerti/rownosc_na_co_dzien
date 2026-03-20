@@ -141,12 +141,7 @@ Uczestnik jest formalnie objęty wsparciem projektowym i liczony do wskaźników
 
 ### 4.5. Rekrutacja na warsztaty dla kobiet
 
-Warsztaty dla kobiet prowadzone są w dwóch turach rekrutacyjnych:
-
-| Tura | Okres rekrutacji | Planowany start warsztatów |
-|---|---|---|
-| I tura | wrzesień 2025 | październik 2025 |
-| II tura | marzec 2026 | kwiecień 2026 |
+Rekrutacja na warsztaty dla kobiet ma charakter **ciągły** – zgłoszenia przyjmowane są na bieżąco do wyczerpania limitu **80 uczestniczek** lub do końca okresu realizacji projektu.
 
 Przy nadmiarze zgłoszeń stosuje się następujące **kryteria punktowe**:
 
@@ -156,7 +151,7 @@ Przy nadmiarze zgłoszeń stosuje się następujące **kryteria punktowe**:
 | Osoba z niepełnosprawnością (wymagane orzeczenie lub zaświadczenie lekarskie) | +1 pkt |
 | Wcześniejsza data wpływu zgłoszenia (przy równej liczbie punktów) | kryterium rozstrzygające |
 
-Osoby niezakwalifikowane wpisywane są na **listę rezerwową**. W przypadku niedoboru zgłoszeń prowadzona jest rekrutacja ciągła.
+Osoby niezakwalifikowane do danej edycji wpisywane są na **listę rezerwową** i informowane o kolejnych terminach.
 
 ---
 
