@@ -1,0 +1,16 @@
+NUMERY DOKUMENTÓW KSIĘGOWYCH – WNP003
+Projekt: Równość na co dzień (FEDS.07.03-IP.02-0039/25)
+Okres wniosku: 01.12.2025 – 28.02.2026
+
+--------------------------------------------------
+Lp.  Zadanie    Pozycja   Numer dokumentu
+--------------------------------------------------
+1.   Zad. 1     poz. 1    1/12/25
+2.   Zad. 1     poz. 2    1/01/26
+3.   Zad. 2     poz. 1    0001/01/26/FVS
+4.   Zad. 4     poz. 1    Lista płac 5/10/2025/ETAT
+5.   Zad. 4     poz. 2    Lista płac 1/12/2025/ETAT
+6.   Zad. 4     poz. 3    Lista płac 1/12/2025/ETAT LP42/12/25
+7.   Zad. 4     poz. 4    Lista płac 1/01/2026/ETAT
+8.   Zad. 4     poz. 5    0002/01/26/FVS
+--------------------------------------------------
