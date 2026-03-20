@@ -1,26 +1,36 @@
 <!-- ============================================================
      BEZPŁATNE KONSULTACJE PSYCHOLOGICZNE – CENTRUM WSPARCIA
      Projekt "Równość na co dzień" | Fundacja Pretium
-     Wklej ten kod w WordPress → Strona → Custom HTML (cały blok)
+
+     INSTRUKCJA WKLEJANIA W WORDPRESS:
+     1. Strona → Edytuj → dodaj blok "Custom HTML" → wklej cały ten kod
+     2. Szablon strony ustaw na "Full Width" (bez sidebara)
+     3. Tytuł strony WP ustaw na spację lub ukryj przez:
+        Wygląd → Dostosuj → Dodatkowy CSS:
+        .page-id-TUTAJ_ID_STRONY .entry-title { display: none !important; }
      ============================================================ -->
 
 <style>
-.kp-wrap * { box-sizing: border-box; margin: 0; padding: 0; }
-.kp-wrap {
+/* Reset tylko wewnątrz naszego kontenera */
+.kp * { box-sizing: border-box; }
+.kp h1, .kp h2, .kp h3, .kp h4,
+.kp p, .kp ul, .kp li, .kp div { margin: 0; padding: 0; }
+
+.kp {
   font-family: 'Open Sans', Arial, sans-serif;
-  color: #222;
+  color: #222 !important;
   max-width: 860px;
   margin: 0 auto;
-  padding: 0 16px 40px;
+  padding: 0 16px 48px;
   line-height: 1.6;
 }
 
 /* ── HERO ── */
 .kp-hero {
-  background: linear-gradient(140deg, #c8102e 0%, #8b0a1e 100%);
-  color: #fff;
-  border-radius: 20px;
-  padding: 52px 32px 44px;
+  background: linear-gradient(140deg, #c8102e 0%, #8b0a1e 100%) !important;
+  color: #fff !important;
+  border-radius: 18px;
+  padding: 52px 32px 48px;
   text-align: center;
   margin-bottom: 44px;
   position: relative;
@@ -29,45 +39,48 @@
 .kp-hero::after {
   content: '';
   position: absolute;
-  bottom: -60px; right: -60px;
-  width: 240px; height: 240px;
+  bottom: -70px; right: -70px;
+  width: 260px; height: 260px;
   background: rgba(255,255,255,0.06);
   border-radius: 50%;
   pointer-events: none;
 }
-.kp-badge {
+.kp-hero .kp-badge {
   display: inline-block;
-  background: #fff;
-  color: #c8102e;
-  font-weight: 800;
+  background: rgba(255,255,255,0.15);
+  border: 1.5px solid rgba(255,255,255,0.4);
+  color: #fff !important;
+  font-weight: 700;
   font-size: 11px;
   letter-spacing: 1.5px;
   padding: 6px 20px;
   border-radius: 50px;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   text-transform: uppercase;
 }
 .kp-hero h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  line-height: 1.15;
-  margin-bottom: 18px;
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  color: #fff !important;
+  margin-bottom: 18px !important;
 }
-.kp-hero .kp-hero-sub {
-  font-size: 1.1rem;
-  opacity: 0.9;
+.kp-hero p {
+  font-size: 1.1rem !important;
+  color: rgba(255,255,255,0.92) !important;
   max-width: 500px;
-  margin: 0 auto 32px;
+  margin: 0 auto 32px !important;
 }
 .kp-btn-white {
   display: inline-block;
-  background: #fff;
-  color: #c8102e;
-  font-weight: 700;
-  font-size: 1rem;
-  padding: 16px 38px;
-  border-radius: 50px;
+  background: #fff !important;
+  color: #c8102e !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  padding: 15px 36px !important;
+  border-radius: 50px !important;
   text-decoration: none !important;
+  border: none !important;
   box-shadow: 0 6px 24px rgba(0,0,0,0.22);
   transition: transform .2s, box-shadow .2s;
 }
@@ -75,6 +88,7 @@
   transform: translateY(-2px);
   box-shadow: 0 10px 32px rgba(0,0,0,0.28);
   color: #c8102e !important;
+  text-decoration: none !important;
 }
 
 /* ── SPECJALISTA ── */
@@ -95,16 +109,25 @@
   border: 3px solid #c8102e;
   object-fit: cover;
   flex-shrink: 0;
-  background: #f5f5f5;
+  overflow: hidden;
+  background: #f0f0f0;
   display: flex; align-items: center; justify-content: center;
-  font-size: 2.2rem;
 }
-.kp-spec-name { font-size: 1.15rem; font-weight: 800; margin-bottom: 2px; }
-.kp-spec-role { color: #555; font-size: 0.88rem; margin-bottom: 10px; }
+.kp-spec-name {
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  color: #111 !important;
+  margin-bottom: 4px !important;
+}
+.kp-spec-role {
+  color: #666 !important;
+  font-size: 0.88rem !important;
+  margin-bottom: 12px !important;
+}
 .kp-spec-tag {
   display: inline-block;
   background: #fff3f5;
-  color: #c8102e;
+  color: #c8102e !important;
   font-size: 0.76rem;
   font-weight: 700;
   padding: 4px 12px;
@@ -113,13 +136,15 @@
   margin-bottom: 4px;
 }
 
-/* ── SECTION TITLE ── */
-.kp-h2 {
-  font-size: 1.45rem;
-  font-weight: 800;
-  margin-bottom: 22px;
-  padding-left: 16px;
-  border-left: 4px solid #c8102e;
+/* ── SECTION HEADINGS ── */
+.kp h2.kp-h2 {
+  font-size: 1.45rem !important;
+  font-weight: 800 !important;
+  color: #111 !important;
+  margin-bottom: 22px !important;
+  padding-left: 16px !important;
+  border-left: 4px solid #c8102e !important;
+  background: none !important;
 }
 
 /* ── DLACZEGO BEZPŁATNE ── */
@@ -127,18 +152,17 @@
   background: #fffbfb;
   border: 1.5px solid #f5d5da;
   border-radius: 14px;
-  padding: 24px 28px;
+  padding: 22px 26px;
   margin-bottom: 44px;
   font-size: 0.95rem;
   color: #444;
   line-height: 1.7;
 }
-.kp-why strong { color: #222; }
 
 /* ── BENEFITS GRID ── */
 .kp-benefits {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 16px;
   margin-bottom: 44px;
 }
@@ -149,9 +173,24 @@
   padding: 22px 18px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.05);
 }
-.kp-benefit-icon { font-size: 2rem; margin-bottom: 12px; display: block; }
-.kp-benefit h4 { font-size: 0.95rem; font-weight: 700; margin-bottom: 6px; }
-.kp-benefit p { font-size: 0.84rem; color: #666; }
+.kp-benefit-icon {
+  width: 48px; height: 48px;
+  background: #fff0f2;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 14px;
+}
+.kp-benefit h4 {
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  color: #111 !important;
+  margin-bottom: 6px !important;
+}
+.kp-benefit p {
+  font-size: 0.84rem !important;
+  color: #666 !important;
+  line-height: 1.5 !important;
+}
 
 /* ── STEPS ── */
 .kp-steps { margin-bottom: 44px; }
@@ -164,49 +203,57 @@
 .kp-step-n {
   min-width: 38px; height: 38px;
   background: #c8102e;
-  color: #fff;
+  color: #fff !important;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-weight: 800; font-size: 0.9rem;
   flex-shrink: 0;
+  line-height: 1;
 }
-.kp-step h4 { font-size: 0.97rem; font-weight: 700; margin-bottom: 4px; }
-.kp-step p { font-size: 0.87rem; color: #555; }
+.kp-step h4 {
+  font-size: 0.97rem !important;
+  font-weight: 700 !important;
+  color: #111 !important;
+  margin-bottom: 5px !important;
+}
+.kp-step p {
+  font-size: 0.87rem !important;
+  color: #555 !important;
+  line-height: 1.55 !important;
+}
 
-/* ── WARUNKI ── */
+/* ── INFO BOX ── */
 .kp-info-box {
-  background: #f9f9f9;
+  background: #f8f8f8;
   border-left: 4px solid #c8102e;
-  border-radius: 10px;
+  border-radius: 0 10px 10px 0;
   padding: 20px 24px;
   margin-bottom: 44px;
   font-size: 0.9rem;
   color: #555;
   line-height: 1.65;
 }
-.kp-info-box strong { color: #222; }
 
 /* ── DOCS ── */
 .kp-docs {
   background: #f9f9f9;
   border-radius: 14px;
-  padding: 24px 28px;
+  padding: 8px 20px;
   margin-bottom: 44px;
 }
 .kp-doc-link {
-  display: flex;
+  display: flex !important;
   align-items: center;
   gap: 12px;
-  padding: 12px 0;
-  border-bottom: 1px solid #eee;
+  padding: 14px 4px;
+  border-bottom: 1px solid #ebebeb;
   text-decoration: none !important;
-  color: #333;
+  color: #333 !important;
   font-size: 0.9rem;
   transition: color .2s;
 }
 .kp-doc-link:last-child { border-bottom: none; }
-.kp-doc-link:hover { color: #c8102e !important; }
-.kp-doc-link span { color: #c8102e; font-size: 1.2rem; }
+.kp-doc-link:hover { color: #c8102e !important; text-decoration: none !important; }
 
 /* ── FAQ ── */
 .kp-faq { margin-bottom: 44px; }
@@ -218,93 +265,115 @@
   background: #fff;
 }
 .kp-faq-item h4 {
-  font-size: 0.94rem;
-  font-weight: 700;
-  color: #c8102e;
-  margin-bottom: 8px;
+  font-size: 0.94rem !important;
+  font-weight: 700 !important;
+  color: #c8102e !important;
+  margin-bottom: 8px !important;
 }
-.kp-faq-item p { font-size: 0.87rem; color: #555; line-height: 1.6; }
+.kp-faq-item p {
+  font-size: 0.87rem !important;
+  color: #555 !important;
+  line-height: 1.6 !important;
+}
 
 /* ── CTA BOTTOM ── */
 .kp-cta-bottom {
-  background: #111;
-  color: #fff;
-  border-radius: 20px;
+  background: #111 !important;
+  color: #fff !important;
+  border-radius: 18px;
   padding: 44px 32px;
   text-align: center;
   margin-bottom: 40px;
 }
-.kp-cta-bottom h2 { font-size: 1.65rem; font-weight: 800; margin-bottom: 12px; }
-.kp-cta-bottom p { opacity: 0.75; margin-bottom: 28px; font-size: 0.95rem; }
+.kp-cta-bottom h2 {
+  font-size: 1.65rem !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  margin-bottom: 12px !important;
+}
+.kp-cta-bottom p {
+  color: rgba(255,255,255,0.75) !important;
+  margin-bottom: 28px !important;
+  font-size: 0.95rem !important;
+}
 .kp-btn-red {
   display: inline-block;
-  background: #c8102e;
-  color: #fff;
-  font-weight: 700;
-  font-size: 1rem;
-  padding: 16px 38px;
-  border-radius: 50px;
+  background: #c8102e !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  padding: 15px 36px !important;
+  border-radius: 50px !important;
   text-decoration: none !important;
+  border: none !important;
+  box-shadow: 0 4px 20px rgba(200,16,46,0.45);
   transition: background .2s, transform .2s;
-  box-shadow: 0 4px 20px rgba(200,16,46,0.4);
 }
 .kp-btn-red:hover {
-  background: #a50d26;
+  background: #a50d26 !important;
   transform: translateY(-2px);
   color: #fff !important;
+  text-decoration: none !important;
 }
-.kp-phone {
+.kp-phone-link {
   display: block;
-  margin-top: 18px;
-  color: rgba(255,255,255,0.6);
+  margin-top: 16px;
+  color: rgba(255,255,255,0.55) !important;
   font-size: 0.88rem;
-  text-decoration: none;
+  text-decoration: none !important;
 }
-.kp-phone:hover { color: #fff; }
+.kp-phone-link:hover { color: #fff !important; }
 
 /* ── LOGOS ── */
 .kp-logos {
   text-align: center;
-  padding: 28px 0 8px;
-  border-top: 1px solid #eee;
+  padding: 28px 0 10px;
+  border-top: 1px solid #e8e8e8;
 }
-.kp-logos img { max-width: 100%; max-height: 58px; height: auto; }
-.kp-logos-note {
-  font-size: 0.72rem;
-  color: #aaa;
-  margin-top: 14px;
-  line-height: 1.55;
+.kp-logos img { max-width: 100%; max-height: 60px; height: auto; }
+.kp-logos p {
+  font-size: 0.72rem !important;
+  color: #aaa !important;
+  margin-top: 14px !important;
+  line-height: 1.55 !important;
 }
 
+/* ── RESPONSIVE ── */
 @media (max-width: 580px) {
-  .kp-hero { padding: 38px 18px 34px; }
-  .kp-hero h1 { font-size: 1.8rem; }
+  .kp-hero { padding: 38px 18px 36px; }
+  .kp-hero h1 { font-size: 1.85rem !important; }
   .kp-spec { flex-direction: column; text-align: center; }
-  .kp-cta-bottom { padding: 32px 18px; }
-  .kp-cta-bottom h2 { font-size: 1.35rem; }
+  .kp-spec-avatar { margin: 0 auto; }
+  .kp-cta-bottom { padding: 34px 18px; }
+  .kp-cta-bottom h2 { font-size: 1.4rem !important; }
 }
 </style>
 
-<div class="kp-wrap">
+<div class="kp">
 
   <!-- ═══ HERO ═══ -->
   <div class="kp-hero">
-    <div class="kp-badge">Bezpłatne wsparcie · Dolny Śląsk</div>
+    <div class="kp-badge">Bezplatne wsparcie &middot; Dolny Slask</div>
     <h1>Bezpłatne konsultacje&nbsp;psychologiczne</h1>
-    <p class="kp-hero-sub">Spotkaj się ze specjalistą – indywidualnie, dyskretnie, bez żadnych opłat. Wybierz termin w kalendarzu.</p>
+    <p>Spotkaj się ze specjalistą&nbsp;– indywidualnie, dyskretnie, bez żadnych opłat.<br>Wybierz termin w kalendarzu.</p>
     <a href="https://app.zencal.io/u/fundacjapretium/bezplatna-konsultacja-psychologiczna-projekt-rownosc-na-co-dzien"
        target="_blank" rel="noopener" class="kp-btn-white">
-      📅 Umów się – wybierz termin
+      Umów się &ndash; wybierz termin
     </a>
   </div>
 
   <!-- ═══ SPECJALISTA ═══ -->
   <div class="kp-spec">
-    <div class="kp-spec-avatar">👩‍⚕️</div>
-    <!-- Zamień emoji na <img src="ZDJECIE.jpg" alt="Anna Kowalska"> gdy będzie zdjęcie -->
+    <!-- Zamień poniższe SVG na <img src="URL_ZDJECIA.jpg"> gdy będzie zdjęcie -->
+    <div class="kp-spec-avatar">
+      <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="26" cy="20" r="10" fill="#d0d0d0"/>
+        <ellipse cx="26" cy="46" rx="18" ry="10" fill="#d0d0d0"/>
+      </svg>
+    </div>
     <div>
       <div class="kp-spec-name">Anna Kowalska</div>
-      <div class="kp-spec-role">Psycholog · Interwent kryzysowy</div>
+      <div class="kp-spec-role">Psycholog &bull; Interwent kryzysowy</div>
       <span class="kp-spec-tag">Certyfikowany kurs wsparcia kryzysowego</span>
       <span class="kp-spec-tag">Konsultacje indywidualne</span>
     </div>
@@ -314,126 +383,160 @@
   <h2 class="kp-h2">Dlaczego to jest bezpłatne?</h2>
   <div class="kp-why">
     Konsultacje są <strong>w całości finansowane ze środków Unii Europejskiej</strong> w ramach projektu
-    <strong>„Równość na co dzień – przeciwdziałanie dyskryminacji i przemocy"</strong>
-    (Fundusze Europejskie dla Dolnego Śląska 2021–2027, Działanie 7.3), realizowanego przez <strong>Fundację Pretium</strong>.
-    Dla uczestników projektu wszystkie formy wsparcia są <strong>całkowicie bezpłatne</strong> –
+    <strong>&#8222;Równość na co dzień &ndash; przeciwdziałanie dyskryminacji i przemocy&#8221;</strong>
+    (Fundusze Europejskie dla Dolnego Śląska 2021&ndash;2027, Działanie 7.3), realizowanego przez <strong>Fundację Pretium</strong>.
+    Dla uczestników projektu wszystkie formy wsparcia są <strong>całkowicie bezpłatne</strong> &ndash;
     żadnych ukrytych kosztów, żadnych zobowiązań.
   </div>
 
   <!-- ═══ CO OTRZYMUJESZ ═══ -->
   <h2 class="kp-h2">Co dostajesz w ramach wsparcia?</h2>
   <div class="kp-benefits">
+
     <div class="kp-benefit">
-      <span class="kp-benefit-icon">🧠</span>
+      <div class="kp-benefit-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 21.7C5.4 21.7 2 17.4 2 12c0-5.5 4.5-10 10-10s10 4.5 10 10c0 5.4-3.4 9.7-10 9.7z" fill="#c8102e" opacity=".15"/><path d="M7.5 12l3 3 6-6" stroke="#c8102e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
       <h4>Do 4 konsultacji z psychologiem</h4>
-      <p>Indywidualne spotkania, w pełni bezpłatne, prowadzone przez certyfikowanego specjalistę.</p>
+      <p>Indywidualne spotkania, bezpłatne, prowadzone przez certyfikowanego specjalistę.</p>
     </div>
+
     <div class="kp-benefit">
-      <span class="kp-benefit-icon">📞</span>
+      <div class="kp-benefit-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="#c8102e"/></svg>
+      </div>
       <h4>Linia wsparcia dla Ciebie</h4>
-      <p>Pedagodzy dostępni pn.–pt. 7:00–15:30 pod nr <strong>690 259 392</strong> – zadzwoń, kiedy potrzebujesz.</p>
+      <p>Pedagodzy dostępni pn.&ndash;pt. 7:00&ndash;15:30 pod nr <strong>690&nbsp;259&nbsp;392</strong>.</p>
     </div>
+
     <div class="kp-benefit">
-      <span class="kp-benefit-icon">👥</span>
+      <div class="kp-benefit-icon">
+        <svg width="26" height="24" viewBox="0 0 26 24" fill="none"><circle cx="10" cy="8" r="4" fill="#c8102e"/><circle cx="18" cy="9" r="3" fill="#c8102e" opacity=".6"/><path d="M2 21c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="#c8102e"/><path d="M18 14c2.2 0 6 1.1 6 4v3h-6" fill="#c8102e" opacity=".6"/></svg>
+      </div>
       <h4>Comiesięczna grupa wsparcia</h4>
-      <p>Spotkania grupowe w Centrum Wsparcia – poczujesz, że nie jesteś sam/a.</p>
+      <p>Spotkania grupowe w Centrum Wsparcia &ndash; nie jesteś sam/a.</p>
     </div>
+
     <div class="kp-benefit">
-      <span class="kp-benefit-icon">🏢</span>
+      <div class="kp-benefit-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" fill="#c8102e" opacity=".2" stroke="#c8102e" stroke-width="1.5"/><polyline points="9 22 9 12 15 12 15 22" stroke="#c8102e" stroke-width="1.5" fill="none"/></svg>
+      </div>
       <h4>Centrum Wsparcia we Wrocławiu</h4>
-      <p>Stacjonarnie przy ul. Bierutowskiej 57–59. Przestrzeń przyjazna i dyskretna.</p>
+      <p>Stacjonarnie przy ul. Bierutowskiej 57&ndash;59. Dyskretnie i bezpiecznie.</p>
     </div>
+
   </div>
 
   <!-- ═══ JAK TO DZIAŁA ═══ -->
-  <h2 class="kp-h2">Jak to działa – krok po kroku</h2>
+  <h2 class="kp-h2">Jak to działa &ndash; krok po kroku</h2>
   <div class="kp-steps">
+
     <div class="kp-step">
       <div class="kp-step-n">1</div>
       <div>
         <h4>Wybierz termin w kalendarzu</h4>
-        <p>Kliknij przycisk „Umów się", wybierz wolny slot i zostaw numer telefonu. Dzień wcześniej zadzwonimy, aby potwierdzić spotkanie.</p>
+        <p>Kliknij przycisk &#8222;Umów się&#8221;, wybierz wolny slot i zostaw numer telefonu. Dzień wcześniej zadzwonimy, aby potwierdzić spotkanie.</p>
       </div>
     </div>
+
     <div class="kp-step">
       <div class="kp-step-n">2</div>
       <div>
         <h4>Wypełnij dokumenty projektowe (~10 minut)</h4>
-        <p>Przed pierwszą wizytą prosimy o wypełnienie krótkiego formularza zgłoszeniowego i deklaracji uczestnictwa – to standardowy wymóg projektu unijnego. Możesz pobrać je poniżej i przynieść na spotkanie lub przesłać wcześniej mailem.</p>
+        <p>Przed wizytą prosimy o wypełnienie formularza zgłoszeniowego i deklaracji uczestnictwa &ndash; to standard projektu unijnego. Możesz pobrać je poniżej i <strong>przynieść wypełnione na pierwsze spotkanie</strong> lub przesłać wcześniej mailem. Jeśli wolisz, możesz też przyjść <strong>15 minut wcześniej i wypełnić je na miejscu</strong>.</p>
       </div>
     </div>
+
     <div class="kp-step">
       <div class="kp-step-n">3</div>
       <div>
         <h4>Pierwsze spotkanie z psychologiem</h4>
-        <p>Rozmowa diagnostyczna i ustalenie planu wsparcia – spokojnie, bez pośpiechu. Centrum Wsparcia: ul. Bierutowska 57–59, Wrocław.</p>
+        <p>Rozmowa diagnostyczna i ustalenie planu wsparcia. Spokojnie, bez pośpiechu.<br>Centrum Wsparcia: ul. Bierutowska 57&ndash;59, Wrocław.</p>
       </div>
     </div>
+
     <div class="kp-step">
       <div class="kp-step-n">4</div>
       <div>
-        <h4>Kontynuuj wsparcie – do 4 spotkań + bieżący kontakt</h4>
-        <p>W ramach projektu możesz odbyć do 4 indywidualnych konsultacji. Między wizytami masz dostęp do linii wsparcia pedagogów i grupy wsparcia.</p>
+        <h4>Kontynuuj wsparcie &ndash; do 4 spotkań + stały kontakt</h4>
+        <p>Możesz odbyć do 4 indywidualnych konsultacji. Między wizytami &ndash; linia wsparcia pedagogów i comiesięczna grupa wsparcia.</p>
       </div>
     </div>
+
   </div>
 
-  <!-- ═══ WARUNKI UCZESTNICTWA ═══ -->
+  <!-- ═══ WARUNKI ═══ -->
   <div class="kp-info-box">
     <strong>Kto może skorzystać?</strong><br>
     Projekt skierowany jest do osób <strong>mieszkających lub pracujących na terenie województwa dolnośląskiego</strong>.
-    Przy rejestracji prosimy o potwierdzenie miejsca zamieszkania – wystarczy dowolny dokument z adresem
-    (rachunek za prąd, gaz, internet lub inna faktura). Uczestnictwo jest dobrowolne i anonimowe w rozumieniu kontaktu zewnętrznego – dane przetwarzamy wyłącznie na potrzeby rozliczenia projektu unijnego.
+    Przy rejestracji prosimy o potwierdzenie miejsca zamieszkania &ndash; wystarczy dowolny dokument z adresem
+    (rachunek za prąd, gaz, internet lub inna faktura). Możesz przynieść go na pierwsze spotkanie.
   </div>
 
   <!-- ═══ DOKUMENTY ═══ -->
   <h2 class="kp-h2">Dokumenty do pobrania</h2>
   <div class="kp-docs">
+
     <a href="https://fundacjapretium.pl/wp-content/uploads/2026/03/7.3_0039_ZAL_1_Formularz-zgloszeniowy-dla-uczestnika_Centrum_Wsparcia.docx"
        class="kp-doc-link" target="_blank" rel="noopener">
-      <span>📄</span> Formularz zgłoszeniowy uczestnika (ZAŁ. 1)
+      <svg width="18" height="20" viewBox="0 0 18 20" fill="none"><path d="M11 1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7l-6-6z" fill="#f0f0f0" stroke="#c8102e" stroke-width="1.5"/><polyline points="11 1 11 7 17 7" fill="none" stroke="#c8102e" stroke-width="1.5"/><line x1="5" y1="11" x2="13" y2="11" stroke="#c8102e" stroke-width="1.5"/><line x1="5" y1="14" x2="13" y2="14" stroke="#c8102e" stroke-width="1.5"/></svg>
+      Za&#322;. 1 &ndash; Formularz zg&#322;oszeniowy uczestnika
     </a>
+
     <a href="https://fundacjapretium.pl/wp-content/uploads/2026/03/7.3_0039_ZAL_3_DEKLARACJA-UCZESTNICTWA_Centrum_Wsparcia.docx"
        class="kp-doc-link" target="_blank" rel="noopener">
-      <span>📄</span> Deklaracja uczestnictwa (ZAŁ. 3)
+      <svg width="18" height="20" viewBox="0 0 18 20" fill="none"><path d="M11 1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7l-6-6z" fill="#f0f0f0" stroke="#c8102e" stroke-width="1.5"/><polyline points="11 1 11 7 17 7" fill="none" stroke="#c8102e" stroke-width="1.5"/><line x1="5" y1="11" x2="13" y2="11" stroke="#c8102e" stroke-width="1.5"/><line x1="5" y1="14" x2="13" y2="14" stroke="#c8102e" stroke-width="1.5"/></svg>
+      Za&#322;. 3 &ndash; Deklaracja uczestnictwa
     </a>
+
     <a href="https://fundacjapretium.pl/wp-content/uploads/2026/03/7.3_0039_ZAL_2_ZGODY_RODO.pdf"
        class="kp-doc-link" target="_blank" rel="noopener">
-      <span>📄</span> Zgody RODO (ZAŁ. 2)
+      <svg width="18" height="20" viewBox="0 0 18 20" fill="none"><path d="M11 1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7l-6-6z" fill="#fff0f2" stroke="#c8102e" stroke-width="1.5"/><polyline points="11 1 11 7 17 7" fill="none" stroke="#c8102e" stroke-width="1.5"/><text x="5" y="15" font-size="5" fill="#c8102e" font-family="Arial" font-weight="bold">PDF</text></svg>
+      Za&#322;. 2 &ndash; Zgody RODO
     </a>
+
     <a href="https://fundacjapretium.pl/wp-content/uploads/2026/03/7.3_0039_ZAL_4_LISTA_OBECNOSCI_KONSULTACJE.docx"
        class="kp-doc-link" target="_blank" rel="noopener">
-      <span>📄</span> Lista obecności – konsultacje psychologiczne (ZAŁ. 4)
+      <svg width="18" height="20" viewBox="0 0 18 20" fill="none"><path d="M11 1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7l-6-6z" fill="#f0f0f0" stroke="#c8102e" stroke-width="1.5"/><polyline points="11 1 11 7 17 7" fill="none" stroke="#c8102e" stroke-width="1.5"/><line x1="5" y1="11" x2="13" y2="11" stroke="#c8102e" stroke-width="1.5"/><line x1="5" y1="14" x2="13" y2="14" stroke="#c8102e" stroke-width="1.5"/></svg>
+      Za&#322;. 4 &ndash; Lista obecno&#347;ci (konsultacje psychologiczne)
     </a>
+
   </div>
 
   <!-- ═══ FAQ ═══ -->
   <h2 class="kp-h2">Najczęstsze pytania</h2>
   <div class="kp-faq">
+
     <div class="kp-faq-item">
       <h4>Czy naprawdę nic nie kosztuje?</h4>
-      <p>Tak – całkowicie bezpłatnie. Projekt finansowany jest ze środków UE. Nie pobieramy żadnych opłat, wpisowego ani kaucji.</p>
+      <p>Tak &ndash; całkowicie bezpłatnie. Projekt finansowany jest ze środków UE. Nie pobieramy żadnych opłat, wpisowego ani kaucji.</p>
     </div>
+
     <div class="kp-faq-item">
       <h4>Czym jest Centrum Wsparcia?</h4>
-      <p>To miejsce prowadzone przez Fundację Pretium przy ul. Bierutowskiej 57–59 we Wrocławiu. Oferuje indywidualne konsultacje psychologiczne, wsparcie pedagogiczne, grupę wsparcia i linię telefoniczną (690 259 392, pn.–pt. 7:00–15:30).</p>
+      <p>To miejsce prowadzone przez Fundację Pretium przy ul. Bierutowskiej 57&ndash;59 we Wrocławiu. Oferuje indywidualne konsultacje psychologiczne, wsparcie pedagogiczne, grupę wsparcia i linię telefoniczną (690&nbsp;259&nbsp;392, pn.&ndash;pt. 7:00&ndash;15:30).</p>
     </div>
+
     <div class="kp-faq-item">
       <h4>Ile spotkań mogę mieć?</h4>
-      <p>Do 4 indywidualnych konsultacji z psychologiem. Dodatkowo możesz korzystać z linii wsparcia pedagogów i comiesięcznych spotkań grupowych przez cały czas uczestnictwa w projekcie.</p>
+      <p>Do 4 indywidualnych konsultacji z psychologiem. Dodatkowo korzystasz z linii wsparcia pedagogów i comiesięcznych spotkań grupowych przez cały czas uczestnictwa w projekcie.</p>
     </div>
+
+    <div class="kp-faq-item">
+      <h4>Jakie dokumenty muszę wypełnić?</h4>
+      <p>Formularz zgłoszeniowy, deklarację uczestnictwa i zgodę RODO &ndash; łącznie ok. 10 minut. Możesz pobrać je powyżej i przynieść na pierwsze spotkanie, przesłać wcześniej mailem, lub przyjść 15 minut wcześniej i wypełnić na miejscu.</p>
+    </div>
+
     <div class="kp-faq-item">
       <h4>Co z moimi danymi osobowymi?</h4>
-      <p>Twoje dane są przetwarzane zgodnie z RODO wyłącznie na potrzeby rozliczenia projektu unijnego (Instytucja Zarządzająca: Dolnośląski Urząd Marszałkowski). Szczegóły w załączniku RODO dostępnym do pobrania powyżej.</p>
+      <p>Twoje dane przetwarzane są zgodnie z RODO wyłącznie na potrzeby rozliczenia projektu unijnego (Instytucja Zarządzająca: Urząd Marszałkowski Województwa Dolnośląskiego). Szczegóły w Załączniku 2 &ndash; Zgody RODO.</p>
     </div>
-    <div class="kp-faq-item">
-      <h4>Jakie dokumenty muszę wypełnić i kiedy?</h4>
-      <p>Formularz zgłoszeniowy, deklarację uczestnictwa i zgodę RODO – łącznie ok. 10 minut. Możesz pobrać je wyżej i przynieść wypełnione na pierwsze spotkanie lub przesłać wcześniej na adres biuro@fundacjapretium.pl.</p>
-    </div>
+
     <div class="kp-faq-item">
       <h4>Jak potwierdzić, że mieszkam na Dolnym Śląsku?</h4>
-      <p>Wystarczy dowolny dokument z adresem na terenie województwa dolnośląskiego – rachunek za prąd, gaz, internet, faktura lub wyciąg bankowy. Możesz przynieść go na pierwsze spotkanie.</p>
+      <p>Wystarczy dowolny dokument z adresem zamieszkania na terenie województwa dolnośląskiego: rachunek za prąd, gaz, internet lub faktura. Możesz przynieść go na pierwsze spotkanie.</p>
     </div>
+
   </div>
 
   <!-- ═══ CTA BOTTOM ═══ -->
@@ -442,18 +545,18 @@
     <p>Wybierz termin w kalendarzu. Dzień wcześniej potwierdzimy spotkanie telefonicznie.</p>
     <a href="https://app.zencal.io/u/fundacjapretium/bezplatna-konsultacja-psychologiczna-projekt-rownosc-na-co-dzien"
        target="_blank" rel="noopener" class="kp-btn-red">
-      📅 Wybierz termin w kalendarzu
+      Wybierz termin w kalendarzu
     </a>
-    <a href="tel:690259392" class="kp-phone">lub zadzwoń: 690 259 392 (pn.–pt. 7:00–15:30)</a>
+    <a href="tel:690259392" class="kp-phone-link">lub zadzwoń: 690&nbsp;259&nbsp;392 (pn.&ndash;pt. 7:00&ndash;15:30)</a>
   </div>
 
   <!-- ═══ LOGOTYPY UE ═══ -->
   <div class="kp-logos">
     <img src="https://fundacjapretium.pl/wp-content/uploads/2025/11/FEDDS-kolor-poziom-scaled.jpg"
-         alt="Fundusze Europejskie dla Dolnego Śląska – Rzeczpospolita Polska – Dofinansowane przez Unię Europejską – Dolny Śląsk" />
-    <p class="kp-logos-note">
-      Projekt „Równość na co dzień – przeciwdziałanie dyskryminacji i przemocy" (nr FEDS.07.03-IP.02-0039/25)<br>
-      dofinansowany ze środków Unii Europejskiej · Fundusze Europejskie dla Dolnego Śląska 2021–2027, Działanie 7.3<br>
+         alt="Fundusze Europejskie dla Dolnego Slaska - Rzeczpospolita Polska - Dofinansowane przez Unie Europejska - Dolny Slask" />
+    <p>
+      Projekt &#8222;Równość na co dzień &ndash; przeciwdziałanie dyskryminacji i przemocy&#8221; (nr FEDS.07.03-IP.02-0039/25)<br>
+      dofinansowany ze środków Unii Europejskiej &bull; Fundusze Europejskie dla Dolnego Śląska 2021&ndash;2027, Działanie 7.3<br>
       Realizator: Fundacja Pretium, ul. Stefana Żeromskiego 62/2, 50-312 Wrocław
     </p>
   </div>
