@@ -2,146 +2,266 @@
 
 **Projekt:** „Równość na co dzień – przeciwdziałanie dyskryminacji i przemocy"
 **Nr projektu:** FEDS.07.03-IP.02-0039/25
-**Realizator:** Fundacja Pretium, ul. Stefana Żeromskiego 62/2, 50-312 Wrocław
-**Centrum Wsparcia:** ul. Bierutowska 57–59, Wrocław (Wrocławski Park Biznesu, bud. 3, 1 piętro)
+**Program:** Fundusze Europejskie dla Dolnego Śląska 2021–2027, Działanie 7.3 – Równe szanse
+**Beneficjent (Lider):** Fundacja Pretium, ul. Stefana Żeromskiego 62/2, 50-312 Wrocław
+**Centrum Wsparcia:** ul. Bierutowska 57–59, 51-317 Wrocław
+(Wrocławski Park Biznesu, budynek 3, 1 piętro)
+**Okres realizacji projektu:** 01.09.2025 – 31.01.2027
 
 ---
 
 ## § 1. Postanowienia ogólne
 
-1. Niniejszy regulamin określa zasady rekrutacji i uczestnictwa w formach wsparcia realizowanych przez **Centrum Wsparcia** w ramach projektu „Równość na co dzień – przeciwdziałanie dyskryminacji i przemocy", współfinansowanego ze środków Europejskiego Funduszu Społecznego Plus w ramach Programu Fundusze Europejskie dla Dolnego Śląska 2021–2027, Działanie 7.3 – Równe szanse.
+1. Niniejszy regulamin określa zasady rekrutacji i uczestnictwa w formach wsparcia realizowanych przez **Centrum Wsparcia** w ramach Zadania 4 projektu „Równość na co dzień – przeciwdziałanie dyskryminacji i przemocy", współfinansowanego ze środków Europejskiego Funduszu Społecznego Plus w ramach Programu Fundusze Europejskie dla Dolnego Śląska 2021–2027, Działanie 7.3 – Równe szanse.
 
-2. Centrum Wsparcia prowadzone jest przez **Fundację Pretium** (Lider projektu) z siedzibą przy ul. Stefana Żeromskiego 62/2, 50-312 Wrocław.
+2. Centrum Wsparcia prowadzone jest przez **Fundację Pretium** (Lider projektu).
 
-3. Wszelkie formy wsparcia realizowane przez Centrum Wsparcia są **całkowicie bezpłatne** dla uczestników.
+3. Wszelkie formy wsparcia realizowane przez Centrum Wsparcia są **całkowicie bezpłatne** dla uczestników projektu – finansowane w całości ze środków Unii Europejskiej.
 
-4. Projekt realizowany jest w okresie **01.09.2025 – 31.01.2027** na terenie województwa dolnośląskiego.
+4. Centrum Wsparcia jest dostępne dla osób z niepełnosprawnościami (lokal dostosowany do potrzeb osób z ograniczoną mobilnością).
 
 ---
 
 ## § 2. Formy wsparcia
 
-W ramach Centrum Wsparcia uczestnicy mogą skorzystać z następujących form wsparcia:
+W ramach Centrum Wsparcia uczestnicy mogą skorzystać z następujących form:
 
-1. **Indywidualne konsultacje psychologiczne** – do 4 spotkań indywidualnych z psychologiem posiadającym kwalifikacje w zakresie interwencji kryzysowej.
+### 2.1. Indywidualne konsultacje psychologiczne
 
-2. **Interwencja kryzysowa** – wsparcie w sytuacjach nagłych, realizowane przez psychologa posiadającego ukończony kurs wsparcia kryzysowego.
+Indywidualne spotkania z psychologiem posiadającym kwalifikacje w zakresie wsparcia kryzysowego. W ramach projektu uczestnik może skorzystać z **do 4 indywidualnych konsultacji**. Realizowane stacjonarnie w Centrum Wsparcia.
 
-3. **Linia wsparcia telefonicznego** – tel. 690 259 392, czynna pn.–pt. w godz. 7:00–15:30; obsługiwana przez pedagogów; zakres: pierwszy kontakt, wsparcie rozmową, udzielanie informacji, umawianie konsultacji.
+### 2.2. Interwencja kryzysowa
 
-4. **Warsztaty dla kobiet** – cykliczne warsztaty grupowe (min. 8 edycji, max. 10 uczestniczek/edycja, 4h każdy) dotyczące budowania pewności siebie oraz negocjacji wynagrodzenia i warunków pracy.
+Wsparcie psychologiczne w sytuacjach nagłych i kryzysowych, realizowane przez psychologa posiadającego ukończony kurs wsparcia kryzysowego. Forma dokumentowana odrębną listą obecności.
 
-5. **Comiesięczna grupa wsparcia** – spotkania grupowe raz w miesiącu, otwarte dla uczestników projektu.
+### 2.3. Linia wsparcia telefonicznego
 
-6. **Wsparcie pedagogiczne** – bieżące wsparcie pedagogów przez cały czas uczestnictwa w projekcie.
+- **Numer:** 690 259 392
+- **Godziny:** poniedziałek–piątek 7:00–15:30
+- **Charakter:** anonimowy i bezpłatny; nie jest wymagane podawanie danych osobowych
+- **Zakres:** pierwszy kontakt, wsparcie rozmową, informacja o dostępnych formach wsparcia, umawianie konsultacji
 
-Uczestnik nie jest zobowiązany do korzystania ze wszystkich form wsparcia – może wybrać te, które odpowiadają jego potrzebom.
+### 2.4. Warsztaty dla kobiet
+
+Cykliczne warsztaty grupowe poświęcone budowaniu pewności siebie oraz negocjacjom w zakresie wynagrodzenia i warunków pracy:
+
+- Czas trwania: 4 godziny dydaktyczne na edycję
+- Liczebność grupy: maksymalnie 10 uczestniczek
+- Planowana liczba edycji: minimum 8
+- Adresowane wyłącznie do kobiet
+
+### 2.5. Comiesięczna grupa wsparcia
+
+Spotkania grupowe organizowane raz w miesiącu, otwarte dla wszystkich uczestników projektu.
+
+### 2.6. Wsparcie pedagogiczne
+
+Bieżące wsparcie pedagogów przez cały czas uczestnictwa w projekcie: kierowanie do właściwych form wsparcia, informacja, pomoc w korzystaniu z zasobów Centrum.
 
 ---
 
-## § 3. Zasady rekrutacji
+Uczestnik **nie jest zobowiązany** do korzystania ze wszystkich form wsparcia – może wybrać te, które odpowiadają jego potrzebom. Warunkiem formalnym objęcia wsparciem jest jednorazowa rejestracja w projekcie (§ 4).
 
-### 3.1. Kryteria uczestnictwa
+---
 
-W projekcie może wziąć udział osoba, która spełnia **wszystkie** poniższe warunki:
+## § 3. Grupy docelowe
 
-1. **Miejsce zamieszkania lub pracy:** zamieszkuje lub pracuje na terenie województwa dolnośląskiego.
-2. **Wiek:** ukończyła 18 lat.
-3. **Przesłanka kwalifikacji:** doświadcza lub doświadczyła dyskryminacji, przemocy (w tym domowej lub w pracy), lub poszukuje indywidualnego wsparcia psychologicznego w związku z naruszeniem równego traktowania.
+### 3.1. Kto może skorzystać z Centrum Wsparcia
 
-### 3.2. Dokumenty rekrutacyjne
+Uczestnikiem projektu w ramach Centrum Wsparcia może zostać osoba spełniająca **łącznie** następujące warunki:
+
+1. **Miejsce zamieszkania lub pracy:** zamieszkuje (w rozumieniu Kodeksu cywilnego) lub pracuje/uczy się na terenie **województwa dolnośląskiego**.
+
+2. **Przesłanka kwalifikacji:** doświadcza lub doświadczyła dyskryminacji lub przemocy ze względu na co najmniej jedną z poniższych przesłanek:
+   - płeć,
+   - orientacja seksualna,
+   - rasa,
+   - pochodzenie etniczne,
+   - religia lub światopogląd,
+   - niepełnosprawność,
+   - wiek.
+
+   Z form wsparcia Centrum mogą korzystać również osoby poszukujące indywidualnego wsparcia psychologicznego niezwiązanego bezpośrednio z powyższymi przesłankami – decyzję podejmuje koordynator Centrum w oparciu o cel i zakres projektu.
+
+3. **Wiek:** ukończone 18 lat (dla uczestników konsultacji psychologicznych, grupy wsparcia i warsztatów).
+
+### 3.2. Warsztaty dla kobiet – dodatkowe kryterium
+
+W warsztatach dla kobiet (§ 2.4) mogą uczestniczyć wyłącznie **kobiety**.
+
+### 3.3. Linia wsparcia telefonicznego – brak kryterium
+
+Z linii wsparcia telefonicznego (§ 2.3) można korzystać anonimowo – bez konieczności rejestracji w projekcie i bez spełniania jakichkolwiek kryteriów.
+
+---
+
+## § 4. Rekrutacja i rejestracja w projekcie
+
+### 4.1. Zasady ogólne
+
+Rekrutacja do Centrum Wsparcia ma charakter **ciągły** – zgłoszenia przyjmowane są przez cały okres realizacji projektu (do 31.01.2027) lub do wyczerpania miejsc.
+
+Informacja o projekcie prowadzona jest przez:
+- stronę internetową Fundacji Pretium (fundacjapretium.pl),
+- media społecznościowe (Facebook, Instagram, TikTok),
+- współpracę ze szkołami, uczelniami, szpitalami, JST i organizacjami partnerskimi,
+- linię wsparcia telefonicznego 690 259 392.
+
+### 4.2. Dokumenty wymagane przy rejestracji
 
 Przystąpienie do projektu wymaga wypełnienia i podpisania:
 
-1. **Załącznik 1** – Formularz zgłoszeniowy uczestnika Centrum Wsparcia
-2. **Załącznik 2** – Zgody RODO (klauzule informacyjne i zgody na przetwarzanie danych)
-3. **Załącznik 3** – Deklaracja uczestnictwa (obowiązuje przez cały czas uczestnictwa, obejmuje wszystkie formy wsparcia)
+| Dokument | Opis |
+|---|---|
+| **Załącznik 1** – Formularz zgłoszeniowy uczestnika | Podstawowy dokument rejestracyjny |
+| **Załącznik 2** – Zgody RODO | Klauzule informacyjne i zgody na przetwarzanie danych osobowych |
+| **Załącznik 3** – Deklaracja uczestnictwa | Jedna deklaracja obejmuje wszystkie formy wsparcia w Centrum |
 
 Dokumenty można:
-- pobrać ze strony internetowej Fundacji i dostarczyć wypełnione na pierwsze spotkanie,
+- pobrać ze strony Fundacji i dostarczyć na pierwsze spotkanie,
 - przesłać mailem na adres: b.kuninski@fundacjapretium.pl,
-- wypełnić na miejscu w Centrum Wsparcia – prosimy wtedy o przybycie 15 minut przed umówionym terminem.
+- wypełnić na miejscu w Centrum Wsparcia (prosimy o przybycie 15 minut wcześniej).
 
-### 3.3. Potwierdzenie miejsca zamieszkania / pracy
+### 4.3. Potwierdzenie miejsca zamieszkania lub pracy
 
-Przy pierwszym spotkaniu uczestnik przedstawia dowolny dokument potwierdzający zamieszkanie lub pracę na terenie Dolnego Śląska, np.:
-- rachunek za prąd, gaz, wodę, telefon lub internet z adresem zamieszkania,
-- faktura lub inny dokument z adresem,
+Przy pierwszym spotkaniu uczestnik okazuje dowolny dokument potwierdzający zamieszkanie lub zatrudnienie na terenie Dolnego Śląska, np.:
+
+- rachunek za prąd, gaz, wodę, telefon, telewizję kablową lub internet z adresem,
+- faktura z adresem zamieszkania,
 - zaświadczenie o zatrudnieniu z adresem pracodawcy.
 
-Nie jest wymagana umowa najmu ani inne formalne dokumenty meldunkowe.
+Dokument należy okazać przy pierwszej wizycie – oryginał do wglądu, kopia do dokumentacji projektowej.
 
-### 3.4. Procedura zgłoszenia
+### 4.4. Moment objęcia wsparciem
 
-1. Uczestnik umawia termin konsultacji:
-   - **online** – przez kalendarz dostępny pod adresem: [zencal.io](https://app.zencal.io/u/fundacjapretium/bezplatna-konsultacja-psychologiczna-projekt-rownosc-na-co-dzien),
-   - **telefonicznie** – pod nr 690 259 392 (pn.–pt. 7:00–15:30).
-2. Dzień przed wizytą Fundacja kontaktuje się telefonicznie w celu potwierdzenia terminu.
-3. Uczestnik przybywa na pierwsze spotkanie z dokumentami (patrz § 3.2 i § 3.3) lub dostarcza je w inny uzgodniony sposób.
-4. Po weryfikacji dokumentów uczestnik zostaje zarejestrowany w projekcie i może korzystać ze wsparcia.
+Uczestnik jest formalnie objęty wsparciem projektowym i liczony do wskaźników **jednorazowo** – w momencie przystąpienia do **pierwszej formy wsparcia**, tj.:
+- podpisana lista obecności z pierwszej formy wsparcia,
+- podpisana deklaracja uczestnictwa,
+- wypełniony formularz zgłoszeniowy.
+
+### 4.5. Rekrutacja na warsztaty dla kobiet
+
+Warsztaty dla kobiet prowadzone są w dwóch turach rekrutacyjnych:
+
+| Tura | Okres rekrutacji | Planowany start warsztatów |
+|---|---|---|
+| I tura | wrzesień 2025 | październik 2025 |
+| II tura | marzec 2026 | kwiecień 2026 |
+
+Przy nadmiarze zgłoszeń stosuje się następujące **kryteria punktowe**:
+
+| Kryterium | Punkty |
+|---|---|
+| Osoba z obszarów wiejskich (DEGURBA 3) | +5 pkt |
+| Osoba z niepełnosprawnością (wymagane orzeczenie lub zaświadczenie lekarskie) | +1 pkt |
+| Wcześniejsza data wpływu zgłoszenia (przy równej liczbie punktów) | kryterium rozstrzygające |
+
+Osoby niezakwalifikowane wpisywane są na **listę rezerwową**. W przypadku niedoboru zgłoszeń prowadzona jest rekrutacja ciągła.
 
 ---
 
-## § 4. Zasady uczestnictwa
+## § 5. Zasady uczestnictwa
 
 1. Uczestnictwo w projekcie jest **dobrowolne i bezpłatne**.
 
-2. Uczestnik może skorzystać z **do 4 indywidualnych konsultacji psychologicznych**. W uzasadnionych przypadkach liczba konsultacji może zostać zwiększona – decyzję podejmuje psycholog w porozumieniu z koordynatorem projektu.
+2. W ramach Centrum Wsparcia uczestnik może skorzystać z **do 4 indywidualnych konsultacji psychologicznych**. W uzasadnionych przypadkach liczba konsultacji może zostać zwiększona – decyzję podejmuje psycholog w porozumieniu z koordynatorem projektu.
 
 3. Uczestnik zobowiązuje się do:
    - punktualnego stawiania się na umówionych spotkaniach,
-   - informowania Centrum z co najmniej 24-godzinnym wyprzedzeniem o niemożności stawienia się na wizytę,
+   - poinformowania Centrum z co najmniej **24-godzinnym wyprzedzeniem** o niemożności stawienia się na wizytę,
    - podania prawdziwych danych w dokumentach projektowych,
-   - respektowania zasad panujących w Centrum Wsparcia.
+   - podpisywania listy obecności na każdym spotkaniu,
+   - respektowania zasad poufności i bezpieczeństwa obowiązujących w Centrum Wsparcia.
 
 4. Nieusprawiedliwione niestawienie się na **dwa kolejne** umówione spotkania może skutkować zawieszeniem uczestnictwa w projekcie.
 
-5. Uczestnik ma prawo do rezygnacji z udziału w projekcie w dowolnym momencie, bez podania przyczyny, poprzez złożenie pisemnej lub ustnej informacji w Centrum Wsparcia.
+5. Uczestnik ma prawo do **rezygnacji** z udziału w projekcie w dowolnym momencie, bez podania przyczyny, poprzez złożenie pisemnej lub ustnej informacji w Centrum Wsparcia.
+
+6. Centrum Wsparcia zastrzega sobie prawo do odmowy lub przerwania uczestnictwa w przypadku działań zakłócających pracę specjalistów lub bezpieczeństwo innych uczestników.
 
 ---
 
-## § 5. Poufność i zasady pracy psychologa
+## § 6. Zasady pracy psychologa i poufność
 
-1. Wszelkie informacje przekazane psychologowi w trakcie konsultacji objęte są **tajemnicą zawodową** i nie są udostępniane osobom trzecim, z wyjątkiem sytuacji określonych przepisami prawa (m.in. bezpośrednie zagrożenie życia lub zdrowia uczestnika lub innej osoby).
+1. Wszelkie informacje przekazane psychologowi w trakcie konsultacji lub interwencji kryzysowej objęte są **tajemnicą zawodową** i nie są udostępniane osobom trzecim.
 
-2. Psycholog pracujący w Centrum Wsparcia posiada:
+2. Wyjątkiem od poufności są sytuacje wymagane przepisami prawa, w szczególności:
+   - bezpośrednie i poważne zagrożenie życia lub zdrowia uczestnika,
+   - bezpośrednie zagrożenie życia lub zdrowia osób trzecich.
+   O konieczności odstąpienia od tajemnicy uczestnik jest informowany.
+
+3. Psycholog pracujący w Centrum Wsparcia spełnia następujące wymagania kwalifikacyjne:
    - wykształcenie wyższe magisterskie na kierunku psychologia,
    - ukończony kurs wsparcia kryzysowego,
-   - doświadczenie w pracy z osobami doświadczającymi dyskryminacji i przemocy.
+   - doświadczenie zawodowe w pracy z osobami doświadczającymi dyskryminacji lub przemocy.
 
-3. Psycholog realizuje zarówno indywidualne konsultacje psychologiczne, jak i interwencje kryzysowe – obie formy dokumentowane są oddzielnymi listami obecności.
+4. Psycholog realizuje zarówno indywidualne konsultacje psychologiczne, jak i interwencje kryzysowe w ramach jednej umowy. Obie formy dokumentowane są oddzielnymi listami obecności (Załącznik 4 i Załącznik 5).
 
-4. Dokumentacja z konsultacji przechowywana jest zgodnie z wymogami projektu i przepisami RODO, wyłącznie na potrzeby rozliczenia dofinansowania.
-
----
-
-## § 6. Ochrona danych osobowych (RODO)
-
-1. Administratorem danych osobowych uczestników projektu jest **Fundacja Pretium**, ul. Stefana Żeromskiego 62/2, 50-312 Wrocław.
-
-2. Dane przetwarzane są na podstawie art. 6 ust. 1 lit. c i e RODO w związku z realizacją projektu dofinansowanego ze środków UE, wyłącznie w celach związanych z jego realizacją i rozliczeniem.
-
-3. Dane mogą być udostępniane instytucjom uprawnionym do kontroli projektu, w tym Instytucji Zarządzającej (Urząd Marszałkowski Województwa Dolnośląskiego) oraz instytucjom pośredniczącym (Dolnośląski Wojewódzki Urząd Pracy).
-
-4. Szczegółowe informacje dotyczące przetwarzania danych osobowych zawarte są w **Załączniku 2 – Zgody RODO**, przekazywanym uczestnikom przy rejestracji.
-
-5. Uczestnikowi przysługuje prawo dostępu do danych, ich sprostowania, usunięcia lub ograniczenia przetwarzania – w zakresie dopuszczonym przepisami prawa i wymogami projektu unijnego.
+5. Psycholog pracuje w wymiarze **14 godzin miesięcznie** przeznaczonych łącznie na konsultacje i interwencje kryzysowe.
 
 ---
 
-## § 7. Postanowienia końcowe
+## § 7. Dokumentacja i listy obecności
+
+Każda forma wsparcia dokumentowana jest odrębną listą obecności:
+
+| Lista obecności | Forma wsparcia | Podpisuje |
+|---|---|---|
+| Zał. 4 – Lista konsultacje psychologiczne | Indywidualna konsultacja specjalistyczna | Psycholog |
+| Zał. 5 – Lista interwencja kryzysowa | Interwencja kryzysowa | Interwent kryzysowy (psycholog) |
+| Lista warsztatów | Warsztaty dla kobiet | Prowadzący warsztaty |
+| Lista grupy wsparcia | Comiesięczna grupa wsparcia | Prowadzący |
+
+Uczestnik jest liczony do wskaźników projektu jednorazowo – na podstawie listy obecności z **pierwszej** zrealizowanej formy wsparcia wraz z deklaracją uczestnictwa i formularzem zgłoszeniowym.
+
+---
+
+## § 8. Ochrona danych osobowych (RODO)
+
+1. **Administratorem** danych osobowych uczestników projektu jest **Fundacja Pretium**, ul. Stefana Żeromskiego 62/2, 50-312 Wrocław.
+
+2. Dane przetwarzane są na podstawie art. 6 ust. 1 lit. c i e RODO, w związku z realizacją projektu dofinansowanego ze środków Unii Europejskiej, wyłącznie w celach związanych z jego realizacją, monitorowaniem i rozliczeniem.
+
+3. Dane mogą być udostępniane instytucjom uprawnionym do kontroli projektu:
+   - Instytucji Zarządzającej (Urząd Marszałkowski Województwa Dolnośląskiego),
+   - Instytucji Pośredniczącej (Dolnośląski Wojewódzki Urząd Pracy),
+   - innym uprawnionym podmiotom kontrolnym.
+
+4. Uczestnikowi przysługuje prawo dostępu do danych, ich sprostowania, usunięcia lub ograniczenia przetwarzania – w zakresie dopuszczonym przepisami prawa i wymogami projektu unijnego.
+
+5. Szczegółowe informacje dotyczące przetwarzania danych osobowych zawarte są w **Załączniku 2 – Zgody RODO**, przekazywanym przy rejestracji.
+
+6. Korzystanie z **linii wsparcia telefonicznego** (§ 2.3) jest anonimowe – nie wymaga podania danych osobowych i nie skutkuje rejestracją w projekcie.
+
+---
+
+## § 9. Postanowienia końcowe
 
 1. Niniejszy regulamin wchodzi w życie z dniem **01.10.2025** i obowiązuje do końca okresu realizacji projektu, tj. do **31.01.2027**.
 
-2. Fundacja Pretium zastrzega sobie prawo do zmiany regulaminu w uzasadnionych przypadkach – zmiany ogłaszane są na stronie internetowej [fundacjapretium.pl](https://fundacjapretium.pl/rownosc-na-co-dzien-przeciwdzialanie-dyskryminacji-i-przemocy/) oraz w siedzibie Centrum Wsparcia.
+2. Fundacja Pretium zastrzega sobie prawo do zmiany regulaminu. Zmiany ogłaszane są na stronie internetowej fundacjapretium.pl oraz w siedzibie Centrum Wsparcia z co najmniej 7-dniowym wyprzedzeniem.
 
-3. W sprawach nieuregulowanych niniejszym regulaminem stosuje się przepisy prawa powszechnie obowiązującego oraz wytyczne właściwych instytucji dla Programu Fundusze Europejskie dla Dolnego Śląska 2021–2027.
+3. W sprawach nieuregulowanych niniejszym regulaminem stosuje się przepisy prawa powszechnie obowiązującego oraz Wytyczne dotyczące realizacji projektów z udziałem środków Europejskiego Funduszu Społecznego Plus w perspektywie finansowej 2021–2027.
 
-4. Wszelkie pytania i zgłoszenia należy kierować na:
-   - **tel.** 573 466 788 lub 690 259 392 (pn.–pt. 7:00–15:30)
-   - **e-mail:** b.kuninski@fundacjapretium.pl
+4. Wszelkie pytania i zgłoszenia dotyczące uczestnictwa w Centrum Wsparcia należy kierować do:
+
+   **Fundacja Pretium – Centrum Wsparcia**
+   ul. Bierutowska 57–59, Wrocław (Wrocławski Park Biznesu, bud. 3, 1 p.)
+   tel. 573 466 788 lub 690 259 392 (pn.–pt. 7:00–15:30)
+   e-mail: b.kuninski@fundacjapretium.pl
+   strona: fundacjapretium.pl
 
 ---
 
 *Wrocław, październik 2025*
 *Fundacja Pretium*
+
+---
+
+## Załączniki do regulaminu (do pobrania)
+
+- Zał. 1 – Formularz zgłoszeniowy uczestnika Centrum Wsparcia
+- Zał. 2 – Zgody RODO
+- Zał. 3 – Deklaracja uczestnictwa
+- Zał. 4 – Lista obecności: Indywidualna konsultacja specjalistyczna
+- Zał. 5 – Lista obecności: Interwencja kryzysowa
