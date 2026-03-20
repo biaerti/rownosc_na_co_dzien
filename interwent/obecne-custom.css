@@ -1,0 +1,307 @@
+:root{
+	--widthRef: 200px;
+	--heightRef: 300px;
+	--twentyFour: 24px;
+}
+
+/* czemu nie ma css inline z tym? */
+.slick-track  > .product > .product-inner > .product_thumbnail > a {
+	text-align: center !important;
+}
+
+.slick-track > .product > .product-inner > .product_thumbnail > a > img
+{
+  border-radius: 50% !important;
+  width: 80% !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*to samo na ofercie */
+.products > .product > .product-inner > .product_thumbnail > a {
+	text-align: center;
+}
+.products > .product > .product-inner > .product_thumbnail > a > img
+{
+  border-radius: 50% !important;
+  width: 80% !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*korekta, bo na mobile strona wchodziła na logo*/
+.site-content {
+	padding-top: 60px !important;
+}
+@media only screen and (min-width: 600px) {
+	.site-content {
+		padding-top: 0!important;
+	}
+}
+
+.wpsm-cns-review-notice {
+	display: none !important;
+}
+
+/*AKTUALNOŚCI logo przed postem z facebooka */
+.fts-jal-fb-user-thumb {
+	padding: 0;
+	border-radius: 8px;
+	border: 0;
+	background-color: #DC1E24;
+	margin: 5px 15px 15px 0;
+	width: 34px !important;
+	height: 34px !important;
+	font-size: 0;
+	line-height: 0;
+	color: transparent !important;
+	text-align: center;
+	cursor: pointer;
+}
+.fts-jal-fb-user-thumb:hover {
+	background-color: #000000;
+}
+.wpsm-cns-review-notice > a {
+	display: block;
+	width: 34px !important;
+	height: 34px !important;
+	margin: 0;
+	padding: 0;
+}
+.wpsm-cns-review-notice > a
+.wpsm-cns-review-notice > a > img {
+	display: block;
+	width: 34px !important;
+	height: 34px !important;
+	margin: 0;
+	padding: 0;
+}
+
+/*AKTUALNOŚCI obrazek z facebooka*/
+.fts-jal-fb-link-wrap.fts-album-photos-wrap > .fts-jal-fb-picture > img {
+	border-radius: 8px !important;
+	border: 2px solid #DC1E24;
+	cursor: default;
+}
+/*AKTUALNOŚCI tytuł posta z facebooka*/
+.fts-jal-fb-user-name > a {
+	color: #DC1E24;
+	cursor: pointer !important;
+}
+.fts-jal-fb-user-name > a:hover {
+	color: #000000;
+}
+/*AKTUALNOŚCI pierwszy akapitwiadomości*/
+.fts-jal-fb-message:first-line {
+	color: #000000 !important;
+	font-weight: bolder;
+}
+
+
+
+.header-sticky .header { position: relative; top: 0; } .header_on_scroll .header { position: fixed; } 
+
+.header_on_scroll .site-content { margin-top: 50px; }
+
+.active{display: none}
+
+.thirdColumn
+{
+background-color: white; border: 2px solid #dc1e24; border-radius:10px;
+padding: 10px 25px;
+font-weight: bold;
+transition: 0.3s;
+color: rgb(104, 104, 104)!important;	
+}
+.thirdColumn:hover
+{
+	color:white;
+	background-color: #dc1e24;
+}
+.footer3{font-weight: bold;}
+
+@media (min-width: 1024px) {
+#et_social_media_widget-3 .social-icons:last-child
+{
+position: absolute;
+top: 10px;
+right:30%;
+}
+	
+.footer1{max-width:19%}
+.footer2{max-width:26%}
+.footer3
+{
+ min-width:55%;
+max-width:55%;
+}
+	
+.wp-image-54
+{
+position: absolute; bottom:30%;
+left:50%;}
+}
+
+img {
+height: fit-content!important;
+}
+
+.section-dot {
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 48px;
+    background-color: #DC1E24;
+    width: 48px;
+    height: 48px;
+    color: snow;
+}
+#menu-item-4218>a
+{color: #dc1e24;
+border: 2px solid
+#dc1e24;
+border-radius:10px;
+padding: 10px 25px;
+font-weight: bold;
+}
+
+.btn-primary-border
+{
+font-weight:bold;
+}
+
+.red{color: #dc1e24;}
+.hThridSize{font-size: 28px;}
+.marginTopTwnety
+{
+margin-top: 20px;
+}
+.bold{font-weight:bold;}
+.miniWrapper{margin-right: 161px; margin-bottom: 32px; margin-top: 32px;
+}
+.redMargin{color: #dc1e24;
+    margin: 10px 0;}
+.supportButtons, .typicalButton{
+    color: #fff;
+    background-color: #dc1e24;
+    width: 240px;
+    height: 55px;
+    font-weight: bold;
+    border: 2px solid #dc1e24;
+    border-radius: 6px;
+		transition: 0.3s;
+}
+
+	.supportButtons:nth-child(2){margin-left: 25px}
+.supportButtons:hover,.typicalButton:hover{color: #dc1e24;
+    background-color: #fff}
+.et-banner{width: 100vw; left:calc(50% - 50vw)}
+.fundacja-info {
+    margin-top: 20px;
+		margin-bottom: 48px;
+		margin-left: 0;
+		margin-right: 0;
+}
+.rowRoll {
+    display: flex;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+		border-radius:5px;
+}
+.headerRoll {
+    background-color: #f2f2f2;
+}
+.columnRoll {
+    flex: 1;
+    padding: 10px;
+}
+.columnRoll:first-child {
+    flex: 0.5;
+    font-weight: bold;
+}
+@media (max-width: 1200px)
+{
+.desktopOnly
+{
+display: none;
+}
+}
+.borderProjects{
+	background-color: #fafafa;
+margin: 40px;
+padding: 20px;
+border: #ddd solid 1px;
+border-radius: 5px}
+.borderAboutUs{
+	background-color: #fafafa;
+margin: 40px;
+padding: 20px;
+border: #fff solid 1px;
+border-radius: 5px}
+
+.left.wpb_wrapper{width:50vw}
+.right.wpb_wrapper{width:50vw}
+
+.blueButton{
+    color: #fff;
+    background-color: royalblue;
+    width: 211.1px;
+    height: 55.01px;
+    font-weight: bold;
+    border: 2px solid royalblue;
+    border-radius: 5px;
+		transition: 0.3s;
+}
+.blueButton:hover{color: royalblue;
+background-color: #fff}
+
+@media(min-width: 1200px){
+.paddingButton{
+width: 350px}
+}
+
+.divRef{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+	
+	margin: 10px;}
+
+.ref{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: var(--widthRef);
+  height: var(--heightRef);
+	margin: 10px;
+border: 2px solid #ddd;
+	transition: .3s;
+}
+.ref:hover{
+border: 2px solid #dc1e24;
+transform: scale(1.03);
+}
+
+.twentyFour{font-size: var(--twentyFour)}
+/*//Podkreślenie przycisku w menu po najechaniu
+ * #menu-item-4218:hover{text-decoration:none;}/*
+                                                * 
+                                                * 
+                                                * /* Ukryj domyślny featured image i header dla konferencji medycznej */
+.post-6157 .post-featured,
+.post-6157 .entry-header {
+  display: none !important;
+}
+
+/* Usuń górny padding z contentu */
+.post-6157 .entry-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Full width dla całego posta */
+.post-6157 .container,
+.post-6157 .blog-container,
+.post-6157 .article-body {
+  max-width: 100% !important;
+  padding: 0 !important;
+}               
