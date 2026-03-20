@@ -1,4 +1,3 @@
-<!-- wp:html -->
 <div class="konferencja-medyczna-strona">
   
   <!-- Header sekcja - FULL WIDTH -->
@@ -1245,8 +1244,3 @@
   }
 }
 </style>
-<!-- /wp:html -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
